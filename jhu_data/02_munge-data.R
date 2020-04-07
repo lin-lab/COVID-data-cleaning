@@ -164,6 +164,10 @@ plt_deaths_time <- usa_merged %>%
   ggtitle("US Deaths")
 ggsave("figures/time-deaths.png", plt_deaths_time)
 
+plt_combined <- plot_grid(plt_confirmed, plt_deaths,
+                          plt_confirmed_time, plt_deaths_time)
+ggsave("figures/combined_plt.png", plt_combined, width = 12, height = 8)
+
 
 # final data frames
 jhu_county_final <- jhu_df %>%
