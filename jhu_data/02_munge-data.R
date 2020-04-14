@@ -6,6 +6,7 @@ library(ggplot2)
 library(cowplot)
 theme_set(theme_cowplot())
 
+# load county-level confirmed cases data.
 dat_dir <- file.path("JHU_CSSE_COVID-19", "csse_covid_19_data",
                      "csse_covid_19_time_series")
 confirmed_path <- file.path(dat_dir, "time_series_covid19_confirmed_US.csv")
@@ -17,7 +18,7 @@ confirmed_df <- confirmed_df_orig %>%
   gather(key = "date_char", value = "confirmed", -(UID:Combined_Key)) %>%
   mutate(date = mdy(date_char))
 
-
+# load county-level confirmed data.
 death_df_orig <- read_csv(deaths_path)
 stopifnot(length(unique(death_df_orig$UID)) == nrow(death_df_orig))
 death_df <- death_df_orig %>%
@@ -214,4 +215,4 @@ jhu_usa_final %>%
 
 write_csv(jhu_county_final, "CSSE_cleaned/CSSE_COVID-19_County.csv")
 write_csv(jhu_state_final, "CSSE_cleaned/CSSE_COVID-19_State.csv")
-write_csv(jhu_usa_final, "CSSE_cleaned/CSE_COVID-19_USA.csv")
+write_csv(jhu_usa_final, "CSSE_cleaned/CSSE_COVID-19_USA.csv")
