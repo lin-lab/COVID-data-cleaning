@@ -1,3 +1,5 @@
-JHU_CSSE_COVID-19/*
+JHU_CSSE_COVID-19
 *.csv
 *.png
+*_cache
+*.html
