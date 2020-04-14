@@ -1,0 +1,154 @@
+---
+title: 'COVID-19 Data Comparison: JHU vs. Yu Group'
+author: "Andy Shi"
+date: "April 14, 2020"
+output: html_document
+---
+
+Perform a data comparison between the JHU data and Yu group data.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.height = 8, fig.width = 15,
+                      fig.align = "center")
+```
+
+```{r libraries, message = FALSE, warning = FALSE}
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(cowplot)
+theme_set(theme_cowplot())
+```
+
+```{r loaddata, message = FALSE, results = "hide"}
+yu_county <- read_csv("../yu_group/Yu_Group_County.csv")
+yu_state <- read_csv("../yu_group/Yu_Group_State.csv")
+yu_usa <- read_csv("../yu_group/Yu_Group_US.csv")
+
+jhu_county <- read_csv("./CSSE_cleaned/CSSE_COVID-19_County.csv")
+jhu_state <- read_csv("./CSSE_cleaned/CSSE_COVID-19_State.csv")
+jhu_usa <- read_csv("./CSSE_cleaned/CSSE_COVID-19_USA.csv")
+```
+
+# County-level comparison
+
+```{r draw_plots}
+draw_plots <- function(data, main_title = "JHU vs. Yu Grp Data:") {
+  pos_plt <- ggplot(data, aes(x = positive_jhu, y = positive_yu)) +
+    geom_point(color = "royalblue4") +
+    xlab("JHU Data") + ylab("Yu Group Data") +
+    geom_abline(intercept = 0, slope = 1, color = "red") +
+    ggtitle("Cumulative Cases")
+  pos_log_plt <- pos_plt +
+    scale_x_log10() + scale_y_log10() +
+    ggtitle("Cum. Cases (Log10)")
+  incr_plt <- ggplot(data, aes(x = positiveIncrease_jhu,
+                                y = positiveIncrease_yu)) +
+    geom_point(color = "royalblue4") +
+    xlab("JHU Data") + ylab("Yu Group Data") +
+    geom_abline(intercept = 0, slope = 1, color = "red") +
+    ggtitle("Case Increases")
+
+  deaths_plt <- ggplot(data, aes(x = death_jhu, y = death_yu)) +
+    geom_point(color = "royalblue4") +
+    xlab("JHU Data") + ylab("Yu Group Data") +
+    geom_abline(intercept = 0, slope = 1, color = "red") +
+    ggtitle("Cumulative Deaths")
+
+  death_log_plt <- deaths_plt +
+    scale_x_log10() + scale_y_log10() +
+    ggtitle("Cum. Deaths (Log10)")
+
+  death_incr_plt <- ggplot(data, aes(x = deathIncrease_jhu,
+                                      y = deathIncrease_yu)) +
+    geom_point(color = "royalblue4") +
+    xlab("JHU Data") + ylab("Yu Group Data") +
+    geom_abline(intercept = 0, slope = 1, color = "red") +
+    ggtitle("Death Increases")
+
+  title <- ggdraw() + draw_label(main_title)
+
+  tmp_plt <- plot_grid(pos_plt, pos_log_plt, incr_plt,
+                       deaths_plt, death_log_plt, death_incr_plt,
+                       nrow = 2, labels = "AUTO")
+  plt <- plot_grid(title, tmp_plt, ncol = 1, rel_heights = c(0.1, 1))
+  return(plt)
+}
+```
+
+```{r county_merge}
+nyc_counties <- c("New York", "Queens", "Kings", "Bronx", "Richmond")
+county_merge <- inner_join(jhu_county, yu_county,
+                           by = c("county", "stateName", "date"),
+                           suffix = c("_jhu", "_yu"))
+
+non_nyc <- county_merge %>%
+  filter(!(county %in% nyc_counties & stateName == "New York"))
+
+draw_plots(non_nyc, "JHU vs. Yu Group, County Level Data (No NYC)")
+```
+
+```{r nyc}
+nyc_df <- county_merge %>%
+  filter(county %in% nyc_counties, stateName == "New York") %>%
+  group_by(date) %>%
+  summarize_if(is.numeric, sum)
+
+draw_plots(nyc_df, "JHU vs. Yu Group, NYC")
+```
+
+```{r tests, results = "hide", echo = FALSE, include = FALSE}
+stopifnot(all.equal(cumsum(nyc_df$positiveIncrease_jhu), nyc_df$positive_jhu))
+stopifnot(all.equal(cumsum(nyc_df$positiveIncrease_yu), nyc_df$positive_yu))
+stopifnot(all.equal(cumsum(nyc_df$deathIncrease_jhu), nyc_df$death_jhu))
+stopifnot(all.equal(cumsum(nyc_df$deathIncrease_yu), nyc_df$death_yu))
+```
+
+```{r explore_counties}
+non_nyc %>%
+  filter(deathIncrease_yu > 100) %>%
+  select(county, stateName, date, starts_with("death"))
+
+non_nyc %>%
+  mutate(death_diff = death_yu - death_jhu) %>%
+  arrange(desc(death_diff)) %>%
+  select(county, stateName, date, starts_with("death")) %>%
+  head(20)
+
+diff_cases <- non_nyc %>%
+  mutate(case_incr_diff = positiveIncrease_jhu - positiveIncrease_yu,
+         case_incr_abs = abs(case_incr_diff)) %>%
+  arrange(desc(case_incr_abs)) %>%
+  filter(case_incr_abs > 100)
+diff_cases %>%
+  select(county, stateName, date, starts_with("positive"))
+```
+
+# State-level comparison
+
+```{r state_merge}
+state_merge <- inner_join(jhu_state, yu_state,
+                          by = c("stateName" = "state", "date"),
+                          suffix = c("_jhu", "_yu"))
+draw_plots(state_merge, "JHU vs. Yu Group, State Level Data")
+```
+
+```{r explore_states}
+state_merge %>%
+  filter(is.na(positiveIncrease_yu)) %>%
+  select(date) %>%
+  unique()
+
+state_merge %>%
+  filter(is.na(deathIncrease_yu)) %>%
+  select(date) %>%
+  unique()
+```
+
+# Country-level comparison
+
+```{r usa_merge}
+usa_merge <- inner_join(jhu_usa, yu_usa, by = "date",
+                        suffix = c("_jhu", "_yu"))
+draw_plots(usa_merge, "JHU vs. Yu Group, USA Data")
+```
