@@ -172,8 +172,9 @@ ggsave("figures/combined_plt.png", plt_combined, width = 12, height = 8)
 
 # final data frames
 jhu_county_final <- jhu_df %>%
+  mutate(FIPS_str = sprintf("%05d", FIPS)) %>%
   select(county = Admin2, stateName = Province_State, date,
-         positiveIncrease = confirmed_per_day,
+         FIPS = FIPS_str, UID, positiveIncrease = confirmed_per_day,
          deathIncrease = deaths_per_day,
          positive = confirmed,
          death = deaths) %>%
