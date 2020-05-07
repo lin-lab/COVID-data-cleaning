@@ -213,6 +213,10 @@ jhu_usa_final %>%
   all() %>%
   stopifnot()
 
-write_csv(jhu_county_final, "CSSE_cleaned/CSSE_COVID-19_County.csv")
-write_csv(jhu_state_final, "CSSE_cleaned/CSSE_COVID-19_State.csv")
-write_csv(jhu_usa_final, "CSSE_cleaned/CSSE_COVID-19_USA.csv")
+cur_date <- format(Sys.Date(), "%Y-%m-%d")
+write_csv(jhu_county_final,
+          sprintf("cleaned_data/JHU_COVID-19_County_%s.csv", cur_date))
+write_csv(jhu_state_final,
+          sprintf("cleaned_data/JHU_COVID-19_State_%s.csv", cur_date))
+write_csv(jhu_usa_final,
+          sprintf("cleaned_data/JHU_COVID-19_USA_%s.csv", cur_date))

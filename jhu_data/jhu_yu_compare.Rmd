@@ -21,13 +21,13 @@ theme_set(theme_cowplot())
 ```
 
 ```{r loaddata, message = FALSE, results = "hide"}
-yu_county <- read_csv("../yu_group/Yu_Group_County.csv")
-yu_state <- read_csv("../yu_group/Yu_Group_State.csv")
-yu_usa <- read_csv("../yu_group/Yu_Group_US.csv")
+yu_county <- read_csv("../yu_group/cleaned_data/Yu_Group_County.05_05_2020.csv")
+yu_state <- read_csv("../yu_group/cleaned_data/Yu_Group_State.05_05_2020.csv")
+#yu_usa <- read_csv("../yu_group/cleaned_data/Yu_Group_US.05_05_2020.csv")
 
-jhu_county <- read_csv("./CSSE_cleaned/CSSE_COVID-19_County.csv")
-jhu_state <- read_csv("./CSSE_cleaned/CSSE_COVID-19_State.csv")
-jhu_usa <- read_csv("./CSSE_cleaned/CSSE_COVID-19_USA.csv")
+jhu_county <- read_csv("./cleaned_data/JHU_COVID-19_County_2020-05-07.csv")
+jhu_state <- read_csv("./cleaned_data/JHU_COVID-19_State_2020-05-07.csv")
+#jhu_usa <- read_csv("./CSSE_cleaned/CSSE_COVID-19_USA.csv")
 ```
 
 # County-level comparison
@@ -128,7 +128,7 @@ diff_cases %>%
 
 ```{r state_merge}
 state_merge <- inner_join(jhu_state, yu_state,
-                          by = c("stateName" = "state", "date"),
+                          by = c("stateName", "date"),
                           suffix = c("_jhu", "_yu"))
 draw_plots(state_merge, "JHU vs. Yu Group, State Level Data")
 ```
@@ -143,11 +143,18 @@ state_merge %>%
   filter(is.na(deathIncrease_yu)) %>%
   select(date) %>%
   unique()
+
+state_merge %>%
+  mutate(death_diff = death_yu - death_jhu) %>%
+  arrange(desc(death_diff)) %>%
+  select(stateName, date, deathIncrease_jhu, deathIncrease_yu,
+         death_jhu, death_yu) %>%
+  head(20)
 ```
 
 # Country-level comparison
 
-```{r usa_merge}
+```{r usa_merge, include = FALSE, eval = FALSE, echo = FALSE}
 usa_merge <- inner_join(jhu_usa, yu_usa, by = "date",
                         suffix = c("_jhu", "_yu"))
 draw_plots(usa_merge, "JHU vs. Yu Group, USA Data")
