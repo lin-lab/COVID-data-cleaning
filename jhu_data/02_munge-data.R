@@ -154,6 +154,17 @@ jhu_global <- inner_join(confirmed_global, deaths_global,
 stopifnot(nrow(jhu_global) == nrow(deaths_global))
 stopifnot(nrow(jhu_global) == nrow(confirmed_global))
 
+# calculate new cases/deaths per day
+jhu_global_incr <- jhu_global %>%
+  group_by(`Province/State`, `Country/Region`) %>%
+  mutate(positiveIncrease = positive - lag(positive, n = 1, default = 0),
+         deathIncrease = death - lag(death, n = 1, default = 0)) %>%
+  ungroup()
+
+#######################################################################
+## Aggregate province level data for China, Canada, and Australia
+#######################################################################
+
 countries_to_agg <- c("China", "Canada", "Australia")
 jhu_global %>%
   filter(`Country/Region` %in% countries_to_agg) %>%
@@ -179,16 +190,12 @@ jhu_global_agg <- jhu_global %>%
   ungroup() %>%
   mutate(`Province/State` = NA)
 
-jhu_global_incr <- jhu_global %>%
-  group_by(`Province/State`, `Country/Region`) %>%
-  mutate(positiveIncrease = positive - lag(positive, n = 1, default = 0),
-         deathIncrease = death - lag(death, n = 1, default = 0)) %>%
-  ungroup()
 
 jhu_global_w_agg <- rbind(jhu_global_incr, jhu_global_agg) %>%
   rename(Province_State = `Province/State`,
          Country_Region = `Country/Region`)
 
+# Merge UID lookup table
 uid_path <- file.path("JHU_CSSE_COVID-19", "csse_covid_19_data",
                       "UID_ISO_FIPS_LookUp_Table.csv")
 uid_lookup <- read_csv(uid_path)
