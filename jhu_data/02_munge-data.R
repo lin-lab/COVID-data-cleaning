@@ -146,26 +146,72 @@ deaths_global <- read_csv(death_path_global) %>%
 stopifnot(all.equal(deaths_global$`Province/State`,
                     confirmed_global$`Province/State`))
 
-jhu_global_final <-
-  inner_join(confirmed_global, deaths_global,
-             by = c("Province/State", "Country/Region", "date")) %>%
-  select(`Province/State`, `Country/Region`, date,
-         positive = confirmed_global, death = deaths_global) %>%
+jhu_global <- inner_join(confirmed_global, deaths_global,
+                         by = c("Province/State", "Country/Region",
+                                "date")) %>%
+  rename(positive = confirmed_global, death = deaths_global)
+# error checking
+stopifnot(nrow(jhu_global) == nrow(deaths_global))
+stopifnot(nrow(jhu_global) == nrow(confirmed_global))
+
+countries_to_agg <- c("China", "Canada", "Australia")
+jhu_global %>%
+  filter(`Country/Region` %in% countries_to_agg) %>%
+  select(`Province/State`, `Country/Region`) %>%
+  distinct() %>%
+  print(n = Inf)
+
+# need to remove these provinces in Canada
+remove_provinces <- c("Diamond Princess", "Grand Princess", "Recovered")
+
+jhu_global_agg <- jhu_global %>%
+  filter(`Country/Region` %in% countries_to_agg) %>%
+  filter(!(`Province/State` %in% remove_provinces)) %>%
+  group_by(`Country/Region`, date) %>%
+  summarize_at(vars(positive, death), sum) %>%
+  ungroup() %>%
+  arrange(date) %>%
+  group_by(`Country/Region`) %>%
+  mutate(deathIncrease = death - lag(death, n = 1,
+                                     default = 0, order_by = date),
+         positiveIncrease = positive - lag(positive, n = 1,
+                                           default = 0, order_by = date)) %>%
+  ungroup() %>%
+  mutate(`Province/State` = NA)
+
+jhu_global_incr <- jhu_global %>%
   group_by(`Province/State`, `Country/Region`) %>%
   mutate(positiveIncrease = positive - lag(positive, n = 1, default = 0),
          deathIncrease = death - lag(death, n = 1, default = 0)) %>%
   ungroup()
 
+jhu_global_w_agg <- rbind(jhu_global_incr, jhu_global_agg) %>%
+  rename(Province_State = `Province/State`,
+         Country_Region = `Country/Region`)
+
+uid_path <- file.path("JHU_CSSE_COVID-19", "csse_covid_19_data",
+                      "UID_ISO_FIPS_LookUp_Table.csv")
+uid_lookup <- read_csv(uid_path)
+
+jhu_global_final <- jhu_global_w_agg %>%
+  left_join(uid_lookup, by = c("Province_State", "Country_Region"))
+stopifnot(nrow(jhu_global_final) == nrow(jhu_global_w_agg))
+
 # error checking
-stopifnot(nrow(jhu_global_final) == nrow(deaths_global))
-stopifnot(nrow(jhu_global_final) == nrow(confirmed_global))
+aus <- jhu_global_final %>%
+  filter(Country_Region == "Australia", date == ymd("2020-04-22"))
+stopifnot(sum(aus$positive[1:8]) == aus$positive[9])
+
 
 # checking if we calculated the positive/death increase correctly.
 tmp <- jhu_global_final %>%
-  filter(`Country/Region` == "US")
+  filter(Country_Region == "US")
 stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
 tmp <- jhu_global_final %>%
-  filter(`Province/State` == "Alberta", `Country/Region` == "Canada")
+  filter(Province_State == "Alberta", Country_Region == "Canada")
+stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
+tmp <- jhu_global_final %>%
+  filter(is.na(Province_State), Country_Region == "Canada")
 stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
 
 #######################################################################
