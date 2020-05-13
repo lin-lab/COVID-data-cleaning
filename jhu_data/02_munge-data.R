@@ -20,9 +20,17 @@ confirmed_path <- file.path(dat_dir, "time_series_covid19_confirmed_US.csv")
 confirmed_df_orig <- read_csv(confirmed_path)
 stopifnot(length(unique(confirmed_df_orig$UID)) == nrow(confirmed_df_orig))
 
+kc1 <- confirmed_df_orig %>% filter(Admin2 == "Kansas City")
+stopifnot(nrow(kc1) == 1)
+
+
 confirmed_df <- confirmed_df_orig %>%
   gather(key = "date_char", value = "confirmed", -(UID:Combined_Key)) %>%
   mutate(date = mdy(date_char))
+
+kc2 <- confirmed_df %>% filter(Admin2 == "Kansas City")
+num_dates <- sum(endsWith(colnames(confirmed_df_orig), "20"))
+stopifnot(nrow(kc2) == num_dates)
 
 # load county-level deaths data.
 deaths_path <- file.path(dat_dir, "time_series_covid19_deaths_US.csv")
@@ -45,6 +53,9 @@ jhu_df <- death_df %>% select(UID, date, Population, deaths) %>%
   ungroup() %>%
   select(-date_char)
 head(jhu_df)
+
+kc3 <- jhu_df %>% filter(Admin2 == "Kansas City")
+stopifnot(nrow(kc3) == num_dates)
 
 # error checking
 stopifnot(nrow(jhu_df) == nrow(death_df))
@@ -325,6 +336,9 @@ jhu_state_final %>%
 jhu_global_final %>%
   mutate_if(is.numeric, function(x) { x >= 0 }) %>%
   filter(!positiveIncrease | !deathIncrease)
+
+kc4 <- jhu_df %>% filter(Admin2 == "Kansas City")
+stopifnot(nrow(kc4) == num_dates)
 
 #######################################################################
 ## Write out data
