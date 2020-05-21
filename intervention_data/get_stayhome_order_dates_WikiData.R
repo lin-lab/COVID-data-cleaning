@@ -20,20 +20,12 @@ ts2date <- function(x) as.Date(gsub("T.*", "", x), format = "%Y-%m-%d")
 
 # return NA if [all/any] values missing, max non-missing otherwise
 max.nm <- function(x, check_na_fun = all ){
-	if( check_na_fun(is.na(x)) ){
-		x[1] # rather than NA to ensure type match
-	}else{
-		max(x, na.rm = TRUE)
-	}
+	max(x, na.rm = !check_na_fun(is.na(x)) )
 }
 
 # return NA for [all/any] values missing, min non-missing otherwise
 min.nm <- function(x, check_na_fun = all ){
-	if( check_na_fun(is.na(x)) ){
-		x[1]
-	}else{
-		min(x, na.rm = TRUE)
-	}
+	min(x, na.rm = !check_na_fun(is.na(x)) )
 }
 
 # -----------------------------------------------

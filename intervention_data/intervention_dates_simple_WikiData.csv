@@ -68,13 +68,13 @@ fips,stateName,county,stayhome_start,stayhome_end
 1133,Alabama,Winston County,2020-04-04,2020-04-30
 2013,Alaska,Aleutians East Borough,2020-03-28,
 2016,Alaska,Aleutians West Census Area,2020-03-28,
-2020,Alaska,Anchorage Municipality,2020-03-22,2020-03-31
+2020,Alaska,Anchorage Municipality,2020-03-22,
 2050,Alaska,Bethel Census Area,2020-03-28,
 2060,Alaska,Bristol Bay Borough,2020-03-28,
 2068,Alaska,Denali Borough,2020-03-28,
 2070,Alaska,Dillingham Census Area,2020-03-28,
 2090,Alaska,Fairbanks North Star Borough,2020-03-28,
-2100,Alaska,Haines Borough,2020-03-25,2020-04-15
+2100,Alaska,Haines Borough,2020-03-25,
 2105,Alaska,Hoonah-Angoon Census Area,2020-03-28,
 2110,Alaska,Juneau City and Borough,2020-03-28,
 2122,Alaska,Kenai Peninsula Borough,2020-03-28,
@@ -89,7 +89,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 2195,Alaska,Petersburg Census Area,2020-03-28,
 2198,Alaska,Prince of Wales-Hyder Census Area,2020-03-28,
 2220,Alaska,Sitka City and Borough,2020-03-28,
-2230,Alaska,Skagway Municipality,2020-03-25,2020-04-08
+2230,Alaska,Skagway Municipality,2020-03-25,
 2240,Alaska,Southeast Fairbanks Census Area,2020-03-28,
 2261,Alaska,Valdez-Cordova Census Area,2020-03-28,
 2275,Alaska,Wrangell City and Borough,2020-03-28,
@@ -185,64 +185,64 @@ fips,stateName,county,stayhome_start,stayhome_end
 5145,Arkansas,White County,,
 5147,Arkansas,Woodruff County,,
 5149,Arkansas,Yell County,,
-6001,California,Alameda County,2020-03-17,2020-05-31
+6001,California,Alameda County,2020-03-17,
 6003,California,Alpine County,2020-03-19,
-6005,California,Amador County,2020-03-19,2020-04-30
+6005,California,Amador County,2020-03-19,
 6007,California,Butte County,2020-03-19,
 6009,California,Calaveras County,2020-03-19,
-6011,California,Colusa County,2020-03-19,2020-05-08
-6013,California,Contra Costa County,2020-03-17,2020-05-31
+6011,California,Colusa County,2020-03-19,
+6013,California,Contra Costa County,2020-03-17,
 6015,California,Del Norte County,2020-03-19,
-6017,California,El Dorado County,2020-03-19,2020-04-30
-6019,California,Fresno County,2020-03-19,2020-04-12
+6017,California,El Dorado County,2020-03-19,
+6019,California,Fresno County,2020-03-19,
 6021,California,Glenn County,2020-03-19,
 6023,California,Humboldt County,2020-03-19,
 6025,California,Imperial County,2020-03-19,
 6027,California,Inyo County,2020-03-19,
 6029,California,Kern County,2020-03-19,
 6031,California,Kings County,2020-03-19,
-6033,California,Lake County,2020-03-19,2020-05-17
+6033,California,Lake County,2020-03-19,
 6035,California,Lassen County,2020-03-19,
 6037,California,Los Angeles County,2020-03-19,
 6039,California,Madera County,2020-03-19,
-6041,California,Marin County,2020-03-17,2020-05-31
+6041,California,Marin County,2020-03-17,
 6043,California,Mariposa County,2020-03-19,
-6045,California,Mendocino County,2020-03-18,2020-05-10
+6045,California,Mendocino County,2020-03-18,
 6047,California,Merced County,2020-03-19,
 6049,California,Modoc County,2020-03-19,
 6051,California,Mono County,2020-03-19,
-6053,California,Monterey County,2020-03-18,2020-05-04
+6053,California,Monterey County,2020-03-18,
 6055,California,Napa County,2020-03-19,
-6057,California,Nevada County,2020-03-19,2020-05-15
+6057,California,Nevada County,2020-03-19,
 6059,California,Orange County,2020-03-19,
-6061,California,Placer County,2020-03-19,2020-05-01
+6061,California,Placer County,2020-03-19,
 6063,California,Plumas County,2020-03-19,
-6065,California,Riverside County,2020-03-18,2020-04-30
-6067,California,Sacramento County,2020-03-19,2020-05-01
-6069,California,San Benito County,2020-03-18,2020-05-03
+6065,California,Riverside County,2020-03-18,
+6067,California,Sacramento County,2020-03-19,
+6069,California,San Benito County,2020-03-18,
 6071,California,San Bernardino County,2020-03-19,
 6073,California,San Diego County,2020-03-19,
 6075,California,San Francisco County,2020-03-19,
 6077,California,San Joaquin County,2020-03-19,
 6079,California,San Luis Obispo County,2020-03-19,
-6081,California,San Mateo County,2020-03-17,2020-05-31
+6081,California,San Mateo County,2020-03-17,
 6083,California,Santa Barbara County,2020-03-19,
-6085,California,Santa Clara County,2020-03-17,2020-05-31
-6087,California,Santa Cruz County,2020-03-17,2020-05-03
+6085,California,Santa Clara County,2020-03-17,
+6087,California,Santa Cruz County,2020-03-17,
 6089,California,Shasta County,2020-03-19,
 6091,California,Sierra County,2020-03-19,
 6093,California,Siskiyou County,2020-03-19,
-6095,California,Solano County,2020-03-18,2020-04-30
-6097,California,Sonoma County,2020-03-18,2020-05-03
+6095,California,Solano County,2020-03-18,
+6097,California,Sonoma County,2020-03-18,
 6099,California,Stanislaus County,2020-03-19,
-6101,California,Sutter County,2020-03-18,2020-05-03
+6101,California,Sutter County,2020-03-18,
 6103,California,Tehama County,2020-03-19,
 6105,California,Trinity County,2020-03-19,
 6107,California,Tulare County,2020-03-19,
 6109,California,Tuolumne County,2020-03-19,
-6111,California,Ventura County,2020-03-17,2020-05-15
-6113,California,Yolo County,2020-03-19,2020-05-01
-6115,California,Yuba County,2020-03-18,2020-05-03
+6111,California,Ventura County,2020-03-17,
+6113,California,Yolo County,2020-03-19,
+6115,California,Yuba County,2020-03-18,
 8001,Colorado,Adams County,2020-03-26,2020-04-26
 8003,Colorado,Alamosa County,2020-03-26,2020-04-26
 8005,Colorado,Arapahoe County,2020-03-26,2020-04-26
@@ -324,7 +324,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 12005,Florida,Bay County,2020-04-02,2020-05-04
 12007,Florida,Bradford County,2020-04-02,2020-05-04
 12009,Florida,Brevard County,2020-04-02,2020-05-04
-12011,Florida,Broward County,2020-03-26,2020-05-04
+12011,Florida,Broward County,2020-03-26,
 12013,Florida,Calhoun County,2020-04-02,2020-05-04
 12015,Florida,Charlotte County,2020-04-02,2020-05-04
 12017,Florida,Citrus County,2020-04-02,2020-05-04
@@ -1178,7 +1178,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 22127,Louisiana,Winn Parish,2020-03-22,2020-05-15
 23001,Maine,Androscoggin County,2020-04-02,2020-04-30
 23003,Maine,Aroostook County,2020-04-02,2020-04-30
-23005,Maine,Cumberland County,2020-03-23,2020-04-30
+23005,Maine,Cumberland County,2020-03-23,
 23007,Maine,Franklin County,2020-04-02,2020-04-30
 23009,Maine,Hancock County,2020-04-02,2020-04-30
 23011,Maine,Kennebec County,2020-04-02,2020-04-30
@@ -2201,7 +2201,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 40137,Oklahoma,Stephens County,,
 40139,Oklahoma,Texas County,,
 40141,Oklahoma,Tillman County,,
-40143,Oklahoma,Tulsa County,2020-03-28,2020-04-30
+40143,Oklahoma,Tulsa County,2020-03-28,
 40145,Oklahoma,Wagoner County,2020-04-01,
 40147,Oklahoma,Washington County,,
 40149,Oklahoma,Washita County,,
@@ -2232,7 +2232,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 41045,Oregon,Malheur County,2020-03-23,
 41047,Oregon,Marion County,2020-03-23,
 41049,Oregon,Morrow County,2020-03-23,
-41051,Oregon,Multnomah County,2020-03-23,2020-04-27
+41051,Oregon,Multnomah County,2020-03-23,
 41053,Oregon,Polk County,2020-03-23,
 41055,Oregon,Sherman County,2020-03-23,
 41057,Oregon,Tillamook County,2020-03-23,
@@ -2567,11 +2567,11 @@ fips,stateName,county,stayhome_start,stayhome_end
 48085,Texas,Collin County,2020-03-23,2020-04-30
 48087,Texas,Collingsworth County,2020-04-02,2020-04-30
 48089,Texas,Colorado County,2020-04-02,2020-04-30
-48091,Texas,Comal County,2020-03-25,2020-04-30
+48091,Texas,Comal County,2020-03-25,
 48093,Texas,Comanche County,2020-04-02,2020-04-30
 48095,Texas,Concho County,2020-04-02,2020-04-30
 48097,Texas,Cooke County,2020-04-02,2020-04-30
-48099,Texas,Coryell County,2020-04-02,2020-05-04
+48099,Texas,Coryell County,2020-04-02,
 48101,Texas,Cottle County,2020-04-02,2020-04-30
 48103,Texas,Crane County,2020-04-02,2020-04-30
 48105,Texas,Crockett County,2020-04-02,2020-04-30
@@ -2600,7 +2600,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 48151,Texas,Fisher County,2020-04-02,2020-04-30
 48153,Texas,Floyd County,2020-04-02,2020-04-30
 48155,Texas,Foard County,2020-04-02,2020-04-30
-48157,Texas,Fort Bend County,2020-03-25,2020-04-30
+48157,Texas,Fort Bend County,2020-03-25,
 48159,Texas,Franklin County,2020-04-02,2020-04-30
 48161,Texas,Freestone County,2020-03-25,2020-04-30
 48163,Texas,Frio County,2020-03-30,2020-04-30
@@ -2615,7 +2615,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 48181,Texas,Grayson County,2020-04-02,2020-04-30
 48183,Texas,Gregg County,2020-03-26,2020-04-30
 48185,Texas,Grimes County,2020-04-02,2020-04-30
-48187,Texas,Guadalupe County,2020-03-25,2020-04-30
+48187,Texas,Guadalupe County,2020-03-25,
 48189,Texas,Hale County,2020-03-31,2020-04-30
 48191,Texas,Hall County,2020-04-02,2020-04-30
 48193,Texas,Hamilton County,2020-04-02,2020-04-30
@@ -2626,13 +2626,13 @@ fips,stateName,county,stayhome_start,stayhome_end
 48203,Texas,Harrison County,2020-03-31,
 48205,Texas,Hartley County,2020-04-02,2020-04-30
 48207,Texas,Haskell County,2020-04-02,2020-04-30
-48209,Texas,Hays County,2020-03-24,2020-04-30
+48209,Texas,Hays County,2020-03-24,
 48211,Texas,Hemphill County,2020-04-02,2020-04-30
 48213,Texas,Henderson County,2020-04-02,2020-04-30
-48215,Texas,Hidalgo County,2020-03-24,2020-04-30
+48215,Texas,Hidalgo County,2020-03-24,
 48217,Texas,Hill County,2020-04-02,2020-04-30
 48219,Texas,Hockley County,2020-03-31,2020-04-30
-48221,Texas,Hood County,2020-03-25,2020-04-30
+48221,Texas,Hood County,2020-03-25,
 48223,Texas,Hopkins County,2020-04-02,2020-04-30
 48225,Texas,Houston County,2020-04-02,2020-04-30
 48227,Texas,Howard County,2020-04-02,2020-04-30
@@ -2748,7 +2748,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 48447,Texas,Throckmorton County,2020-04-02,2020-04-30
 48449,Texas,Titus County,2020-04-02,2020-04-30
 48451,Texas,Tom Green County,2020-04-02,2020-04-30
-48453,Texas,Travis County,2020-03-24,2020-05-08
+48453,Texas,Travis County,2020-03-24,
 48455,Texas,Trinity County,2020-03-31,2020-04-30
 48457,Texas,Tyler County,2020-03-28,2020-04-30
 48459,Texas,Upshur County,2020-04-02,2020-04-30
