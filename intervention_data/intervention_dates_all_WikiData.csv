@@ -217,7 +217,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 6059,California,CA,6,Orange County,"Orange County, California",2020-03-19,,,,2020-03-19,
 6061,California,CA,6,Placer County,"Placer County, California",2020-03-19,,2020-03-20,2020-05-01,2020-03-19,2020-05-01
 6063,California,CA,6,Plumas County,"Plumas County, California",2020-03-19,,,,2020-03-19,
-6065,California,CA,6,Riverside County,"Riverside County, California",2020-03-19,,2020-03-18,,2020-03-18,
+6065,California,CA,6,Riverside County,"Riverside County, California",2020-03-19,,2020-03-18,2020-04-30,2020-03-18,2020-04-30
 6067,California,CA,6,Sacramento County,"Sacramento County, California",2020-03-19,,2020-03-19,2020-05-01,2020-03-19,2020-05-01
 6069,California,CA,6,San Benito County,"San Benito County, California",2020-03-19,,2020-03-18,2020-05-03,2020-03-18,2020-05-03
 6071,California,CA,6,San Bernardino County,"San Bernardino County, California",2020-03-19,,,,2020-03-19,
@@ -324,7 +324,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 12005,Florida,FL,12,Bay County,"Bay County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12007,Florida,FL,12,Bradford County,"Bradford County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12009,Florida,FL,12,Brevard County,"Brevard County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
-12011,Florida,FL,12,Broward County,"Broward County, Florida",2020-04-02,2020-05-04,2020-03-26,,2020-03-26,2020-05-04
+12011,Florida,FL,12,Broward County,"Broward County, Florida",2020-04-02,2020-05-04,2020-03-26,2020-03-27,2020-03-26,2020-05-04
 12013,Florida,FL,12,Calhoun County,"Calhoun County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12015,Florida,FL,12,Charlotte County,"Charlotte County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12017,Florida,FL,12,Citrus County,"Citrus County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
@@ -333,11 +333,11 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 12023,Florida,FL,12,Columbia County,"Columbia County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12027,Florida,FL,12,DeSoto County,"DeSoto County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12029,Florida,FL,12,Dixie County,"Dixie County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
-12031,Florida,FL,12,Duval County,"Duval County, Florida",2020-04-02,2020-05-04,2020-04-04,,2020-04-02,2020-05-04
+12031,Florida,FL,12,Duval County,"Duval County, Florida",2020-04-02,2020-05-04,2020-04-04,,2020-04-02,
 12033,Florida,FL,12,Escambia County,"Escambia County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12035,Florida,FL,12,Flagler County,"Flagler County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12037,Florida,FL,12,Franklin County,"Franklin County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
-12039,Florida,FL,12,Gadsden County,"Gadsden County, Florida",2020-04-02,2020-05-04,2020-03-27,,2020-03-27,2020-05-04
+12039,Florida,FL,12,Gadsden County,"Gadsden County, Florida",2020-04-02,2020-05-04,2020-03-27,,2020-03-27,
 12041,Florida,FL,12,Gilchrist County,"Gilchrist County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12043,Florida,FL,12,Glades County,"Glades County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12045,Florida,FL,12,Gulf County,"Gulf County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
@@ -361,14 +361,14 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 12081,Florida,FL,12,Manatee County,"Manatee County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12083,Florida,FL,12,Marion County,"Marion County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12085,Florida,FL,12,Martin County,"Martin County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
-12086,Florida,FL,12,Miami-Dade County,"Miami-Dade County, Florida",2020-04-02,2020-05-04,2020-03-24,,2020-03-24,2020-05-04
-12087,Florida,FL,12,Monroe County,"Monroe County, Florida",2020-04-02,2020-05-04,2020-03-30,,2020-03-30,2020-05-04
+12086,Florida,FL,12,Miami-Dade County,"Miami-Dade County, Florida",2020-04-02,2020-05-04,2020-03-24,,2020-03-24,
+12087,Florida,FL,12,Monroe County,"Monroe County, Florida",2020-04-02,2020-05-04,2020-03-30,,2020-03-30,
 12089,Florida,FL,12,Nassau County,"Nassau County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12091,Florida,FL,12,Okaloosa County,"Okaloosa County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12093,Florida,FL,12,Okeechobee County,"Okeechobee County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12095,Florida,FL,12,Orange County,"Orange County, Florida",2020-04-02,2020-05-04,2020-03-26,2020-04-09,2020-03-26,2020-05-04
 12097,Florida,FL,12,Osceola County,"Osceola County, Florida",2020-04-02,2020-05-04,2020-03-26,2020-04-09,2020-03-26,2020-05-04
-12099,Florida,FL,12,Palm Beach County,"Palm Beach County, Florida",2020-04-02,2020-05-04,2020-03-28,,2020-03-28,2020-05-04
+12099,Florida,FL,12,Palm Beach County,"Palm Beach County, Florida",2020-04-02,2020-05-04,2020-03-28,,2020-03-28,
 12101,Florida,FL,12,Pasco County,"Pasco County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
 12103,Florida,FL,12,Pinellas County,"Pinellas County, Florida",2020-04-02,2020-05-04,2020-03-26,2020-05-01,2020-03-26,2020-05-04
 12105,Florida,FL,12,Polk County,"Polk County, Florida",2020-04-02,2020-05-04,,,2020-04-02,2020-05-04
@@ -429,12 +429,12 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 13083,Georgia,GA,13,Dade County,"Dade County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 13085,Georgia,GA,13,Dawson County,"Dawson County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 13087,Georgia,GA,13,Decatur County,"Decatur County, Georgia",2020-04-03,2020-04-27,2020-03-25,2020-04-07,2020-03-25,2020-04-27
-13089,Georgia,GA,13,DeKalb County,"DeKalb County, Georgia",2020-04-03,2020-04-27,2020-03-24,,2020-03-24,2020-04-27
+13089,Georgia,GA,13,DeKalb County,"DeKalb County, Georgia",2020-04-03,2020-04-27,2020-03-24,,2020-03-24,
 13091,Georgia,GA,13,Dodge County,"Dodge County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 13093,Georgia,GA,13,Dooly County,"Dooly County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 13095,Georgia,GA,13,Dougherty County,"Dougherty County, Georgia",2020-04-03,2020-04-27,2020-03-22,2020-04-07,2020-03-22,2020-04-27
 13097,Georgia,GA,13,Douglas County,"Douglas County, Georgia",2020-04-03,2020-04-27,2020-03-26,2020-04-10,2020-03-26,2020-04-27
-13099,Georgia,GA,13,Early County,"Early County, Georgia",2020-04-03,2020-04-27,2020-03-24,,2020-03-24,2020-04-27
+13099,Georgia,GA,13,Early County,"Early County, Georgia",2020-04-03,2020-04-27,2020-03-24,,2020-03-24,
 13101,Georgia,GA,13,Echols County,"Echols County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 13103,Georgia,GA,13,Effingham County,"Effingham County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 13105,Georgia,GA,13,Elbert County,"Elbert County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
@@ -445,7 +445,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 13115,Georgia,GA,13,Floyd County,"Floyd County, Georgia",2020-04-03,2020-04-27,2020-03-24,2020-04-07,2020-03-24,2020-04-27
 13117,Georgia,GA,13,Forsyth County,"Forsyth County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 13119,Georgia,GA,13,Franklin County,"Franklin County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
-13121,Georgia,GA,13,Fulton County,"Fulton County, Georgia",2020-04-03,2020-04-27,2020-03-24,,2020-03-24,2020-04-27
+13121,Georgia,GA,13,Fulton County,"Fulton County, Georgia",2020-04-03,2020-04-27,2020-03-24,,2020-03-24,
 13123,Georgia,GA,13,Gilmer County,"Gilmer County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 13125,Georgia,GA,13,Glascock County,"Glascock County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 13127,Georgia,GA,13,Glynn County,"Glynn County, Georgia",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
@@ -556,7 +556,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 16007,Idaho,ID,16,Bear Lake County,"Bear Lake County, Idaho",2020-03-25,2020-04-30,,,2020-03-25,2020-04-30
 16009,Idaho,ID,16,Benewah County,"Benewah County, Idaho",2020-03-25,2020-04-30,,,2020-03-25,2020-04-30
 16011,Idaho,ID,16,Bingham County,"Bingham County, Idaho",2020-03-25,2020-04-30,,,2020-03-25,2020-04-30
-16013,Idaho,ID,16,Blaine County,"Blaine County, Idaho",2020-03-25,2020-04-30,2020-03-19,,2020-03-19,2020-04-30
+16013,Idaho,ID,16,Blaine County,"Blaine County, Idaho",2020-03-25,2020-04-30,2020-03-19,,2020-03-19,
 16015,Idaho,ID,16,Boise County,"Boise County, Idaho",2020-03-25,2020-04-30,,,2020-03-25,2020-04-30
 16017,Idaho,ID,16,Bonner County,"Bonner County, Idaho",2020-03-25,2020-04-30,,,2020-03-25,2020-04-30
 16019,Idaho,ID,16,Bonneville County,"Bonneville County, Idaho",2020-03-25,2020-04-30,,,2020-03-25,2020-04-30
@@ -902,13 +902,13 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 20025,Kansas,KS,20,Clark County,"Clark County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20027,Kansas,KS,20,Clay County,"Clay County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20029,Kansas,KS,20,Cloud County,"Cloud County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
-20031,Kansas,KS,20,Coffey County,"Coffey County, Kansas",2020-03-30,2020-05-03,2020-03-26,,2020-03-26,2020-05-03
+20031,Kansas,KS,20,Coffey County,"Coffey County, Kansas",2020-03-30,2020-05-03,2020-03-26,,2020-03-26,
 20033,Kansas,KS,20,Comanche County,"Comanche County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20035,Kansas,KS,20,Cowley County,"Cowley County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20037,Kansas,KS,20,Crawford County,"Crawford County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20039,Kansas,KS,20,Decatur County,"Decatur County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20041,Kansas,KS,20,Dickinson County,"Dickinson County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
-20043,Kansas,KS,20,Doniphan County,"Doniphan County, Kansas",2020-03-30,2020-05-03,2020-03-26,,2020-03-26,2020-05-03
+20043,Kansas,KS,20,Doniphan County,"Doniphan County, Kansas",2020-03-30,2020-05-03,2020-03-26,,2020-03-26,
 20045,Kansas,KS,20,Douglas County,"Douglas County, Kansas",2020-03-30,2020-05-03,2020-03-24,2020-04-23,2020-03-24,2020-05-03
 20047,Kansas,KS,20,Edwards County,"Edwards County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20049,Kansas,KS,20,Elk County,"Elk County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
@@ -917,7 +917,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 20055,Kansas,KS,20,Finney County,"Finney County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20057,Kansas,KS,20,Ford County,"Ford County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20059,Kansas,KS,20,Franklin County,"Franklin County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
-20061,Kansas,KS,20,Geary County,"Geary County, Kansas",2020-03-30,2020-05-03,2020-03-28,,2020-03-28,2020-05-03
+20061,Kansas,KS,20,Geary County,"Geary County, Kansas",2020-03-30,2020-05-03,2020-03-28,,2020-03-28,
 20063,Kansas,KS,20,Gove County,"Gove County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20065,Kansas,KS,20,Graham County,"Graham County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20067,Kansas,KS,20,Grant County,"Grant County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
@@ -956,7 +956,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 20133,Kansas,KS,20,Neosho County,"Neosho County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20135,Kansas,KS,20,Ness County,"Ness County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20137,Kansas,KS,20,Norton County,"Norton County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
-20139,Kansas,KS,20,Osage County,"Osage County, Kansas",2020-03-30,2020-05-03,2020-03-28,,2020-03-28,2020-05-03
+20139,Kansas,KS,20,Osage County,"Osage County, Kansas",2020-03-30,2020-05-03,2020-03-28,,2020-03-28,
 20141,Kansas,KS,20,Osborne County,"Osborne County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20143,Kansas,KS,20,Ottawa County,"Ottawa County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20145,Kansas,KS,20,Pawnee County,"Pawnee County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
@@ -967,15 +967,15 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 20155,Kansas,KS,20,Reno County,"Reno County, Kansas",2020-03-30,2020-05-03,2020-03-30,2020-04-14,2020-03-30,2020-05-03
 20157,Kansas,KS,20,Republic County,"Republic County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20159,Kansas,KS,20,Rice County,"Rice County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
-20161,Kansas,KS,20,Riley County,"Riley County, Kansas",2020-03-30,2020-05-03,2020-03-29,,2020-03-29,2020-05-03
+20161,Kansas,KS,20,Riley County,"Riley County, Kansas",2020-03-30,2020-05-03,2020-03-29,,2020-03-29,
 20163,Kansas,KS,20,Rooks County,"Rooks County, Kansas",2020-03-30,2020-05-03,2020-03-28,2020-04-28,2020-03-28,2020-05-03
 20165,Kansas,KS,20,Rush County,"Rush County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20167,Kansas,KS,20,Russell County,"Russell County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20169,Kansas,KS,20,Saline County,"Saline County, Kansas",2020-03-30,2020-05-03,2020-03-30,2020-04-29,2020-03-30,2020-05-03
 20171,Kansas,KS,20,Scott County,"Scott County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
-20173,Kansas,KS,20,Sedgwick County,"Sedgwick County, Kansas",2020-03-30,2020-05-03,2020-03-25,,2020-03-25,2020-05-03
+20173,Kansas,KS,20,Sedgwick County,"Sedgwick County, Kansas",2020-03-30,2020-05-03,2020-03-25,,2020-03-25,
 20175,Kansas,KS,20,Seward County,"Seward County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
-20177,Kansas,KS,20,Shawnee County,"Shawnee County, Kansas",2020-03-30,2020-05-03,2020-03-26,,2020-03-26,2020-05-03
+20177,Kansas,KS,20,Shawnee County,"Shawnee County, Kansas",2020-03-30,2020-05-03,2020-03-26,,2020-03-26,
 20179,Kansas,KS,20,Sheridan County,"Sheridan County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20181,Kansas,KS,20,Sherman County,"Sherman County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
 20183,Kansas,KS,20,Smith County,"Smith County, Kansas",2020-03-30,2020-05-03,,,2020-03-30,2020-05-03
@@ -1178,7 +1178,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 22127,Louisiana,LA,22,Winn Parish,"Winn Parish, Louisiana",2020-03-22,2020-05-15,,,2020-03-22,2020-05-15
 23001,Maine,ME,23,Androscoggin County,"Androscoggin County, Maine",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 23003,Maine,ME,23,Aroostook County,"Aroostook County, Maine",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-23005,Maine,ME,23,Cumberland County,"Cumberland County, Maine",2020-04-02,2020-04-30,2020-03-23,,2020-03-23,2020-04-30
+23005,Maine,ME,23,Cumberland County,"Cumberland County, Maine",2020-04-02,2020-04-30,2020-03-23,2020-04-08,2020-03-23,2020-04-30
 23007,Maine,ME,23,Franklin County,"Franklin County, Maine",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 23009,Maine,ME,23,Hancock County,"Hancock County, Maine",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 23011,Maine,ME,23,Kennebec County,"Kennebec County, Maine",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -1219,7 +1219,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 25001,Massachusetts,MA,25,Barnstable County,"Barnstable County, Massachusetts",2020-03-31,2020-05-18,2020-03-23,2020-03-26,2020-03-23,2020-05-18
 25003,Massachusetts,MA,25,Berkshire County,"Berkshire County, Massachusetts",2020-03-31,2020-05-18,,,2020-03-31,2020-05-18
 25005,Massachusetts,MA,25,Bristol County,"Bristol County, Massachusetts",2020-03-31,2020-05-18,,,2020-03-31,2020-05-18
-25007,Massachusetts,MA,25,Dukes County,"Dukes County, Massachusetts",2020-03-31,2020-05-18,2020-03-24,,2020-03-24,2020-05-18
+25007,Massachusetts,MA,25,Dukes County,"Dukes County, Massachusetts",2020-03-31,2020-05-18,2020-03-24,,2020-03-24,
 25009,Massachusetts,MA,25,Essex County,"Essex County, Massachusetts",2020-03-31,2020-05-18,2020-03-26,2020-05-04,2020-03-26,2020-05-18
 25011,Massachusetts,MA,25,Franklin County,"Franklin County, Massachusetts",2020-03-31,2020-05-18,,,2020-03-31,2020-05-18
 25013,Massachusetts,MA,25,Hampden County,"Hampden County, Massachusetts",2020-03-31,2020-05-18,,,2020-03-31,2020-05-18
@@ -1429,7 +1429,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 28053,Mississippi,MS,28,Humphreys County,"Humphreys County, Mississippi",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 28055,Mississippi,MS,28,Issaquena County,"Issaquena County, Mississippi",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 28057,Mississippi,MS,28,Itawamba County,"Itawamba County, Mississippi",2020-04-03,2020-04-27,2020-03-24,2020-04-05,2020-03-24,2020-04-27
-28059,Mississippi,MS,28,Jackson County,"Jackson County, Mississippi",2020-04-03,2020-04-27,2020-03-28,,2020-03-28,2020-04-27
+28059,Mississippi,MS,28,Jackson County,"Jackson County, Mississippi",2020-04-03,2020-04-27,2020-03-28,,2020-03-28,
 28061,Mississippi,MS,28,Jasper County,"Jasper County, Mississippi",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 28063,Mississippi,MS,28,Jefferson County,"Jefferson County, Mississippi",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
 28065,Mississippi,MS,28,Jefferson Davis County,"Jefferson Davis County, Mississippi",2020-04-03,2020-04-27,,,2020-04-03,2020-04-27
@@ -1494,7 +1494,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 29019,Missouri,MO,29,Boone County,"Boone County, Missouri",2020-04-06,2020-05-03,2020-03-25,2020-04-24,2020-03-25,2020-05-03
 29021,Missouri,MO,29,Buchanan County,"Buchanan County, Missouri",2020-04-06,2020-05-03,2020-03-24,2020-04-02,2020-03-24,2020-05-03
 29023,Missouri,MO,29,Butler County,"Butler County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
-29025,Missouri,MO,29,Caldwell County,"Caldwell County, Missouri",2020-04-06,2020-05-03,2020-03-27,,2020-03-27,2020-05-03
+29025,Missouri,MO,29,Caldwell County,"Caldwell County, Missouri",2020-04-06,2020-05-03,2020-03-27,,2020-03-27,
 29027,Missouri,MO,29,Callaway County,"Callaway County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29029,Missouri,MO,29,Camden County,"Camden County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29031,Missouri,MO,29,Cape Girardeau County,"Cape Girardeau County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
@@ -1506,11 +1506,11 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 29043,Missouri,MO,29,Christian County,"Christian County, Missouri",2020-04-06,2020-05-03,2020-03-26,2020-04-25,2020-03-26,2020-05-03
 29045,Missouri,MO,29,Clark County,"Clark County, Missouri",2020-04-06,2020-05-03,2020-04-06,2020-04-30,2020-04-06,2020-05-03
 29047,Missouri,MO,29,Clay County,"Clay County, Missouri",2020-04-06,2020-05-03,2020-03-24,2020-04-23,2020-03-24,2020-05-03
-29049,Missouri,MO,29,Clinton County,"Clinton County, Missouri",2020-04-06,2020-05-03,2020-03-26,,2020-03-26,2020-05-03
+29049,Missouri,MO,29,Clinton County,"Clinton County, Missouri",2020-04-06,2020-05-03,2020-03-26,,2020-03-26,
 29051,Missouri,MO,29,Cole County,"Cole County, Missouri",2020-04-06,2020-05-03,2020-03-28,2020-04-25,2020-03-28,2020-05-03
 29053,Missouri,MO,29,Cooper County,"Cooper County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29055,Missouri,MO,29,Crawford County,"Crawford County, Missouri",2020-04-06,2020-05-03,2020-04-01,2020-04-30,2020-04-01,2020-05-03
-29057,Missouri,MO,29,Dade County,"Dade County, Missouri",2020-04-06,2020-05-03,2020-04-02,,2020-04-02,2020-05-03
+29057,Missouri,MO,29,Dade County,"Dade County, Missouri",2020-04-06,2020-05-03,2020-04-02,,2020-04-02,
 29059,Missouri,MO,29,Dallas County,"Dallas County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29061,Missouri,MO,29,Daviess County,"Daviess County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29063,Missouri,MO,29,DeKalb County,"DeKalb County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
@@ -1522,7 +1522,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 29075,Missouri,MO,29,Gentry County,"Gentry County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29077,Missouri,MO,29,Greene County,"Greene County, Missouri",2020-04-06,2020-05-03,2020-03-26,2020-04-25,2020-03-26,2020-05-03
 29079,Missouri,MO,29,Grundy County,"Grundy County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
-29081,Missouri,MO,29,Harrison County,"Harrison County, Missouri",2020-04-06,2020-05-03,2020-03-30,,2020-03-30,2020-05-03
+29081,Missouri,MO,29,Harrison County,"Harrison County, Missouri",2020-04-06,2020-05-03,2020-03-30,,2020-03-30,
 29083,Missouri,MO,29,Henry County,"Henry County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29085,Missouri,MO,29,Hickory County,"Hickory County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29087,Missouri,MO,29,Holt County,"Holt County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
@@ -1571,17 +1571,17 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 29173,Missouri,MO,29,Ralls County,"Ralls County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29175,Missouri,MO,29,Randolph County,"Randolph County, Missouri",2020-04-06,2020-05-03,2020-03-25,2020-04-24,2020-03-25,2020-05-03
 29177,Missouri,MO,29,Ray County,"Ray County, Missouri",2020-04-06,2020-05-03,2020-03-25,2020-04-24,2020-03-25,2020-05-03
-29179,Missouri,MO,29,Reynolds County,"Reynolds County, Missouri",2020-04-06,2020-05-03,2020-04-07,,2020-04-06,2020-05-03
+29179,Missouri,MO,29,Reynolds County,"Reynolds County, Missouri",2020-04-06,2020-05-03,2020-04-07,,2020-04-06,
 29181,Missouri,MO,29,Ripley County,"Ripley County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
-29183,Missouri,MO,29,St. Charles County,"St. Charles County, Missouri",2020-04-06,2020-05-03,2020-03-24,,2020-03-24,2020-05-03
+29183,Missouri,MO,29,St. Charles County,"St. Charles County, Missouri",2020-04-06,2020-05-03,2020-03-24,,2020-03-24,
 29185,Missouri,MO,29,St. Clair County,"St. Clair County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29186,Missouri,MO,29,Ste. Genevieve County,"Ste. Genevieve County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
-29187,Missouri,MO,29,St. Francois County,"St. Francois County, Missouri",2020-04-06,2020-05-03,2020-04-03,,2020-04-03,2020-05-03
+29187,Missouri,MO,29,St. Francois County,"St. Francois County, Missouri",2020-04-06,2020-05-03,2020-04-03,,2020-04-03,
 29189,Missouri,MO,29,St. Louis County,"St. Louis County, Missouri",2020-04-06,2020-05-03,2020-03-23,2020-04-22,2020-03-23,2020-05-03
 29195,Missouri,MO,29,Saline County,"Saline County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29197,Missouri,MO,29,Schuyler County,"Schuyler County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29199,Missouri,MO,29,Scotland County,"Scotland County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
-29201,Missouri,MO,29,Scott County,"Scott County, Missouri",2020-04-06,2020-05-03,2020-04-04,,2020-04-04,2020-05-03
+29201,Missouri,MO,29,Scott County,"Scott County, Missouri",2020-04-06,2020-05-03,2020-04-04,,2020-04-04,
 29203,Missouri,MO,29,Shannon County,"Shannon County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29205,Missouri,MO,29,Shelby County,"Shelby County, Missouri",2020-04-06,2020-05-03,,,2020-04-06,2020-05-03
 29207,Missouri,MO,29,Stoddard County,"Stoddard County, Missouri",2020-04-06,2020-05-03,2020-04-03,2020-04-24,2020-04-03,2020-05-03
@@ -1920,7 +1920,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 37057,North Carolina,NC,37,Davidson County,"Davidson County, North Carolina",2020-03-30,2020-05-08,2020-03-27,2020-04-16,2020-03-27,2020-05-08
 37059,North Carolina,NC,37,Davie County,"Davie County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
 37061,North Carolina,NC,37,Duplin County,"Duplin County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
-37063,North Carolina,NC,37,Durham County,"Durham County, North Carolina",2020-03-30,2020-05-08,2020-03-25,,2020-03-25,2020-05-08
+37063,North Carolina,NC,37,Durham County,"Durham County, North Carolina",2020-03-30,2020-05-08,2020-03-25,,2020-03-25,
 37065,North Carolina,NC,37,Edgecombe County,"Edgecombe County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
 37067,North Carolina,NC,37,Forsyth County,"Forsyth County, North Carolina",2020-03-30,2020-05-08,2020-03-27,2020-04-16,2020-03-27,2020-05-08
 37069,North Carolina,NC,37,Franklin County,"Franklin County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
@@ -1933,7 +1933,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 37083,North Carolina,NC,37,Halifax County,"Halifax County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
 37085,North Carolina,NC,37,Harnett County,"Harnett County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
 37087,North Carolina,NC,37,Haywood County,"Haywood County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
-37089,North Carolina,NC,37,Henderson County,"Henderson County, North Carolina",2020-03-30,2020-05-08,2020-03-28,,2020-03-28,2020-05-08
+37089,North Carolina,NC,37,Henderson County,"Henderson County, North Carolina",2020-03-30,2020-05-08,2020-03-28,,2020-03-28,
 37091,North Carolina,NC,37,Hertford County,"Hertford County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
 37093,North Carolina,NC,37,Hoke County,"Hoke County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
 37095,North Carolina,NC,37,Hyde County,"Hyde County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
@@ -1962,7 +1962,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 37141,North Carolina,NC,37,Pender County,"Pender County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
 37143,North Carolina,NC,37,Perquimans County,"Perquimans County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
 37145,North Carolina,NC,37,Person County,"Person County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
-37147,North Carolina,NC,37,Pitt County,"Pitt County, North Carolina",2020-03-30,2020-05-08,2020-03-25,,2020-03-25,2020-05-08
+37147,North Carolina,NC,37,Pitt County,"Pitt County, North Carolina",2020-03-30,2020-05-08,2020-03-25,,2020-03-25,
 37149,North Carolina,NC,37,Polk County,"Polk County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
 37151,North Carolina,NC,37,Randolph County,"Randolph County, North Carolina",2020-03-30,2020-05-08,2020-03-27,2020-04-16,2020-03-27,2020-05-08
 37153,North Carolina,NC,37,Richmond County,"Richmond County, North Carolina",2020-03-30,2020-05-08,,,2020-03-30,2020-05-08
@@ -2201,7 +2201,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 40137,Oklahoma,OK,40,Stephens County,"Stephens County, Oklahoma",,,,,,
 40139,Oklahoma,OK,40,Texas County,"Texas County, Oklahoma",,,,,,
 40141,Oklahoma,OK,40,Tillman County,"Tillman County, Oklahoma",,,,,,
-40143,Oklahoma,OK,40,Tulsa County,"Tulsa County, Oklahoma",,,2020-03-28,,2020-03-28,
+40143,Oklahoma,OK,40,Tulsa County,"Tulsa County, Oklahoma",,,2020-03-28,2020-04-30,2020-03-28,2020-04-30
 40145,Oklahoma,OK,40,Wagoner County,"Wagoner County, Oklahoma",,,2020-04-01,,2020-04-01,
 40147,Oklahoma,OK,40,Washington County,"Washington County, Oklahoma",,,,,,
 40149,Oklahoma,OK,40,Washita County,"Washita County, Oklahoma",,,,,,
@@ -2445,7 +2445,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 47031,Tennessee,TN,47,Coffee County,"Coffee County, Tennessee",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 47033,Tennessee,TN,47,Crockett County,"Crockett County, Tennessee",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 47035,Tennessee,TN,47,Cumberland County,"Cumberland County, Tennessee",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-47037,Tennessee,TN,47,Davidson County,"Davidson County, Tennessee",2020-04-02,2020-04-30,2020-03-22,,2020-03-22,2020-04-30
+47037,Tennessee,TN,47,Davidson County,"Davidson County, Tennessee",2020-04-02,2020-04-30,2020-03-22,,2020-03-22,
 47039,Tennessee,TN,47,Decatur County,"Decatur County, Tennessee",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 47041,Tennessee,TN,47,DeKalb County,"DeKalb County, Tennessee",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 47043,Tennessee,TN,47,Dickson County,"Dickson County, Tennessee",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2522,12 +2522,12 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 47185,Tennessee,TN,47,White County,"White County, Tennessee",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 47187,Tennessee,TN,47,Williamson County,"Williamson County, Tennessee",2020-04-02,2020-04-30,2020-03-25,2020-04-08,2020-03-25,2020-04-30
 47189,Tennessee,TN,47,Wilson County,"Wilson County, Tennessee",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48001,Texas,TX,48,Anderson County,"Anderson County, Texas",2020-04-02,2020-04-30,2020-04-02,,2020-04-02,2020-04-30
+48001,Texas,TX,48,Anderson County,"Anderson County, Texas",2020-04-02,2020-04-30,2020-04-02,,2020-04-02,
 48003,Texas,TX,48,Andrews County,"Andrews County, Texas",2020-04-02,2020-04-30,2020-04-04,2020-04-22,2020-04-02,2020-04-30
-48005,Texas,TX,48,Angelina County,"Angelina County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,2020-04-30
+48005,Texas,TX,48,Angelina County,"Angelina County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,
 48007,Texas,TX,48,Aransas County,"Aransas County, Texas",2020-04-02,2020-04-30,2020-03-28,2020-04-30,2020-03-28,2020-04-30
 48009,Texas,TX,48,Archer County,"Archer County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48011,Texas,TX,48,Armstrong County,"Armstrong County, Texas",2020-04-02,2020-04-30,2020-04-07,,2020-04-02,2020-04-30
+48011,Texas,TX,48,Armstrong County,"Armstrong County, Texas",2020-04-02,2020-04-30,2020-04-07,,2020-04-02,
 48013,Texas,TX,48,Atascosa County,"Atascosa County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48015,Texas,TX,48,Austin County,"Austin County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48017,Texas,TX,48,Bailey County,"Bailey County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2537,14 +2537,14 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48025,Texas,TX,48,Bee County,"Bee County, Texas",2020-04-02,2020-04-30,2020-03-28,2020-04-30,2020-03-28,2020-04-30
 48027,Texas,TX,48,Bell County,"Bell County, Texas",2020-04-02,2020-04-30,2020-03-23,2020-04-20,2020-03-23,2020-04-30
 48029,Texas,TX,48,Bexar County,"Bexar County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-04-30,2020-03-24,2020-04-30
-48031,Texas,TX,48,Blanco County,"Blanco County, Texas",2020-04-02,2020-04-30,2020-04-06,,2020-04-02,2020-04-30
+48031,Texas,TX,48,Blanco County,"Blanco County, Texas",2020-04-02,2020-04-30,2020-04-06,,2020-04-02,
 48033,Texas,TX,48,Borden County,"Borden County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48035,Texas,TX,48,Bosque County,"Bosque County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48037,Texas,TX,48,Bowie County,"Bowie County, Texas",2020-04-02,2020-04-30,2020-03-27,2020-04-13,2020-03-27,2020-04-30
 48039,Texas,TX,48,Brazoria County,"Brazoria County, Texas",2020-04-02,2020-04-30,2020-03-26,2020-04-30,2020-03-26,2020-04-30
 48041,Texas,TX,48,Brazos County,"Brazos County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-04-21,2020-03-24,2020-04-30
 48043,Texas,TX,48,Brewster County,"Brewster County, Texas",2020-04-02,2020-04-30,2020-03-31,2020-04-30,2020-03-31,2020-04-30
-48045,Texas,TX,48,Briscoe County,"Briscoe County, Texas",2020-04-02,2020-04-30,2020-04-07,,2020-04-02,2020-04-30
+48045,Texas,TX,48,Briscoe County,"Briscoe County, Texas",2020-04-02,2020-04-30,2020-04-07,,2020-04-02,
 48047,Texas,TX,48,Brooks County,"Brooks County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48049,Texas,TX,48,Brown County,"Brown County, Texas",2020-04-02,2020-04-30,2020-03-27,2020-04-03,2020-03-27,2020-04-30
 48051,Texas,TX,48,Burleson County,"Burleson County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2567,16 +2567,16 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48085,Texas,TX,48,Collin County,"Collin County, Texas",2020-04-02,2020-04-30,2020-03-23,2020-04-30,2020-03-23,2020-04-30
 48087,Texas,TX,48,Collingsworth County,"Collingsworth County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48089,Texas,TX,48,Colorado County,"Colorado County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48091,Texas,TX,48,Comal County,"Comal County, Texas",2020-04-02,2020-04-30,2020-03-25,,2020-03-25,2020-04-30
+48091,Texas,TX,48,Comal County,"Comal County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-04-30,2020-03-25,2020-04-30
 48093,Texas,TX,48,Comanche County,"Comanche County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48095,Texas,TX,48,Concho County,"Concho County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48097,Texas,TX,48,Cooke County,"Cooke County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48099,Texas,TX,48,Coryell County,"Coryell County, Texas",2020-04-02,2020-04-30,2020-04-07,,2020-04-02,2020-04-30
+48099,Texas,TX,48,Coryell County,"Coryell County, Texas",2020-04-02,2020-04-30,2020-04-07,2020-05-04,2020-04-02,2020-05-04
 48101,Texas,TX,48,Cottle County,"Cottle County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48103,Texas,TX,48,Crane County,"Crane County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48105,Texas,TX,48,Crockett County,"Crockett County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48107,Texas,TX,48,Crosby County,"Crosby County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48109,Texas,TX,48,Culberson County,"Culberson County, Texas",2020-04-02,2020-04-30,2020-03-25,,2020-03-25,2020-04-30
+48109,Texas,TX,48,Culberson County,"Culberson County, Texas",2020-04-02,2020-04-30,2020-03-25,,2020-03-25,
 48111,Texas,TX,48,Dallam County,"Dallam County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48113,Texas,TX,48,Dallas County,"Dallas County, Texas",2020-04-02,2020-04-30,2020-03-23,2020-05-15,2020-03-23,2020-05-15
 48115,Texas,TX,48,Dawson County,"Dawson County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2589,10 +2589,10 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48129,Texas,TX,48,Donley County,"Donley County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48131,Texas,TX,48,Duval County,"Duval County, Texas",2020-04-02,2020-04-30,2020-03-27,2020-06-01,2020-03-27,2020-06-01
 48133,Texas,TX,48,Eastland County,"Eastland County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48135,Texas,TX,48,Ector County,"Ector County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,2020-04-30
+48135,Texas,TX,48,Ector County,"Ector County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,
 48137,Texas,TX,48,Edwards County,"Edwards County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48139,Texas,TX,48,Ellis County,"Ellis County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-04-30,2020-03-25,2020-04-30
-48141,Texas,TX,48,El Paso County,"El Paso County, Texas",2020-04-02,2020-04-30,2020-03-24,,2020-03-24,2020-04-30
+48141,Texas,TX,48,El Paso County,"El Paso County, Texas",2020-04-02,2020-04-30,2020-03-24,,2020-03-24,
 48143,Texas,TX,48,Erath County,"Erath County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-04-30,2020-03-25,2020-04-30
 48145,Texas,TX,48,Falls County,"Falls County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48147,Texas,TX,48,Fannin County,"Fannin County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2600,7 +2600,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48151,Texas,TX,48,Fisher County,"Fisher County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48153,Texas,TX,48,Floyd County,"Floyd County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48155,Texas,TX,48,Foard County,"Foard County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48157,Texas,TX,48,Fort Bend County,"Fort Bend County, Texas",2020-04-02,2020-04-30,2020-03-25,,2020-03-25,2020-04-30
+48157,Texas,TX,48,Fort Bend County,"Fort Bend County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-04-30,2020-03-25,2020-04-30
 48159,Texas,TX,48,Franklin County,"Franklin County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48161,Texas,TX,48,Freestone County,"Freestone County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-04-03,2020-03-25,2020-04-30
 48163,Texas,TX,48,Frio County,"Frio County, Texas",2020-04-02,2020-04-30,2020-03-30,2020-04-06,2020-03-30,2020-04-30
@@ -2615,7 +2615,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48181,Texas,TX,48,Grayson County,"Grayson County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48183,Texas,TX,48,Gregg County,"Gregg County, Texas",2020-04-02,2020-04-30,2020-03-26,2020-04-09,2020-03-26,2020-04-30
 48185,Texas,TX,48,Grimes County,"Grimes County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48187,Texas,TX,48,Guadalupe County,"Guadalupe County, Texas",2020-04-02,2020-04-30,2020-03-25,,2020-03-25,2020-04-30
+48187,Texas,TX,48,Guadalupe County,"Guadalupe County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-04-30,2020-03-25,2020-04-30
 48189,Texas,TX,48,Hale County,"Hale County, Texas",2020-04-02,2020-04-30,2020-03-31,2020-04-30,2020-03-31,2020-04-30
 48191,Texas,TX,48,Hall County,"Hall County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48193,Texas,TX,48,Hamilton County,"Hamilton County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2623,16 +2623,16 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48197,Texas,TX,48,Hardeman County,"Hardeman County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48199,Texas,TX,48,Hardin County,"Hardin County, Texas",2020-04-02,2020-04-30,2020-03-27,2020-05-01,2020-03-27,2020-05-01
 48201,Texas,TX,48,Harris County,"Harris County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-04-30,2020-03-24,2020-04-30
-48203,Texas,TX,48,Harrison County,"Harrison County, Texas",2020-04-02,2020-04-30,2020-03-31,,2020-03-31,2020-04-30
+48203,Texas,TX,48,Harrison County,"Harrison County, Texas",2020-04-02,2020-04-30,2020-03-31,,2020-03-31,
 48205,Texas,TX,48,Hartley County,"Hartley County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48207,Texas,TX,48,Haskell County,"Haskell County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48209,Texas,TX,48,Hays County,"Hays County, Texas",2020-04-02,2020-04-30,2020-03-24,,2020-03-24,2020-04-30
+48209,Texas,TX,48,Hays County,"Hays County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-04-10,2020-03-24,2020-04-30
 48211,Texas,TX,48,Hemphill County,"Hemphill County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48213,Texas,TX,48,Henderson County,"Henderson County, Texas",2020-04-02,2020-04-30,2020-04-07,2020-04-30,2020-04-02,2020-04-30
-48215,Texas,TX,48,Hidalgo County,"Hidalgo County, Texas",2020-04-02,2020-04-30,2020-03-24,,2020-03-24,2020-04-30
+48215,Texas,TX,48,Hidalgo County,"Hidalgo County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-04-30,2020-03-24,2020-04-30
 48217,Texas,TX,48,Hill County,"Hill County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48219,Texas,TX,48,Hockley County,"Hockley County, Texas",2020-04-02,2020-04-30,2020-03-31,2020-04-30,2020-03-31,2020-04-30
-48221,Texas,TX,48,Hood County,"Hood County, Texas",2020-04-02,2020-04-30,2020-03-25,,2020-03-25,2020-04-30
+48221,Texas,TX,48,Hood County,"Hood County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-04-07,2020-03-25,2020-04-30
 48223,Texas,TX,48,Hopkins County,"Hopkins County, Texas",2020-04-02,2020-04-30,2020-04-06,2020-04-30,2020-04-02,2020-04-30
 48225,Texas,TX,48,Houston County,"Houston County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48227,Texas,TX,48,Howard County,"Howard County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2647,8 +2647,8 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48245,Texas,TX,48,Jefferson County,"Jefferson County, Texas",2020-04-02,2020-04-30,2020-03-27,2020-04-30,2020-03-27,2020-04-30
 48247,Texas,TX,48,Jim Hogg County,"Jim Hogg County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48249,Texas,TX,48,Jim Wells County,"Jim Wells County, Texas",2020-04-02,2020-04-30,2020-03-26,2020-04-27,2020-03-26,2020-04-30
-48251,Texas,TX,48,Johnson County,"Johnson County, Texas",2020-04-02,2020-04-30,2020-03-27,,2020-03-27,2020-04-30
-48253,Texas,TX,48,Jones County,"Jones County, Texas",2020-04-02,2020-04-30,2020-03-31,,2020-03-31,2020-04-30
+48251,Texas,TX,48,Johnson County,"Johnson County, Texas",2020-04-02,2020-04-30,2020-03-27,,2020-03-27,
+48253,Texas,TX,48,Jones County,"Jones County, Texas",2020-04-02,2020-04-30,2020-03-31,,2020-03-31,
 48255,Texas,TX,48,Karnes County,"Karnes County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48257,Texas,TX,48,Kaufman County,"Kaufman County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-04-08,2020-03-24,2020-04-30
 48259,Texas,TX,48,Kendall County,"Kendall County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2682,11 +2682,11 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48315,Texas,TX,48,Marion County,"Marion County, Texas",2020-04-02,2020-04-30,2020-03-31,2020-04-30,2020-03-31,2020-04-30
 48317,Texas,TX,48,Martin County,"Martin County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48319,Texas,TX,48,Mason County,"Mason County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48321,Texas,TX,48,Matagorda County,"Matagorda County, Texas",2020-04-02,2020-04-30,2020-04-02,,2020-04-02,2020-04-30
-48323,Texas,TX,48,Maverick County,"Maverick County, Texas",2020-04-02,2020-04-30,2020-03-31,,2020-03-31,2020-04-30
+48321,Texas,TX,48,Matagorda County,"Matagorda County, Texas",2020-04-02,2020-04-30,2020-04-02,,2020-04-02,
+48323,Texas,TX,48,Maverick County,"Maverick County, Texas",2020-04-02,2020-04-30,2020-03-31,,2020-03-31,
 48325,Texas,TX,48,Medina County,"Medina County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48327,Texas,TX,48,Menard County,"Menard County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48329,Texas,TX,48,Midland County,"Midland County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,2020-04-30
+48329,Texas,TX,48,Midland County,"Midland County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,
 48331,Texas,TX,48,Milam County,"Milam County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-05-04,2020-03-25,2020-05-04
 48333,Texas,TX,48,Mills County,"Mills County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48335,Texas,TX,48,Mitchell County,"Mitchell County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2695,21 +2695,21 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48341,Texas,TX,48,Moore County,"Moore County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48343,Texas,TX,48,Morris County,"Morris County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48345,Texas,TX,48,Motley County,"Motley County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48347,Texas,TX,48,Nacogdoches County,"Nacogdoches County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,2020-04-30
+48347,Texas,TX,48,Nacogdoches County,"Nacogdoches County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,
 48349,Texas,TX,48,Navarro County,"Navarro County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-04-30,2020-03-25,2020-04-30
 48351,Texas,TX,48,Newton County,"Newton County, Texas",2020-04-02,2020-04-30,2020-03-30,2020-04-30,2020-03-30,2020-04-30
 48353,Texas,TX,48,Nolan County,"Nolan County, Texas",2020-04-02,2020-04-30,2020-04-02,2020-04-13,2020-04-02,2020-04-30
 48355,Texas,TX,48,Nueces County,"Nueces County, Texas",2020-04-02,2020-04-30,2020-03-26,2020-04-30,2020-03-26,2020-04-30
 48357,Texas,TX,48,Ochiltree County,"Ochiltree County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48359,Texas,TX,48,Oldham County,"Oldham County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48361,Texas,TX,48,Orange County,"Orange County, Texas",2020-04-02,2020-04-30,2020-03-27,,2020-03-27,2020-04-30
+48361,Texas,TX,48,Orange County,"Orange County, Texas",2020-04-02,2020-04-30,2020-03-27,,2020-03-27,
 48363,Texas,TX,48,Palo Pinto County,"Palo Pinto County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48365,Texas,TX,48,Panola County,"Panola County, Texas",2020-04-02,2020-04-30,2020-04-01,2020-04-14,2020-04-01,2020-04-30
 48367,Texas,TX,48,Parker County,"Parker County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-04-03,2020-03-24,2020-04-30
 48369,Texas,TX,48,Parmer County,"Parmer County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48371,Texas,TX,48,Pecos County,"Pecos County, Texas",2020-04-02,2020-04-30,2020-04-02,,2020-04-02,2020-04-30
+48371,Texas,TX,48,Pecos County,"Pecos County, Texas",2020-04-02,2020-04-30,2020-04-02,,2020-04-02,
 48373,Texas,TX,48,Polk County,"Polk County, Texas",2020-04-02,2020-04-30,2020-03-27,2020-04-30,2020-03-27,2020-04-30
-48375,Texas,TX,48,Potter County,"Potter County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,2020-04-30
+48375,Texas,TX,48,Potter County,"Potter County, Texas",2020-04-02,2020-04-30,2020-03-30,,2020-03-30,
 48377,Texas,TX,48,Presidio County,"Presidio County, Texas",2020-04-02,2020-04-30,2020-03-27,2020-04-10,2020-03-27,2020-04-30
 48379,Texas,TX,48,Rains County,"Rains County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48381,Texas,TX,48,Randall County,"Randall County, Texas",2020-04-02,2020-04-30,2020-03-30,2020-04-13,2020-03-30,2020-04-30
@@ -2736,7 +2736,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48423,Texas,TX,48,Smith County,"Smith County, Texas",2020-04-02,2020-04-30,2020-03-27,2020-04-30,2020-03-27,2020-04-30
 48425,Texas,TX,48,Somervell County,"Somervell County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48427,Texas,TX,48,Starr County,"Starr County, Texas",2020-04-02,2020-04-30,2020-03-25,2020-05-04,2020-03-25,2020-05-04
-48429,Texas,TX,48,Stephens County,"Stephens County, Texas",2020-04-02,2020-04-30,2020-03-23,,2020-03-23,2020-04-30
+48429,Texas,TX,48,Stephens County,"Stephens County, Texas",2020-04-02,2020-04-30,2020-03-23,,2020-03-23,
 48431,Texas,TX,48,Sterling County,"Sterling County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48433,Texas,TX,48,Stonewall County,"Stonewall County, Texas",2020-04-02,2020-04-30,2020-03-28,2020-04-18,2020-03-28,2020-04-30
 48435,Texas,TX,48,Sutton County,"Sutton County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2744,20 +2744,20 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48439,Texas,TX,48,Tarrant County,"Tarrant County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-04-30,2020-03-24,2020-04-30
 48441,Texas,TX,48,Taylor County,"Taylor County, Texas",2020-04-02,2020-04-30,2020-03-31,2020-04-30,2020-03-31,2020-04-30
 48443,Texas,TX,48,Terrell County,"Terrell County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48445,Texas,TX,48,Terry County,"Terry County, Texas",2020-04-02,2020-04-30,2020-04-03,,2020-04-02,2020-04-30
+48445,Texas,TX,48,Terry County,"Terry County, Texas",2020-04-02,2020-04-30,2020-04-03,,2020-04-02,
 48447,Texas,TX,48,Throckmorton County,"Throckmorton County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48449,Texas,TX,48,Titus County,"Titus County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48451,Texas,TX,48,Tom Green County,"Tom Green County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
-48453,Texas,TX,48,Travis County,"Travis County, Texas",2020-04-02,2020-04-30,2020-03-24,,2020-03-24,2020-04-30
+48453,Texas,TX,48,Travis County,"Travis County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-05-08,2020-03-24,2020-05-08
 48455,Texas,TX,48,Trinity County,"Trinity County, Texas",2020-04-02,2020-04-30,2020-03-31,2020-04-30,2020-03-31,2020-04-30
 48457,Texas,TX,48,Tyler County,"Tyler County, Texas",2020-04-02,2020-04-30,2020-03-28,2020-04-30,2020-03-28,2020-04-30
 48459,Texas,TX,48,Upshur County,"Upshur County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48461,Texas,TX,48,Upton County,"Upton County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48463,Texas,TX,48,Uvalde County,"Uvalde County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48465,Texas,TX,48,Val Verde County,"Val Verde County, Texas",2020-04-02,2020-04-30,2020-03-23,2020-05-05,2020-03-23,2020-05-05
-48467,Texas,TX,48,Van Zandt County,"Van Zandt County, Texas",2020-04-02,2020-04-30,2020-03-27,,2020-03-27,2020-04-30
+48467,Texas,TX,48,Van Zandt County,"Van Zandt County, Texas",2020-04-02,2020-04-30,2020-03-27,,2020-03-27,
 48469,Texas,TX,48,Victoria County,"Victoria County, Texas",2020-04-02,2020-04-30,2020-04-02,2020-04-30,2020-04-02,2020-04-30
-48471,Texas,TX,48,Walker County,"Walker County, Texas",2020-04-02,2020-04-30,2020-04-09,,2020-04-02,2020-04-30
+48471,Texas,TX,48,Walker County,"Walker County, Texas",2020-04-02,2020-04-30,2020-04-09,,2020-04-02,
 48473,Texas,TX,48,Waller County,"Waller County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48475,Texas,TX,48,Ward County,"Ward County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48477,Texas,TX,48,Washington County,"Washington County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
@@ -2771,7 +2771,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 48493,Texas,TX,48,Wilson County,"Wilson County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48495,Texas,TX,48,Winkler County,"Winkler County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48497,Texas,TX,48,Wise County,"Wise County, Texas",2020-04-02,2020-04-30,2020-03-24,2020-04-03,2020-03-24,2020-04-30
-48499,Texas,TX,48,Wood County,"Wood County, Texas",2020-04-02,2020-04-30,2020-04-01,,2020-04-01,2020-04-30
+48499,Texas,TX,48,Wood County,"Wood County, Texas",2020-04-02,2020-04-30,2020-04-01,,2020-04-01,
 48501,Texas,TX,48,Yoakum County,"Yoakum County, Texas",2020-04-02,2020-04-30,,,2020-04-02,2020-04-30
 48503,Texas,TX,48,Young County,"Young County, Texas",2020-04-02,2020-04-30,2020-03-31,2020-05-01,2020-03-31,2020-05-01
 48505,Texas,TX,48,Zapata County,"Zapata County, Texas",2020-04-02,2020-04-30,2020-04-01,2020-05-11,2020-04-01,2020-05-11
@@ -2983,7 +2983,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 53055,Washington,WA,53,San Juan County,"San Juan County, Washington",2020-03-23,2020-06-08,,,2020-03-23,2020-06-08
 53057,Washington,WA,53,Skagit County,"Skagit County, Washington",2020-03-23,2020-06-08,,,2020-03-23,2020-06-08
 53059,Washington,WA,53,Skamania County,"Skamania County, Washington",2020-03-23,2020-06-08,,,2020-03-23,2020-06-08
-53061,Washington,WA,53,Snohomish County,"Snohomish County, Washington",2020-03-23,2020-06-08,2020-03-22,,2020-03-22,2020-06-08
+53061,Washington,WA,53,Snohomish County,"Snohomish County, Washington",2020-03-23,2020-06-08,2020-03-22,,2020-03-22,
 53063,Washington,WA,53,Spokane County,"Spokane County, Washington",2020-03-23,2020-06-08,,,2020-03-23,2020-06-08
 53065,Washington,WA,53,Stevens County,"Stevens County, Washington",2020-03-23,2020-06-08,,,2020-03-23,2020-06-08
 53067,Washington,WA,53,Thurston County,"Thurston County, Washington",2020-03-23,2020-06-08,,,2020-03-23,2020-06-08
@@ -2991,9 +2991,9 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 53071,Washington,WA,53,Walla Walla County,"Walla Walla County, Washington",2020-03-23,2020-06-08,,,2020-03-23,2020-06-08
 53073,Washington,WA,53,Whatcom County,"Whatcom County, Washington",2020-03-23,2020-06-08,,,2020-03-23,2020-06-08
 53075,Washington,WA,53,Whitman County,"Whitman County, Washington",2020-03-23,2020-06-08,,,2020-03-23,2020-06-08
-53077,Washington,WA,53,Yakima County,"Yakima County, Washington",2020-03-23,2020-06-08,2020-03-22,,2020-03-22,2020-06-08
+53077,Washington,WA,53,Yakima County,"Yakima County, Washington",2020-03-23,2020-06-08,2020-03-22,,2020-03-22,
 54001,West Virginia,WV,54,Barbour County,"Barbour County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
-54003,West Virginia,WV,54,Berkeley County,"Berkeley County, West Virginia",2020-03-23,2020-05-04,2020-04-05,,2020-03-23,2020-05-04
+54003,West Virginia,WV,54,Berkeley County,"Berkeley County, West Virginia",2020-03-23,2020-05-04,2020-04-05,,2020-03-23,
 54005,West Virginia,WV,54,Boone County,"Boone County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
 54007,West Virginia,WV,54,Braxton County,"Braxton County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
 54009,West Virginia,WV,54,Brooke County,"Brooke County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
@@ -3010,7 +3010,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 54031,West Virginia,WV,54,Hardy County,"Hardy County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
 54033,West Virginia,WV,54,Harrison County,"Harrison County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
 54035,West Virginia,WV,54,Jackson County,"Jackson County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
-54037,West Virginia,WV,54,Jefferson County,"Jefferson County, West Virginia",2020-03-23,2020-05-04,2020-04-06,,2020-03-23,2020-05-04
+54037,West Virginia,WV,54,Jefferson County,"Jefferson County, West Virginia",2020-03-23,2020-05-04,2020-04-06,,2020-03-23,
 54039,West Virginia,WV,54,Kanawha County,"Kanawha County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
 54041,West Virginia,WV,54,Lewis County,"Lewis County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
 54043,West Virginia,WV,54,Lincoln County,"Lincoln County, West Virginia",2020-03-23,2020-05-04,,,2020-03-23,2020-05-04
@@ -3059,7 +3059,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 55019,Wisconsin,WI,55,Clark County,"Clark County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
 55021,Wisconsin,WI,55,Columbia County,"Columbia County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
 55023,Wisconsin,WI,55,Crawford County,"Crawford County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
-55025,Wisconsin,WI,55,Dane County,"Dane County, Wisconsin",2020-03-25,2020-05-13,2020-05-13,,2020-03-25,2020-05-13
+55025,Wisconsin,WI,55,Dane County,"Dane County, Wisconsin",2020-03-25,2020-05-13,2020-05-13,,2020-03-25,
 55027,Wisconsin,WI,55,Dodge County,"Dodge County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
 55029,Wisconsin,WI,55,Door County,"Door County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
 55031,Wisconsin,WI,55,Douglas County,"Douglas County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
@@ -3087,7 +3087,7 @@ fips,stateName,state,fips_state,county,key,start_state,end_state,start_county,en
 55075,Wisconsin,WI,55,Marinette County,"Marinette County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
 55077,Wisconsin,WI,55,Marquette County,"Marquette County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
 55078,Wisconsin,WI,55,Menominee County,"Menominee County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
-55079,Wisconsin,WI,55,Milwaukee County,"Milwaukee County, Wisconsin",2020-03-25,2020-05-13,2020-03-23,,2020-03-23,2020-05-13
+55079,Wisconsin,WI,55,Milwaukee County,"Milwaukee County, Wisconsin",2020-03-25,2020-05-13,2020-03-23,,2020-03-23,
 55081,Wisconsin,WI,55,Monroe County,"Monroe County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
 55083,Wisconsin,WI,55,Oconto County,"Oconto County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13
 55085,Wisconsin,WI,55,Oneida County,"Oneida County, Wisconsin",2020-03-25,2020-05-13,,,2020-03-25,2020-05-13

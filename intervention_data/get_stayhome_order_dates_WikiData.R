@@ -18,18 +18,18 @@ require(usmap)
 # function for converting timestamps to R date format
 ts2date <- function(x) as.Date(gsub("T.*", "", x), format = "%Y-%m-%d")
 
-# return NA for all missing, max non-missing otherwise
-max.nm <- function(x){
-	if(all(is.na(x))){
+# return NA if [all/any] values missing, max non-missing otherwise
+max.nm <- function(x, check_na_fun = all ){
+	if( check_na_fun(is.na(x)) ){
 		x[1] # rather than NA to ensure type match
 	}else{
 		max(x, na.rm = TRUE)
 	}
 }
 
-# return NA for all missing, min non-missing otherwise
-min.nm <- function(x){
-	if(all(is.na(x))){
+# return NA for [all/any] values missing, min non-missing otherwise
+min.nm <- function(x, check_na_fun = all ){
+	if( check_na_fun(is.na(x)) ){
 		x[1]
 	}else{
 		min(x, na.rm = TRUE)
@@ -84,8 +84,6 @@ for(cl in grep("Label", colnames(df), value = TRUE)){
 	df[[cl]] <- gsub('@en$', '', gsub('"', '', df[[cl]]))
 }
 d <- as.data.table(df)
-print(head(d))
-
 rm(df)
 
 # -----------------------------------------------
@@ -101,8 +99,8 @@ d_state <- subset(d,
 	start_state = ts2date(startLabel), 
 	end_state = ts2date(endLabel)
 ),][,list(
-	start_state = min.nm(start_state),
-	end_state = max.nm(end_state)
+	start_state = min.nm(start_state, all),
+	end_state = max.nm(end_state, any)
 ),by=stateName]
 
 # Manually add in missing dates for 2 states
@@ -118,8 +116,8 @@ d_state_extra <- data.table(
 
 # collapse a 2nd time in case MA or KY has been updated
 d_state <- as.data.table(rbind(d_state_extra, d_state))[,list(
-	start_state = min.nm(start_state),
-	end_state = max.nm(end_state)
+	start_state = min.nm(start_state, all),
+	end_state = max.nm(end_state, any)
 ),by=stateName]
 
 
@@ -201,8 +199,8 @@ dss[,type := gsub(".*shelter", "shelter", type),]
 
 # Create final county-level order data.table
 d_county <- dss[,list(
-	start_county = min(start, na.rm = TRUE),
-	end_county = max(end, na.rm = FALSE)
+	start_county = min.nm(start, all),
+	end_county = max.nm(end, any)
 ),by = fips]
 
 # -----------------------------------------------
@@ -225,8 +223,8 @@ out <- merge(
 # Use min(state-start, county-start) as final stay-home
 # start date within each county
 out[,`:=`(
-	start = min.nm(c(start_state, start_county)),
-	end = max.nm(c(end_state, end_county))
+	start = min.nm(c(start_state, start_county), all),
+	end = if( is.na(start_county) ){ end_state }else if( is.na(start_state) ){ end_county }else{ max.nm(c(end_county, end_state), any) }
 ),by=fips]
 
 # stay-home order from Yu data set

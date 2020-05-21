@@ -217,7 +217,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 6059,California,Orange County,2020-03-19,
 6061,California,Placer County,2020-03-19,2020-05-01
 6063,California,Plumas County,2020-03-19,
-6065,California,Riverside County,2020-03-18,
+6065,California,Riverside County,2020-03-18,2020-04-30
 6067,California,Sacramento County,2020-03-19,2020-05-01
 6069,California,San Benito County,2020-03-18,2020-05-03
 6071,California,San Bernardino County,2020-03-19,
@@ -333,11 +333,11 @@ fips,stateName,county,stayhome_start,stayhome_end
 12023,Florida,Columbia County,2020-04-02,2020-05-04
 12027,Florida,DeSoto County,2020-04-02,2020-05-04
 12029,Florida,Dixie County,2020-04-02,2020-05-04
-12031,Florida,Duval County,2020-04-02,2020-05-04
+12031,Florida,Duval County,2020-04-02,
 12033,Florida,Escambia County,2020-04-02,2020-05-04
 12035,Florida,Flagler County,2020-04-02,2020-05-04
 12037,Florida,Franklin County,2020-04-02,2020-05-04
-12039,Florida,Gadsden County,2020-03-27,2020-05-04
+12039,Florida,Gadsden County,2020-03-27,
 12041,Florida,Gilchrist County,2020-04-02,2020-05-04
 12043,Florida,Glades County,2020-04-02,2020-05-04
 12045,Florida,Gulf County,2020-04-02,2020-05-04
@@ -361,14 +361,14 @@ fips,stateName,county,stayhome_start,stayhome_end
 12081,Florida,Manatee County,2020-04-02,2020-05-04
 12083,Florida,Marion County,2020-04-02,2020-05-04
 12085,Florida,Martin County,2020-04-02,2020-05-04
-12086,Florida,Miami-Dade County,2020-03-24,2020-05-04
-12087,Florida,Monroe County,2020-03-30,2020-05-04
+12086,Florida,Miami-Dade County,2020-03-24,
+12087,Florida,Monroe County,2020-03-30,
 12089,Florida,Nassau County,2020-04-02,2020-05-04
 12091,Florida,Okaloosa County,2020-04-02,2020-05-04
 12093,Florida,Okeechobee County,2020-04-02,2020-05-04
 12095,Florida,Orange County,2020-03-26,2020-05-04
 12097,Florida,Osceola County,2020-03-26,2020-05-04
-12099,Florida,Palm Beach County,2020-03-28,2020-05-04
+12099,Florida,Palm Beach County,2020-03-28,
 12101,Florida,Pasco County,2020-04-02,2020-05-04
 12103,Florida,Pinellas County,2020-03-26,2020-05-04
 12105,Florida,Polk County,2020-04-02,2020-05-04
@@ -429,12 +429,12 @@ fips,stateName,county,stayhome_start,stayhome_end
 13083,Georgia,Dade County,2020-04-03,2020-04-27
 13085,Georgia,Dawson County,2020-04-03,2020-04-27
 13087,Georgia,Decatur County,2020-03-25,2020-04-27
-13089,Georgia,DeKalb County,2020-03-24,2020-04-27
+13089,Georgia,DeKalb County,2020-03-24,
 13091,Georgia,Dodge County,2020-04-03,2020-04-27
 13093,Georgia,Dooly County,2020-04-03,2020-04-27
 13095,Georgia,Dougherty County,2020-03-22,2020-04-27
 13097,Georgia,Douglas County,2020-03-26,2020-04-27
-13099,Georgia,Early County,2020-03-24,2020-04-27
+13099,Georgia,Early County,2020-03-24,
 13101,Georgia,Echols County,2020-04-03,2020-04-27
 13103,Georgia,Effingham County,2020-04-03,2020-04-27
 13105,Georgia,Elbert County,2020-04-03,2020-04-27
@@ -445,7 +445,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 13115,Georgia,Floyd County,2020-03-24,2020-04-27
 13117,Georgia,Forsyth County,2020-04-03,2020-04-27
 13119,Georgia,Franklin County,2020-04-03,2020-04-27
-13121,Georgia,Fulton County,2020-03-24,2020-04-27
+13121,Georgia,Fulton County,2020-03-24,
 13123,Georgia,Gilmer County,2020-04-03,2020-04-27
 13125,Georgia,Glascock County,2020-04-03,2020-04-27
 13127,Georgia,Glynn County,2020-04-03,2020-04-27
@@ -556,7 +556,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 16007,Idaho,Bear Lake County,2020-03-25,2020-04-30
 16009,Idaho,Benewah County,2020-03-25,2020-04-30
 16011,Idaho,Bingham County,2020-03-25,2020-04-30
-16013,Idaho,Blaine County,2020-03-19,2020-04-30
+16013,Idaho,Blaine County,2020-03-19,
 16015,Idaho,Boise County,2020-03-25,2020-04-30
 16017,Idaho,Bonner County,2020-03-25,2020-04-30
 16019,Idaho,Bonneville County,2020-03-25,2020-04-30
@@ -902,13 +902,13 @@ fips,stateName,county,stayhome_start,stayhome_end
 20025,Kansas,Clark County,2020-03-30,2020-05-03
 20027,Kansas,Clay County,2020-03-30,2020-05-03
 20029,Kansas,Cloud County,2020-03-30,2020-05-03
-20031,Kansas,Coffey County,2020-03-26,2020-05-03
+20031,Kansas,Coffey County,2020-03-26,
 20033,Kansas,Comanche County,2020-03-30,2020-05-03
 20035,Kansas,Cowley County,2020-03-30,2020-05-03
 20037,Kansas,Crawford County,2020-03-30,2020-05-03
 20039,Kansas,Decatur County,2020-03-30,2020-05-03
 20041,Kansas,Dickinson County,2020-03-30,2020-05-03
-20043,Kansas,Doniphan County,2020-03-26,2020-05-03
+20043,Kansas,Doniphan County,2020-03-26,
 20045,Kansas,Douglas County,2020-03-24,2020-05-03
 20047,Kansas,Edwards County,2020-03-30,2020-05-03
 20049,Kansas,Elk County,2020-03-30,2020-05-03
@@ -917,7 +917,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 20055,Kansas,Finney County,2020-03-30,2020-05-03
 20057,Kansas,Ford County,2020-03-30,2020-05-03
 20059,Kansas,Franklin County,2020-03-30,2020-05-03
-20061,Kansas,Geary County,2020-03-28,2020-05-03
+20061,Kansas,Geary County,2020-03-28,
 20063,Kansas,Gove County,2020-03-30,2020-05-03
 20065,Kansas,Graham County,2020-03-30,2020-05-03
 20067,Kansas,Grant County,2020-03-30,2020-05-03
@@ -956,7 +956,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 20133,Kansas,Neosho County,2020-03-30,2020-05-03
 20135,Kansas,Ness County,2020-03-30,2020-05-03
 20137,Kansas,Norton County,2020-03-30,2020-05-03
-20139,Kansas,Osage County,2020-03-28,2020-05-03
+20139,Kansas,Osage County,2020-03-28,
 20141,Kansas,Osborne County,2020-03-30,2020-05-03
 20143,Kansas,Ottawa County,2020-03-30,2020-05-03
 20145,Kansas,Pawnee County,2020-03-30,2020-05-03
@@ -967,15 +967,15 @@ fips,stateName,county,stayhome_start,stayhome_end
 20155,Kansas,Reno County,2020-03-30,2020-05-03
 20157,Kansas,Republic County,2020-03-30,2020-05-03
 20159,Kansas,Rice County,2020-03-30,2020-05-03
-20161,Kansas,Riley County,2020-03-29,2020-05-03
+20161,Kansas,Riley County,2020-03-29,
 20163,Kansas,Rooks County,2020-03-28,2020-05-03
 20165,Kansas,Rush County,2020-03-30,2020-05-03
 20167,Kansas,Russell County,2020-03-30,2020-05-03
 20169,Kansas,Saline County,2020-03-30,2020-05-03
 20171,Kansas,Scott County,2020-03-30,2020-05-03
-20173,Kansas,Sedgwick County,2020-03-25,2020-05-03
+20173,Kansas,Sedgwick County,2020-03-25,
 20175,Kansas,Seward County,2020-03-30,2020-05-03
-20177,Kansas,Shawnee County,2020-03-26,2020-05-03
+20177,Kansas,Shawnee County,2020-03-26,
 20179,Kansas,Sheridan County,2020-03-30,2020-05-03
 20181,Kansas,Sherman County,2020-03-30,2020-05-03
 20183,Kansas,Smith County,2020-03-30,2020-05-03
@@ -1219,7 +1219,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 25001,Massachusetts,Barnstable County,2020-03-23,2020-05-18
 25003,Massachusetts,Berkshire County,2020-03-31,2020-05-18
 25005,Massachusetts,Bristol County,2020-03-31,2020-05-18
-25007,Massachusetts,Dukes County,2020-03-24,2020-05-18
+25007,Massachusetts,Dukes County,2020-03-24,
 25009,Massachusetts,Essex County,2020-03-26,2020-05-18
 25011,Massachusetts,Franklin County,2020-03-31,2020-05-18
 25013,Massachusetts,Hampden County,2020-03-31,2020-05-18
@@ -1429,7 +1429,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 28053,Mississippi,Humphreys County,2020-04-03,2020-04-27
 28055,Mississippi,Issaquena County,2020-04-03,2020-04-27
 28057,Mississippi,Itawamba County,2020-03-24,2020-04-27
-28059,Mississippi,Jackson County,2020-03-28,2020-04-27
+28059,Mississippi,Jackson County,2020-03-28,
 28061,Mississippi,Jasper County,2020-04-03,2020-04-27
 28063,Mississippi,Jefferson County,2020-04-03,2020-04-27
 28065,Mississippi,Jefferson Davis County,2020-04-03,2020-04-27
@@ -1494,7 +1494,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 29019,Missouri,Boone County,2020-03-25,2020-05-03
 29021,Missouri,Buchanan County,2020-03-24,2020-05-03
 29023,Missouri,Butler County,2020-04-06,2020-05-03
-29025,Missouri,Caldwell County,2020-03-27,2020-05-03
+29025,Missouri,Caldwell County,2020-03-27,
 29027,Missouri,Callaway County,2020-04-06,2020-05-03
 29029,Missouri,Camden County,2020-04-06,2020-05-03
 29031,Missouri,Cape Girardeau County,2020-04-06,2020-05-03
@@ -1506,11 +1506,11 @@ fips,stateName,county,stayhome_start,stayhome_end
 29043,Missouri,Christian County,2020-03-26,2020-05-03
 29045,Missouri,Clark County,2020-04-06,2020-05-03
 29047,Missouri,Clay County,2020-03-24,2020-05-03
-29049,Missouri,Clinton County,2020-03-26,2020-05-03
+29049,Missouri,Clinton County,2020-03-26,
 29051,Missouri,Cole County,2020-03-28,2020-05-03
 29053,Missouri,Cooper County,2020-04-06,2020-05-03
 29055,Missouri,Crawford County,2020-04-01,2020-05-03
-29057,Missouri,Dade County,2020-04-02,2020-05-03
+29057,Missouri,Dade County,2020-04-02,
 29059,Missouri,Dallas County,2020-04-06,2020-05-03
 29061,Missouri,Daviess County,2020-04-06,2020-05-03
 29063,Missouri,DeKalb County,2020-04-06,2020-05-03
@@ -1522,7 +1522,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 29075,Missouri,Gentry County,2020-04-06,2020-05-03
 29077,Missouri,Greene County,2020-03-26,2020-05-03
 29079,Missouri,Grundy County,2020-04-06,2020-05-03
-29081,Missouri,Harrison County,2020-03-30,2020-05-03
+29081,Missouri,Harrison County,2020-03-30,
 29083,Missouri,Henry County,2020-04-06,2020-05-03
 29085,Missouri,Hickory County,2020-04-06,2020-05-03
 29087,Missouri,Holt County,2020-04-06,2020-05-03
@@ -1571,17 +1571,17 @@ fips,stateName,county,stayhome_start,stayhome_end
 29173,Missouri,Ralls County,2020-04-06,2020-05-03
 29175,Missouri,Randolph County,2020-03-25,2020-05-03
 29177,Missouri,Ray County,2020-03-25,2020-05-03
-29179,Missouri,Reynolds County,2020-04-06,2020-05-03
+29179,Missouri,Reynolds County,2020-04-06,
 29181,Missouri,Ripley County,2020-04-06,2020-05-03
-29183,Missouri,St. Charles County,2020-03-24,2020-05-03
+29183,Missouri,St. Charles County,2020-03-24,
 29185,Missouri,St. Clair County,2020-04-06,2020-05-03
 29186,Missouri,Ste. Genevieve County,2020-04-06,2020-05-03
-29187,Missouri,St. Francois County,2020-04-03,2020-05-03
+29187,Missouri,St. Francois County,2020-04-03,
 29189,Missouri,St. Louis County,2020-03-23,2020-05-03
 29195,Missouri,Saline County,2020-04-06,2020-05-03
 29197,Missouri,Schuyler County,2020-04-06,2020-05-03
 29199,Missouri,Scotland County,2020-04-06,2020-05-03
-29201,Missouri,Scott County,2020-04-04,2020-05-03
+29201,Missouri,Scott County,2020-04-04,
 29203,Missouri,Shannon County,2020-04-06,2020-05-03
 29205,Missouri,Shelby County,2020-04-06,2020-05-03
 29207,Missouri,Stoddard County,2020-04-03,2020-05-03
@@ -1920,7 +1920,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 37057,North Carolina,Davidson County,2020-03-27,2020-05-08
 37059,North Carolina,Davie County,2020-03-30,2020-05-08
 37061,North Carolina,Duplin County,2020-03-30,2020-05-08
-37063,North Carolina,Durham County,2020-03-25,2020-05-08
+37063,North Carolina,Durham County,2020-03-25,
 37065,North Carolina,Edgecombe County,2020-03-30,2020-05-08
 37067,North Carolina,Forsyth County,2020-03-27,2020-05-08
 37069,North Carolina,Franklin County,2020-03-30,2020-05-08
@@ -1933,7 +1933,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 37083,North Carolina,Halifax County,2020-03-30,2020-05-08
 37085,North Carolina,Harnett County,2020-03-30,2020-05-08
 37087,North Carolina,Haywood County,2020-03-30,2020-05-08
-37089,North Carolina,Henderson County,2020-03-28,2020-05-08
+37089,North Carolina,Henderson County,2020-03-28,
 37091,North Carolina,Hertford County,2020-03-30,2020-05-08
 37093,North Carolina,Hoke County,2020-03-30,2020-05-08
 37095,North Carolina,Hyde County,2020-03-30,2020-05-08
@@ -1962,7 +1962,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 37141,North Carolina,Pender County,2020-03-30,2020-05-08
 37143,North Carolina,Perquimans County,2020-03-30,2020-05-08
 37145,North Carolina,Person County,2020-03-30,2020-05-08
-37147,North Carolina,Pitt County,2020-03-25,2020-05-08
+37147,North Carolina,Pitt County,2020-03-25,
 37149,North Carolina,Polk County,2020-03-30,2020-05-08
 37151,North Carolina,Randolph County,2020-03-27,2020-05-08
 37153,North Carolina,Richmond County,2020-03-30,2020-05-08
@@ -2201,7 +2201,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 40137,Oklahoma,Stephens County,,
 40139,Oklahoma,Texas County,,
 40141,Oklahoma,Tillman County,,
-40143,Oklahoma,Tulsa County,2020-03-28,
+40143,Oklahoma,Tulsa County,2020-03-28,2020-04-30
 40145,Oklahoma,Wagoner County,2020-04-01,
 40147,Oklahoma,Washington County,,
 40149,Oklahoma,Washita County,,
@@ -2445,7 +2445,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 47031,Tennessee,Coffee County,2020-04-02,2020-04-30
 47033,Tennessee,Crockett County,2020-04-02,2020-04-30
 47035,Tennessee,Cumberland County,2020-04-02,2020-04-30
-47037,Tennessee,Davidson County,2020-03-22,2020-04-30
+47037,Tennessee,Davidson County,2020-03-22,
 47039,Tennessee,Decatur County,2020-04-02,2020-04-30
 47041,Tennessee,DeKalb County,2020-04-02,2020-04-30
 47043,Tennessee,Dickson County,2020-04-02,2020-04-30
@@ -2522,12 +2522,12 @@ fips,stateName,county,stayhome_start,stayhome_end
 47185,Tennessee,White County,2020-04-02,2020-04-30
 47187,Tennessee,Williamson County,2020-03-25,2020-04-30
 47189,Tennessee,Wilson County,2020-04-02,2020-04-30
-48001,Texas,Anderson County,2020-04-02,2020-04-30
+48001,Texas,Anderson County,2020-04-02,
 48003,Texas,Andrews County,2020-04-02,2020-04-30
-48005,Texas,Angelina County,2020-03-30,2020-04-30
+48005,Texas,Angelina County,2020-03-30,
 48007,Texas,Aransas County,2020-03-28,2020-04-30
 48009,Texas,Archer County,2020-04-02,2020-04-30
-48011,Texas,Armstrong County,2020-04-02,2020-04-30
+48011,Texas,Armstrong County,2020-04-02,
 48013,Texas,Atascosa County,2020-04-02,2020-04-30
 48015,Texas,Austin County,2020-04-02,2020-04-30
 48017,Texas,Bailey County,2020-04-02,2020-04-30
@@ -2537,14 +2537,14 @@ fips,stateName,county,stayhome_start,stayhome_end
 48025,Texas,Bee County,2020-03-28,2020-04-30
 48027,Texas,Bell County,2020-03-23,2020-04-30
 48029,Texas,Bexar County,2020-03-24,2020-04-30
-48031,Texas,Blanco County,2020-04-02,2020-04-30
+48031,Texas,Blanco County,2020-04-02,
 48033,Texas,Borden County,2020-04-02,2020-04-30
 48035,Texas,Bosque County,2020-04-02,2020-04-30
 48037,Texas,Bowie County,2020-03-27,2020-04-30
 48039,Texas,Brazoria County,2020-03-26,2020-04-30
 48041,Texas,Brazos County,2020-03-24,2020-04-30
 48043,Texas,Brewster County,2020-03-31,2020-04-30
-48045,Texas,Briscoe County,2020-04-02,2020-04-30
+48045,Texas,Briscoe County,2020-04-02,
 48047,Texas,Brooks County,2020-04-02,2020-04-30
 48049,Texas,Brown County,2020-03-27,2020-04-30
 48051,Texas,Burleson County,2020-04-02,2020-04-30
@@ -2571,12 +2571,12 @@ fips,stateName,county,stayhome_start,stayhome_end
 48093,Texas,Comanche County,2020-04-02,2020-04-30
 48095,Texas,Concho County,2020-04-02,2020-04-30
 48097,Texas,Cooke County,2020-04-02,2020-04-30
-48099,Texas,Coryell County,2020-04-02,2020-04-30
+48099,Texas,Coryell County,2020-04-02,2020-05-04
 48101,Texas,Cottle County,2020-04-02,2020-04-30
 48103,Texas,Crane County,2020-04-02,2020-04-30
 48105,Texas,Crockett County,2020-04-02,2020-04-30
 48107,Texas,Crosby County,2020-04-02,2020-04-30
-48109,Texas,Culberson County,2020-03-25,2020-04-30
+48109,Texas,Culberson County,2020-03-25,
 48111,Texas,Dallam County,2020-04-02,2020-04-30
 48113,Texas,Dallas County,2020-03-23,2020-05-15
 48115,Texas,Dawson County,2020-04-02,2020-04-30
@@ -2589,10 +2589,10 @@ fips,stateName,county,stayhome_start,stayhome_end
 48129,Texas,Donley County,2020-04-02,2020-04-30
 48131,Texas,Duval County,2020-03-27,2020-06-01
 48133,Texas,Eastland County,2020-04-02,2020-04-30
-48135,Texas,Ector County,2020-03-30,2020-04-30
+48135,Texas,Ector County,2020-03-30,
 48137,Texas,Edwards County,2020-04-02,2020-04-30
 48139,Texas,Ellis County,2020-03-25,2020-04-30
-48141,Texas,El Paso County,2020-03-24,2020-04-30
+48141,Texas,El Paso County,2020-03-24,
 48143,Texas,Erath County,2020-03-25,2020-04-30
 48145,Texas,Falls County,2020-04-02,2020-04-30
 48147,Texas,Fannin County,2020-04-02,2020-04-30
@@ -2623,7 +2623,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 48197,Texas,Hardeman County,2020-04-02,2020-04-30
 48199,Texas,Hardin County,2020-03-27,2020-05-01
 48201,Texas,Harris County,2020-03-24,2020-04-30
-48203,Texas,Harrison County,2020-03-31,2020-04-30
+48203,Texas,Harrison County,2020-03-31,
 48205,Texas,Hartley County,2020-04-02,2020-04-30
 48207,Texas,Haskell County,2020-04-02,2020-04-30
 48209,Texas,Hays County,2020-03-24,2020-04-30
@@ -2647,8 +2647,8 @@ fips,stateName,county,stayhome_start,stayhome_end
 48245,Texas,Jefferson County,2020-03-27,2020-04-30
 48247,Texas,Jim Hogg County,2020-04-02,2020-04-30
 48249,Texas,Jim Wells County,2020-03-26,2020-04-30
-48251,Texas,Johnson County,2020-03-27,2020-04-30
-48253,Texas,Jones County,2020-03-31,2020-04-30
+48251,Texas,Johnson County,2020-03-27,
+48253,Texas,Jones County,2020-03-31,
 48255,Texas,Karnes County,2020-04-02,2020-04-30
 48257,Texas,Kaufman County,2020-03-24,2020-04-30
 48259,Texas,Kendall County,2020-04-02,2020-04-30
@@ -2682,11 +2682,11 @@ fips,stateName,county,stayhome_start,stayhome_end
 48315,Texas,Marion County,2020-03-31,2020-04-30
 48317,Texas,Martin County,2020-04-02,2020-04-30
 48319,Texas,Mason County,2020-04-02,2020-04-30
-48321,Texas,Matagorda County,2020-04-02,2020-04-30
-48323,Texas,Maverick County,2020-03-31,2020-04-30
+48321,Texas,Matagorda County,2020-04-02,
+48323,Texas,Maverick County,2020-03-31,
 48325,Texas,Medina County,2020-04-02,2020-04-30
 48327,Texas,Menard County,2020-04-02,2020-04-30
-48329,Texas,Midland County,2020-03-30,2020-04-30
+48329,Texas,Midland County,2020-03-30,
 48331,Texas,Milam County,2020-03-25,2020-05-04
 48333,Texas,Mills County,2020-04-02,2020-04-30
 48335,Texas,Mitchell County,2020-04-02,2020-04-30
@@ -2695,21 +2695,21 @@ fips,stateName,county,stayhome_start,stayhome_end
 48341,Texas,Moore County,2020-04-02,2020-04-30
 48343,Texas,Morris County,2020-04-02,2020-04-30
 48345,Texas,Motley County,2020-04-02,2020-04-30
-48347,Texas,Nacogdoches County,2020-03-30,2020-04-30
+48347,Texas,Nacogdoches County,2020-03-30,
 48349,Texas,Navarro County,2020-03-25,2020-04-30
 48351,Texas,Newton County,2020-03-30,2020-04-30
 48353,Texas,Nolan County,2020-04-02,2020-04-30
 48355,Texas,Nueces County,2020-03-26,2020-04-30
 48357,Texas,Ochiltree County,2020-04-02,2020-04-30
 48359,Texas,Oldham County,2020-04-02,2020-04-30
-48361,Texas,Orange County,2020-03-27,2020-04-30
+48361,Texas,Orange County,2020-03-27,
 48363,Texas,Palo Pinto County,2020-04-02,2020-04-30
 48365,Texas,Panola County,2020-04-01,2020-04-30
 48367,Texas,Parker County,2020-03-24,2020-04-30
 48369,Texas,Parmer County,2020-04-02,2020-04-30
-48371,Texas,Pecos County,2020-04-02,2020-04-30
+48371,Texas,Pecos County,2020-04-02,
 48373,Texas,Polk County,2020-03-27,2020-04-30
-48375,Texas,Potter County,2020-03-30,2020-04-30
+48375,Texas,Potter County,2020-03-30,
 48377,Texas,Presidio County,2020-03-27,2020-04-30
 48379,Texas,Rains County,2020-04-02,2020-04-30
 48381,Texas,Randall County,2020-03-30,2020-04-30
@@ -2736,7 +2736,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 48423,Texas,Smith County,2020-03-27,2020-04-30
 48425,Texas,Somervell County,2020-04-02,2020-04-30
 48427,Texas,Starr County,2020-03-25,2020-05-04
-48429,Texas,Stephens County,2020-03-23,2020-04-30
+48429,Texas,Stephens County,2020-03-23,
 48431,Texas,Sterling County,2020-04-02,2020-04-30
 48433,Texas,Stonewall County,2020-03-28,2020-04-30
 48435,Texas,Sutton County,2020-04-02,2020-04-30
@@ -2744,20 +2744,20 @@ fips,stateName,county,stayhome_start,stayhome_end
 48439,Texas,Tarrant County,2020-03-24,2020-04-30
 48441,Texas,Taylor County,2020-03-31,2020-04-30
 48443,Texas,Terrell County,2020-04-02,2020-04-30
-48445,Texas,Terry County,2020-04-02,2020-04-30
+48445,Texas,Terry County,2020-04-02,
 48447,Texas,Throckmorton County,2020-04-02,2020-04-30
 48449,Texas,Titus County,2020-04-02,2020-04-30
 48451,Texas,Tom Green County,2020-04-02,2020-04-30
-48453,Texas,Travis County,2020-03-24,2020-04-30
+48453,Texas,Travis County,2020-03-24,2020-05-08
 48455,Texas,Trinity County,2020-03-31,2020-04-30
 48457,Texas,Tyler County,2020-03-28,2020-04-30
 48459,Texas,Upshur County,2020-04-02,2020-04-30
 48461,Texas,Upton County,2020-04-02,2020-04-30
 48463,Texas,Uvalde County,2020-04-02,2020-04-30
 48465,Texas,Val Verde County,2020-03-23,2020-05-05
-48467,Texas,Van Zandt County,2020-03-27,2020-04-30
+48467,Texas,Van Zandt County,2020-03-27,
 48469,Texas,Victoria County,2020-04-02,2020-04-30
-48471,Texas,Walker County,2020-04-02,2020-04-30
+48471,Texas,Walker County,2020-04-02,
 48473,Texas,Waller County,2020-04-02,2020-04-30
 48475,Texas,Ward County,2020-04-02,2020-04-30
 48477,Texas,Washington County,2020-04-02,2020-04-30
@@ -2771,7 +2771,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 48493,Texas,Wilson County,2020-04-02,2020-04-30
 48495,Texas,Winkler County,2020-04-02,2020-04-30
 48497,Texas,Wise County,2020-03-24,2020-04-30
-48499,Texas,Wood County,2020-04-01,2020-04-30
+48499,Texas,Wood County,2020-04-01,
 48501,Texas,Yoakum County,2020-04-02,2020-04-30
 48503,Texas,Young County,2020-03-31,2020-05-01
 48505,Texas,Zapata County,2020-04-01,2020-05-11
@@ -2983,7 +2983,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 53055,Washington,San Juan County,2020-03-23,2020-06-08
 53057,Washington,Skagit County,2020-03-23,2020-06-08
 53059,Washington,Skamania County,2020-03-23,2020-06-08
-53061,Washington,Snohomish County,2020-03-22,2020-06-08
+53061,Washington,Snohomish County,2020-03-22,
 53063,Washington,Spokane County,2020-03-23,2020-06-08
 53065,Washington,Stevens County,2020-03-23,2020-06-08
 53067,Washington,Thurston County,2020-03-23,2020-06-08
@@ -2991,9 +2991,9 @@ fips,stateName,county,stayhome_start,stayhome_end
 53071,Washington,Walla Walla County,2020-03-23,2020-06-08
 53073,Washington,Whatcom County,2020-03-23,2020-06-08
 53075,Washington,Whitman County,2020-03-23,2020-06-08
-53077,Washington,Yakima County,2020-03-22,2020-06-08
+53077,Washington,Yakima County,2020-03-22,
 54001,West Virginia,Barbour County,2020-03-23,2020-05-04
-54003,West Virginia,Berkeley County,2020-03-23,2020-05-04
+54003,West Virginia,Berkeley County,2020-03-23,
 54005,West Virginia,Boone County,2020-03-23,2020-05-04
 54007,West Virginia,Braxton County,2020-03-23,2020-05-04
 54009,West Virginia,Brooke County,2020-03-23,2020-05-04
@@ -3010,7 +3010,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 54031,West Virginia,Hardy County,2020-03-23,2020-05-04
 54033,West Virginia,Harrison County,2020-03-23,2020-05-04
 54035,West Virginia,Jackson County,2020-03-23,2020-05-04
-54037,West Virginia,Jefferson County,2020-03-23,2020-05-04
+54037,West Virginia,Jefferson County,2020-03-23,
 54039,West Virginia,Kanawha County,2020-03-23,2020-05-04
 54041,West Virginia,Lewis County,2020-03-23,2020-05-04
 54043,West Virginia,Lincoln County,2020-03-23,2020-05-04
@@ -3059,7 +3059,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 55019,Wisconsin,Clark County,2020-03-25,2020-05-13
 55021,Wisconsin,Columbia County,2020-03-25,2020-05-13
 55023,Wisconsin,Crawford County,2020-03-25,2020-05-13
-55025,Wisconsin,Dane County,2020-03-25,2020-05-13
+55025,Wisconsin,Dane County,2020-03-25,
 55027,Wisconsin,Dodge County,2020-03-25,2020-05-13
 55029,Wisconsin,Door County,2020-03-25,2020-05-13
 55031,Wisconsin,Douglas County,2020-03-25,2020-05-13
@@ -3087,7 +3087,7 @@ fips,stateName,county,stayhome_start,stayhome_end
 55075,Wisconsin,Marinette County,2020-03-25,2020-05-13
 55077,Wisconsin,Marquette County,2020-03-25,2020-05-13
 55078,Wisconsin,Menominee County,2020-03-25,2020-05-13
-55079,Wisconsin,Milwaukee County,2020-03-23,2020-05-13
+55079,Wisconsin,Milwaukee County,2020-03-23,
 55081,Wisconsin,Monroe County,2020-03-25,2020-05-13
 55083,Wisconsin,Oconto County,2020-03-25,2020-05-13
 55085,Wisconsin,Oneida County,2020-03-25,2020-05-13
