@@ -215,6 +215,20 @@ jhu_global_final <- jhu_global_w_agg %>%
   left_join(uid_lookup, by = c("Province_State", "Country_Region"))
 stopifnot(nrow(jhu_global_final) == nrow(jhu_global_w_agg))
 
+# Hong Kong and Macau don't have UID's because they're written differently in
+# the UID lookup table. We manually add their UID's in.
+jhu_global_final %>% filter(is.na(UID)) %>%
+  select(Province_State, Country_Region) %>%
+  distinct()
+jhu_global_final <- jhu_global_final %>%
+  mutate(UID = case_when(
+    Province_State == "Hong Kong" & Country_Region == "China" ~ 344,
+    Province_State == "Macau" & Country_Region == "China" ~ 446,
+    TRUE ~ UID
+  ))
+stopifnot(!anyNA(jhu_global_final$UID))
+
+
 # error checking
 aus <- jhu_global_final %>%
   filter(Country_Region == "Australia", date == ymd("2020-04-22"))
