@@ -202,9 +202,15 @@ jhu_global_agg <- jhu_global %>%
   mutate(`Province/State` = NA)
 
 
+# Hong Kong and Macau are written differently in the UID lookup table.
 jhu_global_w_agg <- rbind(jhu_global_incr, jhu_global_agg) %>%
   rename(Province_State = `Province/State`,
-         Country_Region = `Country/Region`)
+         Country_Region = `Country/Region`) %>%
+  mutate(Province_State = case_when(
+          Province_State == "Hong Kong" & Country_Region == "China" ~ "Hong Kong SAR",
+          Province_State == "Macau" & Country_Region == "China" ~ "Macau SAR",
+          TRUE ~ Province_State))
+
 
 # Merge UID lookup table
 uid_path <- file.path("JHU_CSSE_COVID-19", "csse_covid_19_data",
@@ -214,18 +220,6 @@ uid_lookup <- read_csv(uid_path)
 jhu_global_final <- jhu_global_w_agg %>%
   left_join(uid_lookup, by = c("Province_State", "Country_Region"))
 stopifnot(nrow(jhu_global_final) == nrow(jhu_global_w_agg))
-
-# Hong Kong and Macau don't have UID's because they're written differently in
-# the UID lookup table. We manually add their UID's in.
-jhu_global_final %>% filter(is.na(UID)) %>%
-  select(Province_State, Country_Region) %>%
-  distinct()
-jhu_global_final <- jhu_global_final %>%
-  mutate(UID = case_when(
-    Province_State == "Hong Kong" & Country_Region == "China" ~ 344,
-    Province_State == "Macau" & Country_Region == "China" ~ 446,
-    TRUE ~ UID
-  ))
 stopifnot(!anyNA(jhu_global_final$UID))
 
 
