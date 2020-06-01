@@ -1,0 +1,3236 @@
+fips,stateName,county,stayhome_start,stayhome_end
+1001,Alabama,Autauga County,2020-04-04,2020-04-30
+1003,Alabama,Baldwin County,2020-04-04,2020-04-30
+1005,Alabama,Barbour County,2020-04-04,2020-04-30
+1007,Alabama,Bibb County,2020-04-04,2020-04-30
+1009,Alabama,Blount County,2020-04-04,2020-04-30
+1011,Alabama,Bullock County,2020-04-04,2020-04-30
+1013,Alabama,Butler County,2020-04-04,2020-04-30
+1015,Alabama,Calhoun County,2020-04-04,2020-04-30
+1017,Alabama,Chambers County,2020-04-04,2020-04-30
+1019,Alabama,Cherokee County,2020-04-04,2020-04-30
+1021,Alabama,Chilton County,2020-04-04,2020-04-30
+1023,Alabama,Choctaw County,2020-04-04,2020-04-30
+1025,Alabama,Clarke County,2020-04-04,2020-04-30
+1027,Alabama,Clay County,2020-04-04,2020-04-30
+1029,Alabama,Cleburne County,2020-04-04,2020-04-30
+1031,Alabama,Coffee County,2020-04-04,2020-04-30
+1033,Alabama,Colbert County,2020-04-04,2020-04-30
+1035,Alabama,Conecuh County,2020-04-04,2020-04-30
+1037,Alabama,Coosa County,2020-04-04,2020-04-30
+1039,Alabama,Covington County,2020-04-04,2020-04-30
+1041,Alabama,Crenshaw County,2020-04-04,2020-04-30
+1043,Alabama,Cullman County,2020-04-04,2020-04-30
+1045,Alabama,Dale County,2020-04-04,2020-04-30
+1047,Alabama,Dallas County,2020-04-04,2020-04-30
+1049,Alabama,DeKalb County,2020-04-04,2020-04-30
+1051,Alabama,Elmore County,2020-04-04,2020-04-30
+1053,Alabama,Escambia County,2020-04-04,2020-04-30
+1055,Alabama,Etowah County,2020-04-04,2020-04-30
+1057,Alabama,Fayette County,2020-04-04,2020-04-30
+1059,Alabama,Franklin County,2020-04-04,2020-04-30
+1061,Alabama,Geneva County,2020-04-04,2020-04-30
+1063,Alabama,Greene County,2020-04-04,2020-04-30
+1065,Alabama,Hale County,2020-04-04,2020-04-30
+1067,Alabama,Henry County,2020-04-04,2020-04-30
+1069,Alabama,Houston County,2020-04-04,2020-04-30
+1071,Alabama,Jackson County,2020-04-04,2020-04-30
+1073,Alabama,Jefferson County,2020-03-24,2020-04-30
+1075,Alabama,Lamar County,2020-04-04,2020-04-30
+1077,Alabama,Lauderdale County,2020-04-04,2020-04-30
+1079,Alabama,Lawrence County,2020-04-04,2020-04-30
+1081,Alabama,Lee County,2020-04-04,2020-04-30
+1083,Alabama,Limestone County,2020-04-04,2020-04-30
+1085,Alabama,Lowndes County,2020-04-04,2020-04-30
+1087,Alabama,Macon County,2020-04-04,2020-04-30
+1089,Alabama,Madison County,2020-04-04,2020-04-30
+1091,Alabama,Marengo County,2020-04-04,2020-04-30
+1093,Alabama,Marion County,2020-04-04,2020-04-30
+1095,Alabama,Marshall County,2020-04-04,2020-04-30
+1097,Alabama,Mobile County,2020-04-04,2020-04-30
+1099,Alabama,Monroe County,2020-04-04,2020-04-30
+1101,Alabama,Montgomery County,2020-04-04,2020-04-30
+1103,Alabama,Morgan County,2020-04-04,2020-04-30
+1105,Alabama,Perry County,2020-04-04,2020-04-30
+1107,Alabama,Pickens County,2020-04-04,2020-04-30
+1109,Alabama,Pike County,2020-04-04,2020-04-30
+1111,Alabama,Randolph County,2020-04-04,2020-04-30
+1113,Alabama,Russell County,2020-04-04,2020-04-30
+1115,Alabama,St. Clair County,2020-04-04,2020-04-30
+1117,Alabama,Shelby County,2020-03-24,2020-04-30
+1119,Alabama,Sumter County,2020-04-04,2020-04-30
+1121,Alabama,Talladega County,2020-04-04,2020-04-30
+1123,Alabama,Tallapoosa County,2020-04-04,2020-04-30
+1125,Alabama,Tuscaloosa County,2020-03-29,2020-04-30
+1127,Alabama,Walker County,2020-04-04,2020-04-30
+1129,Alabama,Washington County,2020-04-04,2020-04-30
+1131,Alabama,Wilcox County,2020-04-04,2020-04-30
+1133,Alabama,Winston County,2020-04-04,2020-04-30
+2013,Alaska,Aleutians East Borough,2020-03-28,
+2016,Alaska,Aleutians West Census Area,2020-03-28,
+2020,Alaska,Anchorage Municipality,2020-03-22,
+2050,Alaska,Bethel Census Area,2020-03-28,
+2060,Alaska,Bristol Bay Borough,2020-03-28,
+2068,Alaska,Denali Borough,2020-03-28,
+2070,Alaska,Dillingham Census Area,2020-03-28,
+2090,Alaska,Fairbanks North Star Borough,2020-03-28,
+2100,Alaska,Haines Borough,2020-03-25,
+2105,Alaska,Hoonah-Angoon Census Area,2020-03-28,
+2110,Alaska,Juneau City and Borough,2020-03-28,
+2122,Alaska,Kenai Peninsula Borough,2020-03-28,
+2130,Alaska,Ketchikan Gateway Borough,2020-03-28,
+2150,Alaska,Kodiak Island Borough,2020-03-28,
+2158,Alaska,Kusilvak Census Area,2020-03-28,
+2164,Alaska,Lake and Peninsula Borough,2020-03-28,
+2170,Alaska,Matanuska-Susitna Borough,2020-03-28,
+2180,Alaska,Nome Census Area,2020-03-28,
+2185,Alaska,North Slope Borough,2020-03-28,
+2188,Alaska,Northwest Arctic Borough,2020-03-28,
+2195,Alaska,Petersburg Census Area,2020-03-28,
+2198,Alaska,Prince of Wales-Hyder Census Area,2020-03-28,
+2220,Alaska,Sitka City and Borough,2020-03-28,
+2230,Alaska,Skagway Municipality,2020-03-25,
+2240,Alaska,Southeast Fairbanks Census Area,2020-03-28,
+2261,Alaska,Valdez-Cordova Census Area,2020-03-28,
+2275,Alaska,Wrangell City and Borough,2020-03-28,
+2282,Alaska,Yakutat City and Borough,2020-03-28,
+2290,Alaska,Yukon-Koyukuk Census Area,2020-03-28,
+4001,Arizona,Apache County,2020-03-31,2020-04-30
+4003,Arizona,Cochise County,2020-03-31,2020-04-30
+4005,Arizona,Coconino County,2020-03-31,2020-04-30
+4007,Arizona,Gila County,2020-03-31,2020-04-30
+4009,Arizona,Graham County,2020-03-31,2020-04-30
+4011,Arizona,Greenlee County,2020-03-31,2020-04-30
+4012,Arizona,La Paz County,2020-03-31,2020-04-30
+4013,Arizona,Maricopa County,2020-03-31,2020-04-30
+4015,Arizona,Mohave County,2020-03-31,2020-04-30
+4017,Arizona,Navajo County,2020-03-31,2020-04-30
+4019,Arizona,Pima County,2020-03-31,2020-04-30
+4021,Arizona,Pinal County,2020-03-31,2020-04-30
+4023,Arizona,Santa Cruz County,2020-03-31,2020-04-30
+4025,Arizona,Yavapai County,2020-03-31,2020-04-30
+4027,Arizona,Yuma County,2020-03-31,2020-04-30
+5001,Arkansas,Arkansas County,,
+5003,Arkansas,Ashley County,,
+5005,Arkansas,Baxter County,,
+5007,Arkansas,Benton County,,
+5009,Arkansas,Boone County,,
+5011,Arkansas,Bradley County,,
+5013,Arkansas,Calhoun County,,
+5015,Arkansas,Carroll County,,
+5017,Arkansas,Chicot County,,
+5019,Arkansas,Clark County,,
+5021,Arkansas,Clay County,,
+5023,Arkansas,Cleburne County,,
+5025,Arkansas,Cleveland County,,
+5027,Arkansas,Columbia County,,
+5029,Arkansas,Conway County,,
+5031,Arkansas,Craighead County,,
+5033,Arkansas,Crawford County,,
+5035,Arkansas,Crittenden County,,
+5037,Arkansas,Cross County,,
+5039,Arkansas,Dallas County,,
+5041,Arkansas,Desha County,,
+5043,Arkansas,Drew County,,
+5045,Arkansas,Faulkner County,,
+5047,Arkansas,Franklin County,,
+5049,Arkansas,Fulton County,,
+5051,Arkansas,Garland County,,
+5053,Arkansas,Grant County,,
+5055,Arkansas,Greene County,,
+5057,Arkansas,Hempstead County,,
+5059,Arkansas,Hot Spring County,,
+5061,Arkansas,Howard County,,
+5063,Arkansas,Independence County,,
+5065,Arkansas,Izard County,,
+5067,Arkansas,Jackson County,,
+5069,Arkansas,Jefferson County,,
+5071,Arkansas,Johnson County,,
+5073,Arkansas,Lafayette County,,
+5075,Arkansas,Lawrence County,,
+5077,Arkansas,Lee County,,
+5079,Arkansas,Lincoln County,,
+5081,Arkansas,Little River County,,
+5083,Arkansas,Logan County,,
+5085,Arkansas,Lonoke County,,
+5087,Arkansas,Madison County,,
+5089,Arkansas,Marion County,,
+5091,Arkansas,Miller County,,
+5093,Arkansas,Mississippi County,,
+5095,Arkansas,Monroe County,,
+5097,Arkansas,Montgomery County,,
+5099,Arkansas,Nevada County,,
+5101,Arkansas,Newton County,,
+5103,Arkansas,Ouachita County,,
+5105,Arkansas,Perry County,,
+5107,Arkansas,Phillips County,,
+5109,Arkansas,Pike County,,
+5111,Arkansas,Poinsett County,,
+5113,Arkansas,Polk County,,
+5115,Arkansas,Pope County,,
+5117,Arkansas,Prairie County,,
+5119,Arkansas,Pulaski County,,
+5121,Arkansas,Randolph County,,
+5123,Arkansas,St. Francis County,,
+5125,Arkansas,Saline County,,
+5127,Arkansas,Scott County,,
+5129,Arkansas,Searcy County,,
+5131,Arkansas,Sebastian County,,
+5133,Arkansas,Sevier County,,
+5135,Arkansas,Sharp County,,
+5137,Arkansas,Stone County,,
+5139,Arkansas,Union County,,
+5141,Arkansas,Van Buren County,,
+5143,Arkansas,Washington County,,
+5145,Arkansas,White County,,
+5147,Arkansas,Woodruff County,,
+5149,Arkansas,Yell County,,
+6001,California,Alameda County,2020-03-17,
+6003,California,Alpine County,2020-03-19,
+6005,California,Amador County,2020-03-19,
+6007,California,Butte County,2020-03-19,
+6009,California,Calaveras County,2020-03-19,
+6011,California,Colusa County,2020-03-19,
+6013,California,Contra Costa County,2020-03-17,
+6015,California,Del Norte County,2020-03-19,
+6017,California,El Dorado County,2020-03-19,
+6019,California,Fresno County,2020-03-19,
+6021,California,Glenn County,2020-03-19,
+6023,California,Humboldt County,2020-03-19,
+6025,California,Imperial County,2020-03-19,
+6027,California,Inyo County,2020-03-19,
+6029,California,Kern County,2020-03-19,
+6031,California,Kings County,2020-03-19,
+6033,California,Lake County,2020-03-19,
+6035,California,Lassen County,2020-03-19,
+6037,California,Los Angeles County,2020-03-19,
+6039,California,Madera County,2020-03-19,
+6041,California,Marin County,2020-03-17,
+6043,California,Mariposa County,2020-03-19,
+6045,California,Mendocino County,2020-03-18,
+6047,California,Merced County,2020-03-19,
+6049,California,Modoc County,2020-03-19,
+6051,California,Mono County,2020-03-19,
+6053,California,Monterey County,2020-03-18,
+6055,California,Napa County,2020-03-19,
+6057,California,Nevada County,2020-03-19,
+6059,California,Orange County,2020-03-19,
+6061,California,Placer County,2020-03-19,
+6063,California,Plumas County,2020-03-19,
+6065,California,Riverside County,2020-03-18,
+6067,California,Sacramento County,2020-03-19,
+6069,California,San Benito County,2020-03-18,
+6071,California,San Bernardino County,2020-03-19,
+6073,California,San Diego County,2020-03-19,
+6075,California,San Francisco County,2020-03-19,
+6077,California,San Joaquin County,2020-03-19,
+6079,California,San Luis Obispo County,2020-03-19,
+6081,California,San Mateo County,2020-03-17,
+6083,California,Santa Barbara County,2020-03-19,
+6085,California,Santa Clara County,2020-03-17,
+6087,California,Santa Cruz County,2020-03-17,
+6089,California,Shasta County,2020-03-19,
+6091,California,Sierra County,2020-03-19,
+6093,California,Siskiyou County,2020-03-19,
+6095,California,Solano County,2020-03-18,
+6097,California,Sonoma County,2020-03-18,
+6099,California,Stanislaus County,2020-03-19,
+6101,California,Sutter County,2020-03-18,
+6103,California,Tehama County,2020-03-19,
+6105,California,Trinity County,2020-03-19,
+6107,California,Tulare County,2020-03-19,
+6109,California,Tuolumne County,2020-03-19,
+6111,California,Ventura County,2020-03-17,
+6113,California,Yolo County,2020-03-19,
+6115,California,Yuba County,2020-03-18,
+8001,Colorado,Adams County,2020-03-26,2020-04-26
+8003,Colorado,Alamosa County,2020-03-26,2020-04-26
+8005,Colorado,Arapahoe County,2020-03-26,2020-04-26
+8007,Colorado,Archuleta County,2020-03-26,2020-04-26
+8009,Colorado,Baca County,2020-03-26,2020-04-26
+8011,Colorado,Bent County,2020-03-26,2020-04-26
+8013,Colorado,Boulder County,2020-03-24,2020-04-26
+8014,Colorado,Broomfield County,2020-03-26,2020-04-26
+8015,Colorado,Chaffee County,2020-03-26,2020-04-26
+8017,Colorado,Cheyenne County,2020-03-26,2020-04-26
+8019,Colorado,Clear Creek County,2020-03-26,2020-04-26
+8021,Colorado,Conejos County,2020-03-26,2020-04-26
+8023,Colorado,Costilla County,2020-03-26,2020-04-26
+8025,Colorado,Crowley County,2020-03-26,2020-04-26
+8027,Colorado,Custer County,2020-03-26,2020-04-26
+8029,Colorado,Delta County,2020-03-26,2020-04-26
+8031,Colorado,Denver County,2020-03-24,2020-04-30
+8033,Colorado,Dolores County,2020-03-26,2020-04-26
+8035,Colorado,Douglas County,2020-03-26,2020-04-26
+8037,Colorado,Eagle County,2020-03-26,2020-04-26
+8039,Colorado,Elbert County,2020-03-26,2020-04-26
+8041,Colorado,El Paso County,2020-03-26,2020-04-26
+8043,Colorado,Fremont County,2020-03-26,2020-04-26
+8045,Colorado,Garfield County,2020-03-26,2020-04-26
+8047,Colorado,Gilpin County,2020-03-26,2020-04-26
+8049,Colorado,Grand County,2020-03-26,2020-04-26
+8051,Colorado,Gunnison County,2020-03-26,2020-04-26
+8053,Colorado,Hinsdale County,2020-03-26,2020-04-26
+8055,Colorado,Huerfano County,2020-03-26,2020-04-26
+8057,Colorado,Jackson County,2020-03-26,2020-04-26
+8059,Colorado,Jefferson County,2020-03-26,2020-04-26
+8061,Colorado,Kiowa County,2020-03-26,2020-04-26
+8063,Colorado,Kit Carson County,2020-03-26,2020-04-26
+8065,Colorado,Lake County,2020-03-26,2020-04-26
+8067,Colorado,La Plata County,2020-03-26,2020-04-26
+8069,Colorado,Larimer County,2020-03-26,2020-04-26
+8071,Colorado,Las Animas County,2020-03-26,2020-04-26
+8073,Colorado,Lincoln County,2020-03-26,2020-04-26
+8075,Colorado,Logan County,2020-03-26,2020-04-26
+8077,Colorado,Mesa County,2020-03-26,2020-04-26
+8079,Colorado,Mineral County,2020-03-26,2020-04-26
+8081,Colorado,Moffat County,2020-03-26,2020-04-26
+8083,Colorado,Montezuma County,2020-03-26,2020-04-26
+8085,Colorado,Montrose County,2020-03-26,2020-04-26
+8087,Colorado,Morgan County,2020-03-26,2020-04-26
+8089,Colorado,Otero County,2020-03-26,2020-04-26
+8091,Colorado,Ouray County,2020-03-26,2020-04-26
+8093,Colorado,Park County,2020-03-26,2020-04-26
+8095,Colorado,Phillips County,2020-03-26,2020-04-26
+8097,Colorado,Pitkin County,2020-03-23,2020-04-30
+8099,Colorado,Prowers County,2020-03-26,2020-04-26
+8101,Colorado,Pueblo County,2020-03-26,2020-04-26
+8103,Colorado,Rio Blanco County,2020-03-26,2020-04-26
+8105,Colorado,Rio Grande County,2020-03-26,2020-04-26
+8107,Colorado,Routt County,2020-03-26,2020-04-26
+8109,Colorado,Saguache County,2020-03-26,2020-04-26
+8111,Colorado,San Juan County,2020-03-26,2020-04-26
+8113,Colorado,San Miguel County,2020-03-19,2020-05-01
+8115,Colorado,Sedgwick County,2020-03-26,2020-04-26
+8117,Colorado,Summit County,2020-03-26,2020-04-26
+8119,Colorado,Teller County,2020-03-26,2020-04-26
+8121,Colorado,Washington County,2020-03-26,2020-04-26
+8123,Colorado,Weld County,2020-03-26,2020-04-26
+8125,Colorado,Yuma County,2020-03-26,2020-04-26
+9001,Connecticut,Fairfield County,2020-03-23,
+9003,Connecticut,Hartford County,2020-03-23,
+9005,Connecticut,Litchfield County,2020-03-23,
+9007,Connecticut,Middlesex County,2020-03-23,
+9009,Connecticut,New Haven County,2020-03-23,
+9011,Connecticut,New London County,2020-03-23,
+9013,Connecticut,Tolland County,2020-03-23,
+9015,Connecticut,Windham County,2020-03-23,
+10001,Delaware,Kent County,2020-03-24,
+10003,Delaware,New Castle County,2020-03-24,
+10005,Delaware,Sussex County,2020-03-24,
+11001,District of Columbia,District of Columbia,2020-03-23,2020-06-08
+12001,Florida,Alachua County,2020-03-24,2020-05-04
+12003,Florida,Baker County,2020-04-02,2020-05-04
+12005,Florida,Bay County,2020-04-02,2020-05-04
+12007,Florida,Bradford County,2020-04-02,2020-05-04
+12009,Florida,Brevard County,2020-04-02,2020-05-04
+12011,Florida,Broward County,2020-03-26,
+12013,Florida,Calhoun County,2020-04-02,2020-05-04
+12015,Florida,Charlotte County,2020-04-02,2020-05-04
+12017,Florida,Citrus County,2020-04-02,2020-05-04
+12019,Florida,Clay County,2020-04-02,2020-05-04
+12021,Florida,Collier County,2020-04-02,2020-05-04
+12023,Florida,Columbia County,2020-04-02,2020-05-04
+12027,Florida,DeSoto County,2020-04-02,2020-05-04
+12029,Florida,Dixie County,2020-04-02,2020-05-04
+12031,Florida,Duval County,2020-04-02,
+12033,Florida,Escambia County,2020-04-02,2020-05-04
+12035,Florida,Flagler County,2020-04-02,2020-05-04
+12037,Florida,Franklin County,2020-04-02,2020-05-04
+12039,Florida,Gadsden County,2020-03-27,
+12041,Florida,Gilchrist County,2020-04-02,2020-05-04
+12043,Florida,Glades County,2020-04-02,2020-05-04
+12045,Florida,Gulf County,2020-04-02,2020-05-04
+12047,Florida,Hamilton County,2020-04-02,2020-05-04
+12049,Florida,Hardee County,2020-04-02,2020-05-04
+12051,Florida,Hendry County,2020-04-02,2020-05-04
+12053,Florida,Hernando County,2020-04-02,2020-05-04
+12055,Florida,Highlands County,2020-04-02,2020-05-04
+12057,Florida,Hillsborough County,2020-03-27,2020-05-04
+12059,Florida,Holmes County,2020-04-02,2020-05-04
+12061,Florida,Indian River County,2020-04-02,2020-05-04
+12063,Florida,Jackson County,2020-04-02,2020-05-04
+12065,Florida,Jefferson County,2020-04-02,2020-05-04
+12067,Florida,Lafayette County,2020-04-02,2020-05-04
+12069,Florida,Lake County,2020-04-02,2020-05-04
+12071,Florida,Lee County,2020-04-02,2020-05-04
+12073,Florida,Leon County,2020-03-25,2020-05-04
+12075,Florida,Levy County,2020-04-02,2020-05-04
+12077,Florida,Liberty County,2020-04-02,2020-05-04
+12079,Florida,Madison County,2020-04-02,2020-05-04
+12081,Florida,Manatee County,2020-04-02,2020-05-04
+12083,Florida,Marion County,2020-04-02,2020-05-04
+12085,Florida,Martin County,2020-04-02,2020-05-04
+12086,Florida,Miami-Dade County,2020-03-24,
+12087,Florida,Monroe County,2020-03-30,
+12089,Florida,Nassau County,2020-04-02,2020-05-04
+12091,Florida,Okaloosa County,2020-04-02,2020-05-04
+12093,Florida,Okeechobee County,2020-04-02,2020-05-04
+12095,Florida,Orange County,2020-03-26,2020-05-04
+12097,Florida,Osceola County,2020-03-26,2020-05-04
+12099,Florida,Palm Beach County,2020-03-28,
+12101,Florida,Pasco County,2020-04-02,2020-05-04
+12103,Florida,Pinellas County,2020-03-26,2020-05-04
+12105,Florida,Polk County,2020-04-02,2020-05-04
+12107,Florida,Putnam County,2020-04-02,2020-05-04
+12109,Florida,St. Johns County,2020-04-02,2020-05-04
+12111,Florida,St. Lucie County,2020-04-02,2020-05-04
+12113,Florida,Santa Rosa County,2020-04-02,2020-05-04
+12115,Florida,Sarasota County,2020-04-02,2020-05-04
+12117,Florida,Seminole County,2020-04-02,2020-05-04
+12119,Florida,Sumter County,2020-03-31,2020-05-04
+12121,Florida,Suwannee County,2020-04-02,2020-05-04
+12123,Florida,Taylor County,2020-04-02,2020-05-04
+12125,Florida,Union County,2020-04-02,2020-05-04
+12127,Florida,Volusia County,2020-04-02,2020-05-04
+12129,Florida,Wakulla County,2020-04-02,2020-05-04
+12131,Florida,Walton County,2020-04-02,2020-05-04
+12133,Florida,Washington County,2020-04-02,2020-05-04
+13001,Georgia,Appling County,2020-04-03,2020-04-27
+13003,Georgia,Atkinson County,2020-04-03,2020-04-27
+13005,Georgia,Bacon County,2020-04-03,2020-04-27
+13007,Georgia,Baker County,2020-04-03,2020-04-27
+13009,Georgia,Baldwin County,2020-04-03,2020-04-27
+13011,Georgia,Banks County,2020-04-03,2020-04-27
+13013,Georgia,Barrow County,2020-03-28,2020-04-27
+13015,Georgia,Bartow County,2020-03-27,2020-04-27
+13017,Georgia,Ben Hill County,2020-04-03,2020-04-27
+13019,Georgia,Berrien County,2020-04-03,2020-04-27
+13021,Georgia,Bibb County,2020-04-03,2020-04-27
+13023,Georgia,Bleckley County,2020-04-03,2020-04-27
+13025,Georgia,Brantley County,2020-04-03,2020-04-27
+13027,Georgia,Brooks County,2020-04-03,2020-04-27
+13029,Georgia,Bryan County,2020-04-03,2020-04-27
+13031,Georgia,Bulloch County,2020-04-03,2020-04-27
+13033,Georgia,Burke County,2020-04-03,2020-04-27
+13035,Georgia,Butts County,2020-04-03,2020-04-27
+13037,Georgia,Calhoun County,2020-04-03,2020-04-27
+13039,Georgia,Camden County,2020-04-03,2020-04-27
+13043,Georgia,Candler County,2020-04-03,2020-04-27
+13045,Georgia,Carroll County,2020-03-24,2020-04-27
+13047,Georgia,Catoosa County,2020-04-03,2020-04-27
+13049,Georgia,Charlton County,2020-04-03,2020-04-27
+13051,Georgia,Chatham County,2020-03-24,2020-04-27
+13053,Georgia,Chattahoochee County,2020-04-03,2020-04-27
+13055,Georgia,Chattooga County,2020-04-03,2020-04-27
+13057,Georgia,Cherokee County,2020-03-25,2020-04-27
+13059,Georgia,Clarke County,2020-03-19,2020-04-27
+13061,Georgia,Clay County,2020-04-03,2020-04-27
+13063,Georgia,Clayton County,2020-04-01,2020-04-27
+13065,Georgia,Clinch County,2020-04-03,2020-04-27
+13067,Georgia,Cobb County,2020-03-25,2020-04-27
+13069,Georgia,Coffee County,2020-04-03,2020-04-27
+13071,Georgia,Colquitt County,2020-04-03,2020-04-27
+13073,Georgia,Columbia County,2020-04-03,2020-04-27
+13075,Georgia,Cook County,2020-04-03,2020-04-27
+13077,Georgia,Coweta County,2020-04-03,2020-04-27
+13079,Georgia,Crawford County,2020-04-03,2020-04-27
+13081,Georgia,Crisp County,2020-04-03,2020-04-27
+13083,Georgia,Dade County,2020-04-03,2020-04-27
+13085,Georgia,Dawson County,2020-04-03,2020-04-27
+13087,Georgia,Decatur County,2020-03-25,2020-04-27
+13089,Georgia,DeKalb County,2020-03-24,
+13091,Georgia,Dodge County,2020-04-03,2020-04-27
+13093,Georgia,Dooly County,2020-04-03,2020-04-27
+13095,Georgia,Dougherty County,2020-03-22,2020-04-27
+13097,Georgia,Douglas County,2020-03-26,2020-04-27
+13099,Georgia,Early County,2020-03-24,
+13101,Georgia,Echols County,2020-04-03,2020-04-27
+13103,Georgia,Effingham County,2020-04-03,2020-04-27
+13105,Georgia,Elbert County,2020-04-03,2020-04-27
+13107,Georgia,Emanuel County,2020-04-03,2020-04-27
+13109,Georgia,Evans County,2020-04-03,2020-04-27
+13111,Georgia,Fannin County,2020-04-03,2020-04-27
+13113,Georgia,Fayette County,2020-04-03,2020-04-27
+13115,Georgia,Floyd County,2020-03-24,2020-04-27
+13117,Georgia,Forsyth County,2020-04-03,2020-04-27
+13119,Georgia,Franklin County,2020-04-03,2020-04-27
+13121,Georgia,Fulton County,2020-03-24,
+13123,Georgia,Gilmer County,2020-04-03,2020-04-27
+13125,Georgia,Glascock County,2020-04-03,2020-04-27
+13127,Georgia,Glynn County,2020-04-03,2020-04-27
+13129,Georgia,Gordon County,2020-04-03,2020-04-27
+13131,Georgia,Grady County,2020-04-03,2020-04-27
+13133,Georgia,Greene County,2020-04-03,2020-04-27
+13135,Georgia,Gwinnett County,2020-03-28,2020-04-27
+13137,Georgia,Habersham County,2020-04-03,2020-04-27
+13139,Georgia,Hall County,2020-03-28,2020-04-27
+13141,Georgia,Hancock County,2020-04-03,2020-04-27
+13143,Georgia,Haralson County,2020-04-03,2020-04-27
+13145,Georgia,Harris County,2020-04-03,2020-04-27
+13147,Georgia,Hart County,2020-04-03,2020-04-27
+13149,Georgia,Heard County,2020-04-03,2020-04-27
+13151,Georgia,Henry County,2020-04-03,2020-04-27
+13153,Georgia,Houston County,2020-04-03,2020-04-27
+13155,Georgia,Irwin County,2020-04-03,2020-04-27
+13157,Georgia,Jackson County,2020-03-28,2020-04-27
+13159,Georgia,Jasper County,2020-04-03,2020-04-27
+13161,Georgia,Jeff Davis County,2020-04-03,2020-04-27
+13163,Georgia,Jefferson County,2020-04-03,2020-04-27
+13165,Georgia,Jenkins County,2020-04-03,2020-04-27
+13167,Georgia,Johnson County,2020-04-03,2020-04-27
+13169,Georgia,Jones County,2020-04-03,2020-04-27
+13171,Georgia,Lamar County,2020-04-03,2020-04-27
+13173,Georgia,Lanier County,2020-04-03,2020-04-27
+13175,Georgia,Laurens County,2020-04-03,2020-04-27
+13177,Georgia,Lee County,2020-04-03,2020-04-27
+13179,Georgia,Liberty County,2020-04-03,2020-04-27
+13181,Georgia,Lincoln County,2020-04-03,2020-04-27
+13183,Georgia,Long County,2020-04-03,2020-04-27
+13185,Georgia,Lowndes County,2020-03-24,2020-04-27
+13187,Georgia,Lumpkin County,2020-04-03,2020-04-27
+13189,Georgia,McDuffie County,2020-04-03,2020-04-27
+13191,Georgia,McIntosh County,2020-04-03,2020-04-27
+13193,Georgia,Macon County,2020-04-03,2020-04-27
+13195,Georgia,Madison County,2020-04-03,2020-04-27
+13197,Georgia,Marion County,2020-04-03,2020-04-27
+13199,Georgia,Meriwether County,2020-04-03,2020-04-27
+13201,Georgia,Miller County,2020-04-03,2020-04-27
+13205,Georgia,Mitchell County,2020-04-03,2020-04-27
+13207,Georgia,Monroe County,2020-04-03,2020-04-27
+13209,Georgia,Montgomery County,2020-04-03,2020-04-27
+13211,Georgia,Morgan County,2020-04-03,2020-04-27
+13213,Georgia,Murray County,2020-04-03,2020-04-27
+13215,Georgia,Muscogee County,2020-04-03,2020-04-27
+13217,Georgia,Newton County,2020-04-03,2020-04-27
+13219,Georgia,Oconee County,2020-04-03,2020-04-27
+13221,Georgia,Oglethorpe County,2020-04-03,2020-04-27
+13223,Georgia,Paulding County,2020-04-03,2020-04-27
+13225,Georgia,Peach County,2020-04-03,2020-04-27
+13227,Georgia,Pickens County,2020-03-24,2020-04-27
+13229,Georgia,Pierce County,2020-04-03,2020-04-27
+13231,Georgia,Pike County,2020-04-03,2020-04-27
+13233,Georgia,Polk County,2020-04-03,2020-04-27
+13235,Georgia,Pulaski County,2020-04-03,2020-04-27
+13237,Georgia,Putnam County,2020-04-03,2020-04-27
+13239,Georgia,Quitman County,2020-04-03,2020-04-27
+13241,Georgia,Rabun County,2020-03-30,2020-04-27
+13243,Georgia,Randolph County,2020-04-03,2020-04-27
+13245,Georgia,Richmond County,2020-04-03,2020-04-27
+13247,Georgia,Rockdale County,2020-03-26,2020-04-27
+13249,Georgia,Schley County,2020-04-03,2020-04-27
+13251,Georgia,Screven County,2020-04-03,2020-04-27
+13253,Georgia,Seminole County,2020-04-03,2020-04-27
+13255,Georgia,Spalding County,2020-04-03,2020-04-27
+13257,Georgia,Stephens County,2020-04-03,2020-04-27
+13259,Georgia,Stewart County,2020-04-03,2020-04-27
+13261,Georgia,Sumter County,2020-04-03,2020-04-27
+13263,Georgia,Talbot County,2020-04-03,2020-04-27
+13265,Georgia,Taliaferro County,2020-04-03,2020-04-27
+13267,Georgia,Tattnall County,2020-04-03,2020-04-27
+13269,Georgia,Taylor County,2020-04-03,2020-04-27
+13271,Georgia,Telfair County,2020-04-03,2020-04-27
+13273,Georgia,Terrell County,2020-04-03,2020-04-27
+13275,Georgia,Thomas County,2020-04-03,2020-04-27
+13277,Georgia,Tift County,2020-03-24,2020-04-27
+13279,Georgia,Toombs County,2020-04-03,2020-04-27
+13281,Georgia,Towns County,2020-04-03,2020-04-27
+13283,Georgia,Treutlen County,2020-04-03,2020-04-27
+13285,Georgia,Troup County,2020-04-03,2020-04-27
+13287,Georgia,Turner County,2020-04-03,2020-04-27
+13289,Georgia,Twiggs County,2020-04-03,2020-04-27
+13291,Georgia,Union County,2020-04-03,2020-04-27
+13293,Georgia,Upson County,2020-03-28,2020-04-27
+13295,Georgia,Walker County,2020-04-03,2020-04-27
+13297,Georgia,Walton County,2020-03-28,2020-04-27
+13299,Georgia,Ware County,2020-04-03,2020-04-27
+13301,Georgia,Warren County,2020-04-03,2020-04-27
+13303,Georgia,Washington County,2020-04-03,2020-04-27
+13305,Georgia,Wayne County,2020-04-03,2020-04-27
+13307,Georgia,Webster County,2020-04-03,2020-04-27
+13309,Georgia,Wheeler County,2020-04-03,2020-04-27
+13311,Georgia,White County,2020-04-03,2020-04-27
+13313,Georgia,Whitfield County,2020-04-03,2020-04-27
+13315,Georgia,Wilcox County,2020-04-03,2020-04-27
+13317,Georgia,Wilkes County,2020-04-03,2020-04-27
+13319,Georgia,Wilkinson County,2020-04-03,2020-04-27
+13321,Georgia,Worth County,2020-04-03,2020-04-27
+15001,Hawaii,Hawaii County,2020-03-23,2020-04-30
+15003,Hawaii,Honolulu County,2020-03-23,2020-04-30
+15005,Hawaii,Kalawao County,2020-03-23,2020-04-30
+15007,Hawaii,Kauai County,2020-03-23,2020-04-30
+15009,Hawaii,Maui County,2020-03-23,2020-04-30
+16001,Idaho,Ada County,2020-03-25,2020-04-30
+16003,Idaho,Adams County,2020-03-25,2020-04-30
+16005,Idaho,Bannock County,2020-03-25,2020-04-30
+16007,Idaho,Bear Lake County,2020-03-25,2020-04-30
+16009,Idaho,Benewah County,2020-03-25,2020-04-30
+16011,Idaho,Bingham County,2020-03-25,2020-04-30
+16013,Idaho,Blaine County,2020-03-19,
+16015,Idaho,Boise County,2020-03-25,2020-04-30
+16017,Idaho,Bonner County,2020-03-25,2020-04-30
+16019,Idaho,Bonneville County,2020-03-25,2020-04-30
+16021,Idaho,Boundary County,2020-03-25,2020-04-30
+16023,Idaho,Butte County,2020-03-25,2020-04-30
+16025,Idaho,Camas County,2020-03-25,2020-04-30
+16027,Idaho,Canyon County,2020-03-25,2020-04-30
+16029,Idaho,Caribou County,2020-03-25,2020-04-30
+16031,Idaho,Cassia County,2020-03-25,2020-04-30
+16033,Idaho,Clark County,2020-03-25,2020-04-30
+16035,Idaho,Clearwater County,2020-03-25,2020-04-30
+16037,Idaho,Custer County,2020-03-25,2020-04-30
+16039,Idaho,Elmore County,2020-03-25,2020-04-30
+16041,Idaho,Franklin County,2020-03-25,2020-04-30
+16043,Idaho,Fremont County,2020-03-25,2020-04-30
+16045,Idaho,Gem County,2020-03-25,2020-04-30
+16047,Idaho,Gooding County,2020-03-25,2020-04-30
+16049,Idaho,Idaho County,2020-03-25,2020-04-30
+16051,Idaho,Jefferson County,2020-03-25,2020-04-30
+16053,Idaho,Jerome County,2020-03-25,2020-04-30
+16055,Idaho,Kootenai County,2020-03-25,2020-04-30
+16057,Idaho,Latah County,2020-03-25,2020-04-30
+16059,Idaho,Lemhi County,2020-03-25,2020-04-30
+16061,Idaho,Lewis County,2020-03-25,2020-04-30
+16063,Idaho,Lincoln County,2020-03-25,2020-04-30
+16065,Idaho,Madison County,2020-03-25,2020-04-30
+16067,Idaho,Minidoka County,2020-03-25,2020-04-30
+16069,Idaho,Nez Perce County,2020-03-25,2020-04-30
+16071,Idaho,Oneida County,2020-03-25,2020-04-30
+16073,Idaho,Owyhee County,2020-03-25,2020-04-30
+16075,Idaho,Payette County,2020-03-25,2020-04-30
+16077,Idaho,Power County,2020-03-25,2020-04-30
+16079,Idaho,Shoshone County,2020-03-25,2020-04-30
+16081,Idaho,Teton County,2020-03-25,2020-04-30
+16083,Idaho,Twin Falls County,2020-03-25,2020-04-30
+16085,Idaho,Valley County,2020-03-25,2020-04-30
+16087,Idaho,Washington County,2020-03-25,2020-04-30
+17001,Illinois,Adams County,2020-03-21,2020-04-30
+17003,Illinois,Alexander County,2020-03-21,2020-04-30
+17005,Illinois,Bond County,2020-03-21,2020-04-30
+17007,Illinois,Boone County,2020-03-21,2020-04-30
+17009,Illinois,Brown County,2020-03-21,2020-04-30
+17011,Illinois,Bureau County,2020-03-21,2020-04-30
+17013,Illinois,Calhoun County,2020-03-21,2020-04-30
+17015,Illinois,Carroll County,2020-03-21,2020-04-30
+17017,Illinois,Cass County,2020-03-21,2020-04-30
+17019,Illinois,Champaign County,2020-03-21,2020-04-30
+17021,Illinois,Christian County,2020-03-21,2020-04-30
+17023,Illinois,Clark County,2020-03-21,2020-04-30
+17025,Illinois,Clay County,2020-03-21,2020-04-30
+17027,Illinois,Clinton County,2020-03-21,2020-04-30
+17029,Illinois,Coles County,2020-03-21,2020-04-30
+17031,Illinois,Cook County,2020-03-20,2020-04-30
+17033,Illinois,Crawford County,2020-03-21,2020-04-30
+17035,Illinois,Cumberland County,2020-03-21,2020-04-30
+17037,Illinois,DeKalb County,2020-03-21,2020-04-30
+17039,Illinois,De Witt County,2020-03-21,2020-04-30
+17041,Illinois,Douglas County,2020-03-21,2020-04-30
+17043,Illinois,DuPage County,2020-03-21,2020-04-30
+17045,Illinois,Edgar County,2020-03-21,2020-04-30
+17047,Illinois,Edwards County,2020-03-21,2020-04-30
+17049,Illinois,Effingham County,2020-03-21,2020-04-30
+17051,Illinois,Fayette County,2020-03-21,2020-04-30
+17053,Illinois,Ford County,2020-03-21,2020-04-30
+17055,Illinois,Franklin County,2020-03-21,2020-04-30
+17057,Illinois,Fulton County,2020-03-21,2020-04-30
+17059,Illinois,Gallatin County,2020-03-21,2020-04-30
+17061,Illinois,Greene County,2020-03-21,2020-04-30
+17063,Illinois,Grundy County,2020-03-21,2020-04-30
+17065,Illinois,Hamilton County,2020-03-21,2020-04-30
+17067,Illinois,Hancock County,2020-03-21,2020-04-30
+17069,Illinois,Hardin County,2020-03-21,2020-04-30
+17071,Illinois,Henderson County,2020-03-21,2020-04-30
+17073,Illinois,Henry County,2020-03-21,2020-04-30
+17075,Illinois,Iroquois County,2020-03-21,2020-04-30
+17077,Illinois,Jackson County,2020-03-21,2020-04-30
+17079,Illinois,Jasper County,2020-03-21,2020-04-30
+17081,Illinois,Jefferson County,2020-03-21,2020-04-30
+17083,Illinois,Jersey County,2020-03-21,2020-04-30
+17085,Illinois,Jo Daviess County,2020-03-21,2020-04-30
+17087,Illinois,Johnson County,2020-03-21,2020-04-30
+17089,Illinois,Kane County,2020-03-21,2020-04-30
+17091,Illinois,Kankakee County,2020-03-21,2020-04-30
+17093,Illinois,Kendall County,2020-03-21,2020-04-30
+17095,Illinois,Knox County,2020-03-21,2020-04-30
+17097,Illinois,Lake County,2020-03-21,2020-04-30
+17099,Illinois,LaSalle County,2020-03-21,2020-04-30
+17101,Illinois,Lawrence County,2020-03-21,2020-04-30
+17103,Illinois,Lee County,2020-03-21,2020-04-30
+17105,Illinois,Livingston County,2020-03-21,2020-04-30
+17107,Illinois,Logan County,2020-03-21,2020-04-30
+17109,Illinois,McDonough County,2020-03-21,2020-04-30
+17111,Illinois,McHenry County,2020-03-21,2020-04-30
+17113,Illinois,McLean County,2020-03-21,2020-04-30
+17115,Illinois,Macon County,2020-03-21,2020-04-30
+17117,Illinois,Macoupin County,2020-03-21,2020-04-30
+17119,Illinois,Madison County,2020-03-21,2020-04-30
+17121,Illinois,Marion County,2020-03-21,2020-04-30
+17123,Illinois,Marshall County,2020-03-21,2020-04-30
+17125,Illinois,Mason County,2020-03-21,2020-04-30
+17127,Illinois,Massac County,2020-03-21,2020-04-30
+17129,Illinois,Menard County,2020-03-21,2020-04-30
+17131,Illinois,Mercer County,2020-03-21,2020-04-30
+17133,Illinois,Monroe County,2020-03-21,2020-04-30
+17135,Illinois,Montgomery County,2020-03-21,2020-04-30
+17137,Illinois,Morgan County,2020-03-21,2020-04-30
+17139,Illinois,Moultrie County,2020-03-21,2020-04-30
+17141,Illinois,Ogle County,2020-03-21,2020-04-30
+17143,Illinois,Peoria County,2020-03-21,2020-04-30
+17145,Illinois,Perry County,2020-03-21,2020-04-30
+17147,Illinois,Piatt County,2020-03-21,2020-04-30
+17149,Illinois,Pike County,2020-03-21,2020-04-30
+17151,Illinois,Pope County,2020-03-21,2020-04-30
+17153,Illinois,Pulaski County,2020-03-21,2020-04-30
+17155,Illinois,Putnam County,2020-03-21,2020-04-30
+17157,Illinois,Randolph County,2020-03-21,2020-04-30
+17159,Illinois,Richland County,2020-03-21,2020-04-30
+17161,Illinois,Rock Island County,2020-03-21,2020-04-30
+17163,Illinois,St. Clair County,2020-03-21,2020-04-30
+17165,Illinois,Saline County,2020-03-21,2020-04-30
+17167,Illinois,Sangamon County,2020-03-21,2020-04-30
+17169,Illinois,Schuyler County,2020-03-21,2020-04-30
+17171,Illinois,Scott County,2020-03-21,2020-04-30
+17173,Illinois,Shelby County,2020-03-21,2020-04-30
+17175,Illinois,Stark County,2020-03-21,2020-04-30
+17177,Illinois,Stephenson County,2020-03-21,2020-04-30
+17179,Illinois,Tazewell County,2020-03-21,2020-04-30
+17181,Illinois,Union County,2020-03-21,2020-04-30
+17183,Illinois,Vermilion County,2020-03-21,2020-04-30
+17185,Illinois,Wabash County,2020-03-21,2020-04-30
+17187,Illinois,Warren County,2020-03-21,2020-04-30
+17189,Illinois,Washington County,2020-03-21,2020-04-30
+17191,Illinois,Wayne County,2020-03-21,2020-04-30
+17193,Illinois,White County,2020-03-21,2020-04-30
+17195,Illinois,Whiteside County,2020-03-21,2020-04-30
+17197,Illinois,Will County,2020-03-21,2020-04-30
+17199,Illinois,Williamson County,2020-03-21,2020-04-30
+17201,Illinois,Winnebago County,2020-03-21,2020-04-30
+17203,Illinois,Woodford County,2020-03-21,2020-04-30
+18001,Indiana,Adams County,2020-03-25,2020-05-01
+18003,Indiana,Allen County,2020-03-25,2020-05-01
+18005,Indiana,Bartholomew County,2020-03-25,2020-05-01
+18007,Indiana,Benton County,2020-03-25,2020-05-01
+18009,Indiana,Blackford County,2020-03-25,2020-05-01
+18011,Indiana,Boone County,2020-03-25,2020-05-01
+18013,Indiana,Brown County,2020-03-25,2020-05-01
+18015,Indiana,Carroll County,2020-03-25,2020-05-01
+18017,Indiana,Cass County,2020-03-25,2020-05-01
+18019,Indiana,Clark County,2020-03-25,2020-05-01
+18021,Indiana,Clay County,2020-03-25,2020-05-01
+18023,Indiana,Clinton County,2020-03-25,2020-05-01
+18025,Indiana,Crawford County,2020-03-25,2020-05-01
+18027,Indiana,Daviess County,2020-03-25,2020-05-01
+18029,Indiana,Dearborn County,2020-03-25,2020-05-01
+18031,Indiana,Decatur County,2020-03-25,2020-05-01
+18033,Indiana,DeKalb County,2020-03-25,2020-05-01
+18035,Indiana,Delaware County,2020-03-25,2020-05-01
+18037,Indiana,Dubois County,2020-03-25,2020-05-01
+18039,Indiana,Elkhart County,2020-03-25,2020-05-01
+18041,Indiana,Fayette County,2020-03-25,2020-05-01
+18043,Indiana,Floyd County,2020-03-25,2020-05-01
+18045,Indiana,Fountain County,2020-03-25,2020-05-01
+18047,Indiana,Franklin County,2020-03-25,2020-05-01
+18049,Indiana,Fulton County,2020-03-25,2020-05-01
+18051,Indiana,Gibson County,2020-03-25,2020-05-01
+18053,Indiana,Grant County,2020-03-25,2020-05-01
+18055,Indiana,Greene County,2020-03-25,2020-05-01
+18057,Indiana,Hamilton County,2020-03-25,2020-05-01
+18059,Indiana,Hancock County,2020-03-25,2020-05-01
+18061,Indiana,Harrison County,2020-03-25,2020-05-01
+18063,Indiana,Hendricks County,2020-03-25,2020-05-01
+18065,Indiana,Henry County,2020-03-25,2020-05-01
+18067,Indiana,Howard County,2020-03-25,2020-05-01
+18069,Indiana,Huntington County,2020-03-25,2020-05-01
+18071,Indiana,Jackson County,2020-03-25,2020-05-01
+18073,Indiana,Jasper County,2020-03-25,2020-05-01
+18075,Indiana,Jay County,2020-03-25,2020-05-01
+18077,Indiana,Jefferson County,2020-03-25,2020-05-01
+18079,Indiana,Jennings County,2020-03-25,2020-05-01
+18081,Indiana,Johnson County,2020-03-25,2020-05-01
+18083,Indiana,Knox County,2020-03-25,2020-05-01
+18085,Indiana,Kosciusko County,2020-03-25,2020-05-01
+18087,Indiana,LaGrange County,2020-03-25,2020-05-01
+18089,Indiana,Lake County,2020-03-25,2020-05-01
+18091,Indiana,LaPorte County,2020-03-25,2020-05-01
+18093,Indiana,Lawrence County,2020-03-25,2020-05-01
+18095,Indiana,Madison County,2020-03-25,2020-05-01
+18097,Indiana,Marion County,2020-03-25,2020-05-15
+18099,Indiana,Marshall County,2020-03-25,2020-05-01
+18101,Indiana,Martin County,2020-03-25,2020-05-01
+18103,Indiana,Miami County,2020-03-25,2020-05-01
+18105,Indiana,Monroe County,2020-03-25,2020-05-01
+18107,Indiana,Montgomery County,2020-03-25,2020-05-01
+18109,Indiana,Morgan County,2020-03-25,2020-05-01
+18111,Indiana,Newton County,2020-03-25,2020-05-01
+18113,Indiana,Noble County,2020-03-25,2020-05-01
+18115,Indiana,Ohio County,2020-03-25,2020-05-01
+18117,Indiana,Orange County,2020-03-25,2020-05-01
+18119,Indiana,Owen County,2020-03-25,2020-05-01
+18121,Indiana,Parke County,2020-03-25,2020-05-01
+18123,Indiana,Perry County,2020-03-25,2020-05-01
+18125,Indiana,Pike County,2020-03-25,2020-05-01
+18127,Indiana,Porter County,2020-03-25,2020-05-01
+18129,Indiana,Posey County,2020-03-25,2020-05-01
+18131,Indiana,Pulaski County,2020-03-25,2020-05-01
+18133,Indiana,Putnam County,2020-03-25,2020-05-01
+18135,Indiana,Randolph County,2020-03-25,2020-05-01
+18137,Indiana,Ripley County,2020-03-25,2020-05-01
+18139,Indiana,Rush County,2020-03-25,2020-05-01
+18141,Indiana,St. Joseph County,2020-03-25,2020-05-01
+18143,Indiana,Scott County,2020-03-25,2020-05-01
+18145,Indiana,Shelby County,2020-03-25,2020-05-01
+18147,Indiana,Spencer County,2020-03-25,2020-05-01
+18149,Indiana,Starke County,2020-03-25,2020-05-01
+18151,Indiana,Steuben County,2020-03-25,2020-05-01
+18153,Indiana,Sullivan County,2020-03-25,2020-05-01
+18155,Indiana,Switzerland County,2020-03-25,2020-05-01
+18157,Indiana,Tippecanoe County,2020-03-25,2020-05-01
+18159,Indiana,Tipton County,2020-03-25,2020-05-01
+18161,Indiana,Union County,2020-03-25,2020-05-01
+18163,Indiana,Vanderburgh County,2020-03-25,2020-05-01
+18165,Indiana,Vermillion County,2020-03-25,2020-05-01
+18167,Indiana,Vigo County,2020-03-25,2020-05-01
+18169,Indiana,Wabash County,2020-03-25,2020-05-01
+18171,Indiana,Warren County,2020-03-25,2020-05-01
+18173,Indiana,Warrick County,2020-03-25,2020-05-01
+18175,Indiana,Washington County,2020-03-25,2020-05-01
+18177,Indiana,Wayne County,2020-03-25,2020-05-01
+18179,Indiana,Wells County,2020-03-25,2020-05-01
+18181,Indiana,White County,2020-03-25,2020-05-01
+18183,Indiana,Whitley County,2020-03-25,2020-05-01
+19001,Iowa,Adair County,,
+19003,Iowa,Adams County,,
+19005,Iowa,Allamakee County,,
+19007,Iowa,Appanoose County,,
+19009,Iowa,Audubon County,,
+19011,Iowa,Benton County,,
+19013,Iowa,Black Hawk County,,
+19015,Iowa,Boone County,,
+19017,Iowa,Bremer County,,
+19019,Iowa,Buchanan County,,
+19021,Iowa,Buena Vista County,,
+19023,Iowa,Butler County,,
+19025,Iowa,Calhoun County,,
+19027,Iowa,Carroll County,,
+19029,Iowa,Cass County,,
+19031,Iowa,Cedar County,,
+19033,Iowa,Cerro Gordo County,,
+19035,Iowa,Cherokee County,,
+19037,Iowa,Chickasaw County,,
+19039,Iowa,Clarke County,,
+19041,Iowa,Clay County,,
+19043,Iowa,Clayton County,,
+19045,Iowa,Clinton County,,
+19047,Iowa,Crawford County,,
+19049,Iowa,Dallas County,,
+19051,Iowa,Davis County,,
+19053,Iowa,Decatur County,,
+19055,Iowa,Delaware County,,
+19057,Iowa,Des Moines County,,
+19059,Iowa,Dickinson County,,
+19061,Iowa,Dubuque County,,
+19063,Iowa,Emmet County,,
+19065,Iowa,Fayette County,,
+19067,Iowa,Floyd County,,
+19069,Iowa,Franklin County,,
+19071,Iowa,Fremont County,,
+19073,Iowa,Greene County,,
+19075,Iowa,Grundy County,,
+19077,Iowa,Guthrie County,,
+19079,Iowa,Hamilton County,,
+19081,Iowa,Hancock County,,
+19083,Iowa,Hardin County,,
+19085,Iowa,Harrison County,,
+19087,Iowa,Henry County,,
+19089,Iowa,Howard County,,
+19091,Iowa,Humboldt County,,
+19093,Iowa,Ida County,,
+19095,Iowa,Iowa County,,
+19097,Iowa,Jackson County,,
+19099,Iowa,Jasper County,,
+19101,Iowa,Jefferson County,,
+19103,Iowa,Johnson County,,
+19105,Iowa,Jones County,,
+19107,Iowa,Keokuk County,,
+19109,Iowa,Kossuth County,,
+19111,Iowa,Lee County,,
+19113,Iowa,Linn County,,
+19115,Iowa,Louisa County,,
+19117,Iowa,Lucas County,,
+19119,Iowa,Lyon County,,
+19121,Iowa,Madison County,,
+19123,Iowa,Mahaska County,,
+19125,Iowa,Marion County,,
+19127,Iowa,Marshall County,,
+19129,Iowa,Mills County,,
+19131,Iowa,Mitchell County,,
+19133,Iowa,Monona County,,
+19135,Iowa,Monroe County,,
+19137,Iowa,Montgomery County,,
+19139,Iowa,Muscatine County,,
+19141,Iowa,O'Brien County,,
+19143,Iowa,Osceola County,,
+19145,Iowa,Page County,,
+19147,Iowa,Palo Alto County,,
+19149,Iowa,Plymouth County,,
+19151,Iowa,Pocahontas County,,
+19153,Iowa,Polk County,,
+19155,Iowa,Pottawattamie County,,
+19157,Iowa,Poweshiek County,,
+19159,Iowa,Ringgold County,,
+19161,Iowa,Sac County,,
+19163,Iowa,Scott County,,
+19165,Iowa,Shelby County,,
+19167,Iowa,Sioux County,,
+19169,Iowa,Story County,,
+19171,Iowa,Tama County,,
+19173,Iowa,Taylor County,,
+19175,Iowa,Union County,,
+19177,Iowa,Van Buren County,,
+19179,Iowa,Wapello County,,
+19181,Iowa,Warren County,,
+19183,Iowa,Washington County,,
+19185,Iowa,Wayne County,,
+19187,Iowa,Webster County,,
+19189,Iowa,Winnebago County,,
+19191,Iowa,Winneshiek County,,
+19193,Iowa,Woodbury County,,
+19195,Iowa,Worth County,,
+19197,Iowa,Wright County,,
+20001,Kansas,Allen County,2020-03-30,2020-05-03
+20003,Kansas,Anderson County,2020-03-30,2020-05-03
+20005,Kansas,Atchison County,2020-03-25,2020-05-03
+20007,Kansas,Barber County,2020-03-30,2020-05-03
+20009,Kansas,Barton County,2020-03-30,2020-05-03
+20011,Kansas,Bourbon County,2020-03-30,2020-05-03
+20013,Kansas,Brown County,2020-03-30,2020-05-03
+20015,Kansas,Butler County,2020-03-30,2020-05-03
+20017,Kansas,Chase County,2020-03-28,2020-05-03
+20019,Kansas,Chautauqua County,2020-03-30,2020-05-03
+20021,Kansas,Cherokee County,2020-03-30,2020-05-03
+20023,Kansas,Cheyenne County,2020-03-30,2020-05-03
+20025,Kansas,Clark County,2020-03-30,2020-05-03
+20027,Kansas,Clay County,2020-03-30,2020-05-03
+20029,Kansas,Cloud County,2020-03-30,2020-05-03
+20031,Kansas,Coffey County,2020-03-26,
+20033,Kansas,Comanche County,2020-03-30,2020-05-03
+20035,Kansas,Cowley County,2020-03-30,2020-05-03
+20037,Kansas,Crawford County,2020-03-30,2020-05-03
+20039,Kansas,Decatur County,2020-03-30,2020-05-03
+20041,Kansas,Dickinson County,2020-03-30,2020-05-03
+20043,Kansas,Doniphan County,2020-03-26,
+20045,Kansas,Douglas County,2020-03-24,2020-05-03
+20047,Kansas,Edwards County,2020-03-30,2020-05-03
+20049,Kansas,Elk County,2020-03-30,2020-05-03
+20051,Kansas,Ellis County,2020-03-30,2020-05-03
+20053,Kansas,Ellsworth County,2020-03-30,2020-05-03
+20055,Kansas,Finney County,2020-03-30,2020-05-03
+20057,Kansas,Ford County,2020-03-30,2020-05-03
+20059,Kansas,Franklin County,2020-03-30,2020-05-03
+20061,Kansas,Geary County,2020-03-28,
+20063,Kansas,Gove County,2020-03-30,2020-05-03
+20065,Kansas,Graham County,2020-03-30,2020-05-03
+20067,Kansas,Grant County,2020-03-30,2020-05-03
+20069,Kansas,Gray County,2020-03-30,2020-05-03
+20071,Kansas,Greeley County,2020-03-30,2020-05-03
+20073,Kansas,Greenwood County,2020-03-30,2020-05-03
+20075,Kansas,Hamilton County,2020-03-30,2020-05-03
+20077,Kansas,Harper County,2020-03-30,2020-05-03
+20079,Kansas,Harvey County,2020-03-30,2020-05-03
+20081,Kansas,Haskell County,2020-03-30,2020-05-03
+20083,Kansas,Hodgeman County,2020-03-30,2020-05-03
+20085,Kansas,Jackson County,2020-03-30,2020-05-03
+20087,Kansas,Jefferson County,2020-03-28,2020-05-03
+20089,Kansas,Jewell County,2020-03-30,2020-05-03
+20091,Kansas,Johnson County,2020-03-24,2020-05-03
+20093,Kansas,Kearny County,2020-03-30,2020-05-03
+20095,Kansas,Kingman County,2020-03-30,2020-05-03
+20097,Kansas,Kiowa County,2020-03-30,2020-05-03
+20099,Kansas,Labette County,2020-03-30,2020-05-03
+20101,Kansas,Lane County,2020-03-30,2020-05-03
+20103,Kansas,Leavenworth County,2020-03-24,2020-05-03
+20105,Kansas,Lincoln County,2020-03-30,2020-05-03
+20107,Kansas,Linn County,2020-03-30,2020-05-03
+20109,Kansas,Logan County,2020-03-30,2020-05-03
+20111,Kansas,Lyon County,2020-03-26,2020-05-03
+20113,Kansas,McPherson County,2020-03-27,2020-05-03
+20115,Kansas,Marion County,2020-03-30,2020-05-03
+20117,Kansas,Marshall County,2020-03-30,2020-05-03
+20119,Kansas,Meade County,2020-03-30,2020-05-03
+20121,Kansas,Miami County,2020-03-25,2020-05-03
+20123,Kansas,Mitchell County,2020-03-30,2020-05-03
+20125,Kansas,Montgomery County,2020-03-30,2020-05-03
+20127,Kansas,Morris County,2020-03-25,2020-05-03
+20129,Kansas,Morton County,2020-03-30,2020-05-03
+20131,Kansas,Nemaha County,2020-03-30,2020-05-03
+20133,Kansas,Neosho County,2020-03-30,2020-05-03
+20135,Kansas,Ness County,2020-03-30,2020-05-03
+20137,Kansas,Norton County,2020-03-30,2020-05-03
+20139,Kansas,Osage County,2020-03-28,
+20141,Kansas,Osborne County,2020-03-30,2020-05-03
+20143,Kansas,Ottawa County,2020-03-30,2020-05-03
+20145,Kansas,Pawnee County,2020-03-30,2020-05-03
+20147,Kansas,Phillips County,2020-03-30,2020-05-03
+20149,Kansas,Pottawatomie County,2020-03-30,2020-05-03
+20151,Kansas,Pratt County,2020-03-30,2020-05-03
+20153,Kansas,Rawlins County,2020-03-30,2020-05-03
+20155,Kansas,Reno County,2020-03-30,2020-05-03
+20157,Kansas,Republic County,2020-03-30,2020-05-03
+20159,Kansas,Rice County,2020-03-30,2020-05-03
+20161,Kansas,Riley County,2020-03-29,
+20163,Kansas,Rooks County,2020-03-28,2020-05-03
+20165,Kansas,Rush County,2020-03-30,2020-05-03
+20167,Kansas,Russell County,2020-03-30,2020-05-03
+20169,Kansas,Saline County,2020-03-30,2020-05-03
+20171,Kansas,Scott County,2020-03-30,2020-05-03
+20173,Kansas,Sedgwick County,2020-03-25,
+20175,Kansas,Seward County,2020-03-30,2020-05-03
+20177,Kansas,Shawnee County,2020-03-26,
+20179,Kansas,Sheridan County,2020-03-30,2020-05-03
+20181,Kansas,Sherman County,2020-03-30,2020-05-03
+20183,Kansas,Smith County,2020-03-30,2020-05-03
+20185,Kansas,Stafford County,2020-03-30,2020-05-03
+20187,Kansas,Stanton County,2020-03-30,2020-05-03
+20189,Kansas,Stevens County,2020-03-30,2020-05-03
+20191,Kansas,Sumner County,2020-03-27,2020-05-03
+20193,Kansas,Thomas County,2020-03-30,2020-05-03
+20195,Kansas,Trego County,2020-03-30,2020-05-03
+20197,Kansas,Wabaunsee County,2020-03-30,2020-05-03
+20199,Kansas,Wallace County,2020-03-30,2020-05-03
+20201,Kansas,Washington County,2020-03-30,2020-05-03
+20203,Kansas,Wichita County,2020-03-30,2020-05-03
+20205,Kansas,Wilson County,2020-03-30,2020-05-03
+20207,Kansas,Woodson County,2020-03-30,2020-05-03
+20209,Kansas,Wyandotte County,2020-03-24,2020-05-03
+21001,Kentucky,Adair County,2020-03-26,2020-05-22
+21003,Kentucky,Allen County,2020-03-26,2020-05-22
+21005,Kentucky,Anderson County,2020-03-26,2020-05-22
+21007,Kentucky,Ballard County,2020-03-26,2020-05-22
+21009,Kentucky,Barren County,2020-03-26,2020-05-22
+21011,Kentucky,Bath County,2020-03-26,2020-05-22
+21013,Kentucky,Bell County,2020-03-26,2020-05-22
+21015,Kentucky,Boone County,2020-03-26,2020-05-22
+21017,Kentucky,Bourbon County,2020-03-26,2020-05-22
+21019,Kentucky,Boyd County,2020-03-26,2020-05-22
+21021,Kentucky,Boyle County,2020-03-26,2020-05-22
+21023,Kentucky,Bracken County,2020-03-26,2020-05-22
+21025,Kentucky,Breathitt County,2020-03-26,2020-05-22
+21027,Kentucky,Breckinridge County,2020-03-26,2020-05-22
+21029,Kentucky,Bullitt County,2020-03-26,2020-05-22
+21031,Kentucky,Butler County,2020-03-26,2020-05-22
+21033,Kentucky,Caldwell County,2020-03-26,2020-05-22
+21035,Kentucky,Calloway County,2020-03-26,2020-05-22
+21037,Kentucky,Campbell County,2020-03-26,2020-05-22
+21039,Kentucky,Carlisle County,2020-03-26,2020-05-22
+21041,Kentucky,Carroll County,2020-03-26,2020-05-22
+21043,Kentucky,Carter County,2020-03-26,2020-05-22
+21045,Kentucky,Casey County,2020-03-26,2020-05-22
+21047,Kentucky,Christian County,2020-03-26,2020-05-22
+21049,Kentucky,Clark County,2020-03-26,2020-05-22
+21051,Kentucky,Clay County,2020-03-26,2020-05-22
+21053,Kentucky,Clinton County,2020-03-26,2020-05-22
+21055,Kentucky,Crittenden County,2020-03-26,2020-05-22
+21057,Kentucky,Cumberland County,2020-03-26,2020-05-22
+21059,Kentucky,Daviess County,2020-03-26,2020-05-22
+21061,Kentucky,Edmonson County,2020-03-26,2020-05-22
+21063,Kentucky,Elliott County,2020-03-26,2020-05-22
+21065,Kentucky,Estill County,2020-03-26,2020-05-22
+21067,Kentucky,Fayette County,2020-03-26,2020-05-22
+21069,Kentucky,Fleming County,2020-03-26,2020-05-22
+21071,Kentucky,Floyd County,2020-03-26,2020-05-22
+21073,Kentucky,Franklin County,2020-03-26,2020-05-22
+21075,Kentucky,Fulton County,2020-03-26,2020-05-22
+21077,Kentucky,Gallatin County,2020-03-26,2020-05-22
+21079,Kentucky,Garrard County,2020-03-26,2020-05-22
+21081,Kentucky,Grant County,2020-03-26,2020-05-22
+21083,Kentucky,Graves County,2020-03-26,2020-05-22
+21085,Kentucky,Grayson County,2020-03-26,2020-05-22
+21087,Kentucky,Green County,2020-03-26,2020-05-22
+21089,Kentucky,Greenup County,2020-03-26,2020-05-22
+21091,Kentucky,Hancock County,2020-03-26,2020-05-22
+21093,Kentucky,Hardin County,2020-03-26,2020-05-22
+21095,Kentucky,Harlan County,2020-03-26,2020-05-22
+21097,Kentucky,Harrison County,2020-03-26,2020-05-22
+21099,Kentucky,Hart County,2020-03-26,2020-05-22
+21101,Kentucky,Henderson County,2020-03-26,2020-05-22
+21103,Kentucky,Henry County,2020-03-26,2020-05-22
+21105,Kentucky,Hickman County,2020-03-26,2020-05-22
+21107,Kentucky,Hopkins County,2020-03-26,2020-05-22
+21109,Kentucky,Jackson County,2020-03-26,2020-05-22
+21111,Kentucky,Jefferson County,2020-03-26,2020-05-22
+21113,Kentucky,Jessamine County,2020-03-26,2020-05-22
+21115,Kentucky,Johnson County,2020-03-26,2020-05-22
+21117,Kentucky,Kenton County,2020-03-26,2020-05-22
+21119,Kentucky,Knott County,2020-03-26,2020-05-22
+21121,Kentucky,Knox County,2020-03-26,2020-05-22
+21123,Kentucky,Larue County,2020-03-26,2020-05-22
+21125,Kentucky,Laurel County,2020-03-26,2020-05-22
+21127,Kentucky,Lawrence County,2020-03-26,2020-05-22
+21129,Kentucky,Lee County,2020-03-26,2020-05-22
+21131,Kentucky,Leslie County,2020-03-26,2020-05-22
+21133,Kentucky,Letcher County,2020-03-26,2020-05-22
+21135,Kentucky,Lewis County,2020-03-26,2020-05-22
+21137,Kentucky,Lincoln County,2020-03-26,2020-05-22
+21139,Kentucky,Livingston County,2020-03-26,2020-05-22
+21141,Kentucky,Logan County,2020-03-26,2020-05-22
+21143,Kentucky,Lyon County,2020-03-26,2020-05-22
+21145,Kentucky,McCracken County,2020-03-26,2020-05-22
+21147,Kentucky,McCreary County,2020-03-26,2020-05-22
+21149,Kentucky,McLean County,2020-03-26,2020-05-22
+21151,Kentucky,Madison County,2020-03-26,2020-05-22
+21153,Kentucky,Magoffin County,2020-03-26,2020-05-22
+21155,Kentucky,Marion County,2020-03-26,2020-05-22
+21157,Kentucky,Marshall County,2020-03-26,2020-05-22
+21159,Kentucky,Martin County,2020-03-26,2020-05-22
+21161,Kentucky,Mason County,2020-03-26,2020-05-22
+21163,Kentucky,Meade County,2020-03-26,2020-05-22
+21165,Kentucky,Menifee County,2020-03-26,2020-05-22
+21167,Kentucky,Mercer County,2020-03-26,2020-05-22
+21169,Kentucky,Metcalfe County,2020-03-26,2020-05-22
+21171,Kentucky,Monroe County,2020-03-26,2020-05-22
+21173,Kentucky,Montgomery County,2020-03-26,2020-05-22
+21175,Kentucky,Morgan County,2020-03-26,2020-05-22
+21177,Kentucky,Muhlenberg County,2020-03-26,2020-05-22
+21179,Kentucky,Nelson County,2020-03-26,2020-05-22
+21181,Kentucky,Nicholas County,2020-03-26,2020-05-22
+21183,Kentucky,Ohio County,2020-03-26,2020-05-22
+21185,Kentucky,Oldham County,2020-03-26,2020-05-22
+21187,Kentucky,Owen County,2020-03-26,2020-05-22
+21189,Kentucky,Owsley County,2020-03-26,2020-05-22
+21191,Kentucky,Pendleton County,2020-03-26,2020-05-22
+21193,Kentucky,Perry County,2020-03-26,2020-05-22
+21195,Kentucky,Pike County,2020-03-26,2020-05-22
+21197,Kentucky,Powell County,2020-03-26,2020-05-22
+21199,Kentucky,Pulaski County,2020-03-26,2020-05-22
+21201,Kentucky,Robertson County,2020-03-26,2020-05-22
+21203,Kentucky,Rockcastle County,2020-03-26,2020-05-22
+21205,Kentucky,Rowan County,2020-03-26,2020-05-22
+21207,Kentucky,Russell County,2020-03-26,2020-05-22
+21209,Kentucky,Scott County,2020-03-26,2020-05-22
+21211,Kentucky,Shelby County,2020-03-26,2020-05-22
+21213,Kentucky,Simpson County,2020-03-26,2020-05-22
+21215,Kentucky,Spencer County,2020-03-26,2020-05-22
+21217,Kentucky,Taylor County,2020-03-26,2020-05-22
+21219,Kentucky,Todd County,2020-03-26,2020-05-22
+21221,Kentucky,Trigg County,2020-03-26,2020-05-22
+21223,Kentucky,Trimble County,2020-03-26,2020-05-22
+21225,Kentucky,Union County,2020-03-26,2020-05-22
+21227,Kentucky,Warren County,2020-03-26,2020-05-22
+21229,Kentucky,Washington County,2020-03-26,2020-05-22
+21231,Kentucky,Wayne County,2020-03-26,2020-05-22
+21233,Kentucky,Webster County,2020-03-26,2020-05-22
+21235,Kentucky,Whitley County,2020-03-26,2020-05-22
+21237,Kentucky,Wolfe County,2020-03-26,2020-05-22
+21239,Kentucky,Woodford County,2020-03-26,2020-05-22
+22001,Louisiana,Acadia Parish,2020-03-22,2020-05-15
+22003,Louisiana,Allen Parish,2020-03-22,2020-05-15
+22005,Louisiana,Ascension Parish,2020-03-22,2020-05-15
+22007,Louisiana,Assumption Parish,2020-03-22,2020-05-15
+22009,Louisiana,Avoyelles Parish,2020-03-22,2020-05-15
+22011,Louisiana,Beauregard Parish,2020-03-22,2020-05-15
+22013,Louisiana,Bienville Parish,2020-03-22,2020-05-15
+22015,Louisiana,Bossier Parish,2020-03-22,2020-05-15
+22017,Louisiana,Caddo Parish,2020-03-22,2020-05-15
+22019,Louisiana,Calcasieu Parish,2020-03-22,2020-05-15
+22021,Louisiana,Caldwell Parish,2020-03-22,2020-05-15
+22023,Louisiana,Cameron Parish,2020-03-22,2020-05-15
+22025,Louisiana,Catahoula Parish,2020-03-22,2020-05-15
+22027,Louisiana,Claiborne Parish,2020-03-22,2020-05-15
+22029,Louisiana,Concordia Parish,2020-03-22,2020-05-15
+22031,Louisiana,De Soto Parish,2020-03-22,2020-05-15
+22033,Louisiana,East Baton Rouge Parish,2020-03-22,2020-05-15
+22035,Louisiana,East Carroll Parish,2020-03-22,2020-05-15
+22037,Louisiana,East Feliciana Parish,2020-03-22,2020-05-15
+22039,Louisiana,Evangeline Parish,2020-03-22,2020-05-15
+22041,Louisiana,Franklin Parish,2020-03-22,2020-05-15
+22043,Louisiana,Grant Parish,2020-03-22,2020-05-15
+22045,Louisiana,Iberia Parish,2020-03-22,2020-05-15
+22047,Louisiana,Iberville Parish,2020-03-22,2020-05-15
+22049,Louisiana,Jackson Parish,2020-03-22,2020-05-15
+22051,Louisiana,Jefferson Parish,2020-03-22,2020-05-15
+22053,Louisiana,Jefferson Davis Parish,2020-03-22,2020-05-15
+22055,Louisiana,Lafayette Parish,2020-03-22,2020-05-15
+22057,Louisiana,Lafourche Parish,2020-03-22,2020-05-15
+22059,Louisiana,La Salle Parish,2020-03-22,2020-05-15
+22061,Louisiana,Lincoln Parish,2020-03-22,2020-05-15
+22063,Louisiana,Livingston Parish,2020-03-22,2020-05-15
+22065,Louisiana,Madison Parish,2020-03-22,2020-05-15
+22067,Louisiana,Morehouse Parish,2020-03-22,2020-05-15
+22069,Louisiana,Natchitoches Parish,2020-03-22,2020-05-15
+22071,Louisiana,Orleans Parish,2020-03-22,2020-05-15
+22073,Louisiana,Ouachita Parish,2020-03-22,2020-05-15
+22075,Louisiana,Plaquemines Parish,2020-03-22,2020-05-15
+22077,Louisiana,Pointe Coupee Parish,2020-03-22,2020-05-15
+22079,Louisiana,Rapides Parish,2020-03-22,2020-05-15
+22081,Louisiana,Red River Parish,2020-03-22,2020-05-15
+22083,Louisiana,Richland Parish,2020-03-22,2020-05-15
+22085,Louisiana,Sabine Parish,2020-03-22,2020-05-15
+22087,Louisiana,St. Bernard Parish,2020-03-22,2020-05-15
+22089,Louisiana,St. Charles Parish,2020-03-22,2020-05-15
+22091,Louisiana,St. Helena Parish,2020-03-22,2020-05-15
+22093,Louisiana,St. James Parish,2020-03-22,2020-05-15
+22095,Louisiana,St. John the Baptist Parish,2020-03-22,2020-05-15
+22097,Louisiana,St. Landry Parish,2020-03-22,2020-05-15
+22099,Louisiana,St. Martin Parish,2020-03-22,2020-05-15
+22101,Louisiana,St. Mary Parish,2020-03-22,2020-05-15
+22103,Louisiana,St. Tammany Parish,2020-03-22,2020-05-15
+22105,Louisiana,Tangipahoa Parish,2020-03-22,2020-05-15
+22107,Louisiana,Tensas Parish,2020-03-22,2020-05-15
+22109,Louisiana,Terrebonne Parish,2020-03-22,2020-05-15
+22111,Louisiana,Union Parish,2020-03-22,2020-05-15
+22113,Louisiana,Vermilion Parish,2020-03-22,2020-05-15
+22115,Louisiana,Vernon Parish,2020-03-22,2020-05-15
+22117,Louisiana,Washington Parish,2020-03-22,2020-05-15
+22119,Louisiana,Webster Parish,2020-03-22,2020-05-15
+22121,Louisiana,West Baton Rouge Parish,2020-03-22,2020-05-15
+22123,Louisiana,West Carroll Parish,2020-03-22,2020-05-15
+22125,Louisiana,West Feliciana Parish,2020-03-22,2020-05-15
+22127,Louisiana,Winn Parish,2020-03-22,2020-05-15
+23001,Maine,Androscoggin County,2020-04-02,2020-04-30
+23003,Maine,Aroostook County,2020-04-02,2020-04-30
+23005,Maine,Cumberland County,2020-03-23,
+23007,Maine,Franklin County,2020-04-02,2020-04-30
+23009,Maine,Hancock County,2020-04-02,2020-04-30
+23011,Maine,Kennebec County,2020-04-02,2020-04-30
+23013,Maine,Knox County,2020-04-02,2020-04-30
+23015,Maine,Lincoln County,2020-04-02,2020-04-30
+23017,Maine,Oxford County,2020-04-02,2020-04-30
+23019,Maine,Penobscot County,2020-04-02,2020-04-30
+23021,Maine,Piscataquis County,2020-04-02,2020-04-30
+23023,Maine,Sagadahoc County,2020-04-02,2020-04-30
+23025,Maine,Somerset County,2020-04-02,2020-04-30
+23027,Maine,Waldo County,2020-04-02,2020-04-30
+23029,Maine,Washington County,2020-04-02,2020-04-30
+23031,Maine,York County,2020-04-02,2020-04-30
+24001,Maryland,Allegany County,2020-03-30,
+24003,Maryland,Anne Arundel County,2020-03-30,
+24005,Maryland,Baltimore County,2020-03-30,
+24009,Maryland,Calvert County,2020-03-30,
+24011,Maryland,Caroline County,2020-03-30,
+24013,Maryland,Carroll County,2020-03-30,
+24015,Maryland,Cecil County,2020-03-30,
+24017,Maryland,Charles County,2020-03-30,
+24019,Maryland,Dorchester County,2020-03-30,
+24021,Maryland,Frederick County,2020-03-30,
+24023,Maryland,Garrett County,2020-03-30,
+24025,Maryland,Harford County,2020-03-30,
+24027,Maryland,Howard County,2020-03-30,
+24029,Maryland,Kent County,2020-03-30,
+24031,Maryland,Montgomery County,2020-03-30,
+24033,Maryland,Prince George's County,2020-03-30,
+24035,Maryland,Queen Anne's County,2020-03-30,
+24037,Maryland,St. Mary's County,2020-03-30,
+24039,Maryland,Somerset County,2020-03-30,
+24041,Maryland,Talbot County,2020-03-30,
+24043,Maryland,Washington County,2020-03-30,
+24045,Maryland,Wicomico County,2020-03-30,
+24047,Maryland,Worcester County,2020-03-30,
+24510,Maryland,Baltimore city,2020-03-30,
+25001,Massachusetts,Barnstable County,2020-03-23,2020-05-18
+25003,Massachusetts,Berkshire County,2020-03-31,2020-05-18
+25005,Massachusetts,Bristol County,2020-03-31,2020-05-18
+25007,Massachusetts,Dukes County,2020-03-24,
+25009,Massachusetts,Essex County,2020-03-26,2020-05-18
+25011,Massachusetts,Franklin County,2020-03-31,2020-05-18
+25013,Massachusetts,Hampden County,2020-03-31,2020-05-18
+25015,Massachusetts,Hampshire County,2020-03-31,2020-05-18
+25017,Massachusetts,Middlesex County,2020-03-31,2020-05-18
+25019,Massachusetts,Nantucket County,2020-03-31,2020-05-18
+25021,Massachusetts,Norfolk County,2020-03-31,2020-05-18
+25023,Massachusetts,Plymouth County,2020-03-31,2020-05-18
+25025,Massachusetts,Suffolk County,2020-03-31,2020-05-18
+25027,Massachusetts,Worcester County,2020-03-31,2020-05-18
+26001,Michigan,Alcona County,2020-03-24,2020-05-15
+26003,Michigan,Alger County,2020-03-24,2020-05-15
+26005,Michigan,Allegan County,2020-03-24,2020-05-15
+26007,Michigan,Alpena County,2020-03-24,2020-05-15
+26009,Michigan,Antrim County,2020-03-24,2020-05-15
+26011,Michigan,Arenac County,2020-03-24,2020-05-15
+26013,Michigan,Baraga County,2020-03-24,2020-05-15
+26015,Michigan,Barry County,2020-03-24,2020-05-15
+26017,Michigan,Bay County,2020-03-24,2020-05-15
+26019,Michigan,Benzie County,2020-03-24,2020-05-15
+26021,Michigan,Berrien County,2020-03-24,2020-05-15
+26023,Michigan,Branch County,2020-03-24,2020-05-15
+26025,Michigan,Calhoun County,2020-03-24,2020-05-15
+26027,Michigan,Cass County,2020-03-24,2020-05-15
+26029,Michigan,Charlevoix County,2020-03-24,2020-05-15
+26031,Michigan,Cheboygan County,2020-03-24,2020-05-15
+26033,Michigan,Chippewa County,2020-03-24,2020-05-15
+26035,Michigan,Clare County,2020-03-24,2020-05-15
+26037,Michigan,Clinton County,2020-03-24,2020-05-15
+26039,Michigan,Crawford County,2020-03-24,2020-05-15
+26041,Michigan,Delta County,2020-03-24,2020-05-15
+26043,Michigan,Dickinson County,2020-03-24,2020-05-15
+26045,Michigan,Eaton County,2020-03-24,2020-05-15
+26047,Michigan,Emmet County,2020-03-24,2020-05-15
+26049,Michigan,Genesee County,2020-03-24,2020-05-15
+26051,Michigan,Gladwin County,2020-03-24,2020-05-15
+26053,Michigan,Gogebic County,2020-03-24,2020-05-15
+26055,Michigan,Grand Traverse County,2020-03-24,2020-05-15
+26057,Michigan,Gratiot County,2020-03-24,2020-05-15
+26059,Michigan,Hillsdale County,2020-03-24,2020-05-15
+26061,Michigan,Houghton County,2020-03-24,2020-05-15
+26063,Michigan,Huron County,2020-03-24,2020-05-15
+26065,Michigan,Ingham County,2020-03-24,2020-05-15
+26067,Michigan,Ionia County,2020-03-24,2020-05-15
+26069,Michigan,Iosco County,2020-03-24,2020-05-15
+26071,Michigan,Iron County,2020-03-24,2020-05-15
+26073,Michigan,Isabella County,2020-03-24,2020-05-15
+26075,Michigan,Jackson County,2020-03-24,2020-05-15
+26077,Michigan,Kalamazoo County,2020-03-24,2020-05-15
+26079,Michigan,Kalkaska County,2020-03-24,2020-05-15
+26081,Michigan,Kent County,2020-03-24,2020-05-15
+26083,Michigan,Keweenaw County,2020-03-24,2020-05-15
+26085,Michigan,Lake County,2020-03-24,2020-05-15
+26087,Michigan,Lapeer County,2020-03-24,2020-05-15
+26089,Michigan,Leelanau County,2020-03-24,2020-05-15
+26091,Michigan,Lenawee County,2020-03-24,2020-05-15
+26093,Michigan,Livingston County,2020-03-24,2020-05-15
+26095,Michigan,Luce County,2020-03-24,2020-05-15
+26097,Michigan,Mackinac County,2020-03-24,2020-05-15
+26099,Michigan,Macomb County,2020-03-24,2020-05-15
+26101,Michigan,Manistee County,2020-03-24,2020-05-15
+26103,Michigan,Marquette County,2020-03-24,2020-05-15
+26105,Michigan,Mason County,2020-03-24,2020-05-15
+26107,Michigan,Mecosta County,2020-03-24,2020-05-15
+26109,Michigan,Menominee County,2020-03-24,2020-05-15
+26111,Michigan,Midland County,2020-03-24,2020-05-15
+26113,Michigan,Missaukee County,2020-03-24,2020-05-15
+26115,Michigan,Monroe County,2020-03-24,2020-05-15
+26117,Michigan,Montcalm County,2020-03-24,2020-05-15
+26119,Michigan,Montmorency County,2020-03-24,2020-05-15
+26121,Michigan,Muskegon County,2020-03-24,2020-05-15
+26123,Michigan,Newaygo County,2020-03-24,2020-05-15
+26125,Michigan,Oakland County,2020-03-24,2020-05-15
+26127,Michigan,Oceana County,2020-03-24,2020-05-15
+26129,Michigan,Ogemaw County,2020-03-24,2020-05-15
+26131,Michigan,Ontonagon County,2020-03-24,2020-05-15
+26133,Michigan,Osceola County,2020-03-24,2020-05-15
+26135,Michigan,Oscoda County,2020-03-24,2020-05-15
+26137,Michigan,Otsego County,2020-03-24,2020-05-15
+26139,Michigan,Ottawa County,2020-03-24,2020-05-15
+26141,Michigan,Presque Isle County,2020-03-24,2020-05-15
+26143,Michigan,Roscommon County,2020-03-24,2020-05-15
+26145,Michigan,Saginaw County,2020-03-24,2020-05-15
+26147,Michigan,St. Clair County,2020-03-24,2020-05-15
+26149,Michigan,St. Joseph County,2020-03-24,2020-05-15
+26151,Michigan,Sanilac County,2020-03-24,2020-05-15
+26153,Michigan,Schoolcraft County,2020-03-24,2020-05-15
+26155,Michigan,Shiawassee County,2020-03-24,2020-05-15
+26157,Michigan,Tuscola County,2020-03-24,2020-05-15
+26159,Michigan,Van Buren County,2020-03-24,2020-05-15
+26161,Michigan,Washtenaw County,2020-03-24,2020-05-15
+26163,Michigan,Wayne County,2020-03-24,2020-05-15
+26165,Michigan,Wexford County,2020-03-24,2020-05-15
+27001,Minnesota,Aitkin County,2020-03-27,2020-05-04
+27003,Minnesota,Anoka County,2020-03-27,2020-05-04
+27005,Minnesota,Becker County,2020-03-27,2020-05-04
+27007,Minnesota,Beltrami County,2020-03-27,2020-05-04
+27009,Minnesota,Benton County,2020-03-27,2020-05-04
+27011,Minnesota,Big Stone County,2020-03-27,2020-05-04
+27013,Minnesota,Blue Earth County,2020-03-27,2020-05-04
+27015,Minnesota,Brown County,2020-03-27,2020-05-04
+27017,Minnesota,Carlton County,2020-03-27,2020-05-04
+27019,Minnesota,Carver County,2020-03-27,2020-05-04
+27021,Minnesota,Cass County,2020-03-27,2020-05-04
+27023,Minnesota,Chippewa County,2020-03-27,2020-05-04
+27025,Minnesota,Chisago County,2020-03-27,2020-05-04
+27027,Minnesota,Clay County,2020-03-27,2020-05-04
+27029,Minnesota,Clearwater County,2020-03-27,2020-05-04
+27031,Minnesota,Cook County,2020-03-27,2020-05-04
+27033,Minnesota,Cottonwood County,2020-03-27,2020-05-04
+27035,Minnesota,Crow Wing County,2020-03-27,2020-05-04
+27037,Minnesota,Dakota County,2020-03-27,2020-05-04
+27039,Minnesota,Dodge County,2020-03-27,2020-05-04
+27041,Minnesota,Douglas County,2020-03-27,2020-05-04
+27043,Minnesota,Faribault County,2020-03-27,2020-05-04
+27045,Minnesota,Fillmore County,2020-03-27,2020-05-04
+27047,Minnesota,Freeborn County,2020-03-27,2020-05-04
+27049,Minnesota,Goodhue County,2020-03-27,2020-05-04
+27051,Minnesota,Grant County,2020-03-27,2020-05-04
+27053,Minnesota,Hennepin County,2020-03-27,2020-05-04
+27055,Minnesota,Houston County,2020-03-27,2020-05-04
+27057,Minnesota,Hubbard County,2020-03-27,2020-05-04
+27059,Minnesota,Isanti County,2020-03-27,2020-05-04
+27061,Minnesota,Itasca County,2020-03-27,2020-05-04
+27063,Minnesota,Jackson County,2020-03-27,2020-05-04
+27065,Minnesota,Kanabec County,2020-03-27,2020-05-04
+27067,Minnesota,Kandiyohi County,2020-03-27,2020-05-04
+27069,Minnesota,Kittson County,2020-03-27,2020-05-04
+27071,Minnesota,Koochiching County,2020-03-27,2020-05-04
+27073,Minnesota,Lac qui Parle County,2020-03-27,2020-05-04
+27075,Minnesota,Lake County,2020-03-27,2020-05-04
+27077,Minnesota,Lake of the Woods County,2020-03-27,2020-05-04
+27079,Minnesota,Le Sueur County,2020-03-27,2020-05-04
+27081,Minnesota,Lincoln County,2020-03-27,2020-05-04
+27083,Minnesota,Lyon County,2020-03-27,2020-05-04
+27085,Minnesota,McLeod County,2020-03-27,2020-05-04
+27087,Minnesota,Mahnomen County,2020-03-27,2020-05-04
+27089,Minnesota,Marshall County,2020-03-27,2020-05-04
+27091,Minnesota,Martin County,2020-03-27,2020-05-04
+27093,Minnesota,Meeker County,2020-03-27,2020-05-04
+27095,Minnesota,Mille Lacs County,2020-03-27,2020-05-04
+27097,Minnesota,Morrison County,2020-03-27,2020-05-04
+27099,Minnesota,Mower County,2020-03-27,2020-05-04
+27101,Minnesota,Murray County,2020-03-27,2020-05-04
+27103,Minnesota,Nicollet County,2020-03-27,2020-05-04
+27105,Minnesota,Nobles County,2020-03-27,2020-05-04
+27107,Minnesota,Norman County,2020-03-27,2020-05-04
+27109,Minnesota,Olmsted County,2020-03-27,2020-05-04
+27111,Minnesota,Otter Tail County,2020-03-27,2020-05-04
+27113,Minnesota,Pennington County,2020-03-27,2020-05-04
+27115,Minnesota,Pine County,2020-03-27,2020-05-04
+27117,Minnesota,Pipestone County,2020-03-27,2020-05-04
+27119,Minnesota,Polk County,2020-03-27,2020-05-04
+27121,Minnesota,Pope County,2020-03-27,2020-05-04
+27123,Minnesota,Ramsey County,2020-03-27,2020-05-04
+27125,Minnesota,Red Lake County,2020-03-27,2020-05-04
+27127,Minnesota,Redwood County,2020-03-27,2020-05-04
+27129,Minnesota,Renville County,2020-03-27,2020-05-04
+27131,Minnesota,Rice County,2020-03-27,2020-05-04
+27133,Minnesota,Rock County,2020-03-27,2020-05-04
+27135,Minnesota,Roseau County,2020-03-27,2020-05-04
+27137,Minnesota,St. Louis County,2020-03-27,2020-05-04
+27139,Minnesota,Scott County,2020-03-27,2020-05-04
+27141,Minnesota,Sherburne County,2020-03-27,2020-05-04
+27143,Minnesota,Sibley County,2020-03-27,2020-05-04
+27145,Minnesota,Stearns County,2020-03-27,2020-05-04
+27147,Minnesota,Steele County,2020-03-27,2020-05-04
+27149,Minnesota,Stevens County,2020-03-27,2020-05-04
+27151,Minnesota,Swift County,2020-03-27,2020-05-04
+27153,Minnesota,Todd County,2020-03-27,2020-05-04
+27155,Minnesota,Traverse County,2020-03-27,2020-05-04
+27157,Minnesota,Wabasha County,2020-03-27,2020-05-04
+27159,Minnesota,Wadena County,2020-03-27,2020-05-04
+27161,Minnesota,Waseca County,2020-03-27,2020-05-04
+27163,Minnesota,Washington County,2020-03-27,2020-05-04
+27165,Minnesota,Watonwan County,2020-03-27,2020-05-04
+27167,Minnesota,Wilkin County,2020-03-27,2020-05-04
+27169,Minnesota,Winona County,2020-03-27,2020-05-04
+27171,Minnesota,Wright County,2020-03-27,2020-05-04
+27173,Minnesota,Yellow Medicine County,2020-03-27,2020-05-04
+28001,Mississippi,Adams County,2020-04-03,2020-04-27
+28003,Mississippi,Alcorn County,2020-04-03,2020-04-27
+28005,Mississippi,Amite County,2020-04-03,2020-04-27
+28007,Mississippi,Attala County,2020-04-03,2020-04-27
+28009,Mississippi,Benton County,2020-04-03,2020-04-27
+28011,Mississippi,Bolivar County,2020-04-03,2020-04-27
+28013,Mississippi,Calhoun County,2020-04-03,2020-04-27
+28015,Mississippi,Carroll County,2020-04-03,2020-04-27
+28017,Mississippi,Chickasaw County,2020-04-03,2020-04-27
+28019,Mississippi,Choctaw County,2020-04-03,2020-04-27
+28021,Mississippi,Claiborne County,2020-04-03,2020-04-27
+28023,Mississippi,Clarke County,2020-04-03,2020-04-27
+28025,Mississippi,Clay County,2020-04-03,2020-04-27
+28027,Mississippi,Coahoma County,2020-04-03,2020-04-27
+28029,Mississippi,Copiah County,2020-04-03,2020-04-27
+28031,Mississippi,Covington County,2020-04-03,2020-04-27
+28033,Mississippi,DeSoto County,2020-04-03,2020-04-27
+28035,Mississippi,Forrest County,2020-04-03,2020-04-27
+28037,Mississippi,Franklin County,2020-04-03,2020-04-27
+28039,Mississippi,George County,2020-04-03,2020-04-27
+28041,Mississippi,Greene County,2020-04-03,2020-04-27
+28043,Mississippi,Grenada County,2020-04-03,2020-04-27
+28045,Mississippi,Hancock County,2020-04-03,2020-04-27
+28047,Mississippi,Harrison County,2020-04-03,2020-04-27
+28049,Mississippi,Hinds County,2020-04-03,2020-04-27
+28051,Mississippi,Holmes County,2020-04-03,2020-04-27
+28053,Mississippi,Humphreys County,2020-04-03,2020-04-27
+28055,Mississippi,Issaquena County,2020-04-03,2020-04-27
+28057,Mississippi,Itawamba County,2020-03-24,2020-04-27
+28059,Mississippi,Jackson County,2020-03-28,
+28061,Mississippi,Jasper County,2020-04-03,2020-04-27
+28063,Mississippi,Jefferson County,2020-04-03,2020-04-27
+28065,Mississippi,Jefferson Davis County,2020-04-03,2020-04-27
+28067,Mississippi,Jones County,2020-04-03,2020-04-27
+28069,Mississippi,Kemper County,2020-04-03,2020-04-27
+28071,Mississippi,Lafayette County,2020-03-22,2020-04-27
+28073,Mississippi,Lamar County,2020-04-03,2020-04-27
+28075,Mississippi,Lauderdale County,2020-03-31,2020-04-27
+28077,Mississippi,Lawrence County,2020-04-03,2020-04-27
+28079,Mississippi,Leake County,2020-04-03,2020-04-27
+28081,Mississippi,Lee County,2020-03-22,2020-04-27
+28083,Mississippi,Leflore County,2020-04-03,2020-04-27
+28085,Mississippi,Lincoln County,2020-04-03,2020-04-27
+28087,Mississippi,Lowndes County,2020-04-03,2020-04-27
+28089,Mississippi,Madison County,2020-04-03,2020-04-27
+28091,Mississippi,Marion County,2020-04-03,2020-04-27
+28093,Mississippi,Marshall County,2020-04-03,2020-04-27
+28095,Mississippi,Monroe County,2020-04-03,2020-04-27
+28097,Mississippi,Montgomery County,2020-04-03,2020-04-27
+28099,Mississippi,Neshoba County,2020-04-03,2020-04-27
+28101,Mississippi,Newton County,2020-04-03,2020-04-27
+28103,Mississippi,Noxubee County,2020-04-03,2020-04-27
+28105,Mississippi,Oktibbeha County,2020-04-03,2020-04-27
+28107,Mississippi,Panola County,2020-04-03,2020-04-27
+28109,Mississippi,Pearl River County,2020-04-03,2020-04-27
+28111,Mississippi,Perry County,2020-04-03,2020-04-27
+28113,Mississippi,Pike County,2020-04-03,2020-04-27
+28115,Mississippi,Pontotoc County,2020-04-03,2020-04-27
+28117,Mississippi,Prentiss County,2020-04-03,2020-04-27
+28119,Mississippi,Quitman County,2020-04-03,2020-04-27
+28121,Mississippi,Rankin County,2020-04-03,2020-04-27
+28123,Mississippi,Scott County,2020-04-03,2020-04-27
+28125,Mississippi,Sharkey County,2020-04-03,2020-04-27
+28127,Mississippi,Simpson County,2020-04-03,2020-04-27
+28129,Mississippi,Smith County,2020-04-03,2020-04-27
+28131,Mississippi,Stone County,2020-04-03,2020-04-27
+28133,Mississippi,Sunflower County,2020-04-03,2020-04-27
+28135,Mississippi,Tallahatchie County,2020-04-03,2020-04-27
+28137,Mississippi,Tate County,2020-04-03,2020-04-27
+28139,Mississippi,Tippah County,2020-04-03,2020-04-27
+28141,Mississippi,Tishomingo County,2020-04-03,2020-04-27
+28143,Mississippi,Tunica County,2020-04-03,2020-04-27
+28145,Mississippi,Union County,2020-04-03,2020-04-27
+28147,Mississippi,Walthall County,2020-04-03,2020-04-27
+28149,Mississippi,Warren County,2020-04-03,2020-04-27
+28151,Mississippi,Washington County,2020-04-03,2020-04-27
+28153,Mississippi,Wayne County,2020-04-03,2020-04-27
+28155,Mississippi,Webster County,2020-04-03,2020-04-27
+28157,Mississippi,Wilkinson County,2020-04-03,2020-04-27
+28159,Mississippi,Winston County,2020-04-03,2020-04-27
+28161,Mississippi,Yalobusha County,2020-04-03,2020-04-27
+28163,Mississippi,Yazoo County,2020-04-03,2020-04-27
+29001,Missouri,Adair County,2020-04-06,2020-05-03
+29003,Missouri,Andrew County,2020-04-06,2020-05-03
+29005,Missouri,Atchison County,2020-04-06,2020-05-03
+29007,Missouri,Audrain County,2020-04-06,2020-05-03
+29009,Missouri,Barry County,2020-04-06,2020-05-03
+29011,Missouri,Barton County,2020-04-06,2020-05-03
+29013,Missouri,Bates County,2020-03-30,2020-05-03
+29015,Missouri,Benton County,2020-04-06,2020-05-03
+29017,Missouri,Bollinger County,2020-04-06,2020-05-03
+29019,Missouri,Boone County,2020-03-25,2020-05-03
+29021,Missouri,Buchanan County,2020-03-24,2020-05-03
+29023,Missouri,Butler County,2020-04-06,2020-05-03
+29025,Missouri,Caldwell County,2020-03-27,
+29027,Missouri,Callaway County,2020-04-06,2020-05-03
+29029,Missouri,Camden County,2020-04-06,2020-05-03
+29031,Missouri,Cape Girardeau County,2020-04-06,2020-05-03
+29033,Missouri,Carroll County,2020-04-06,2020-05-03
+29035,Missouri,Carter County,2020-04-06,2020-05-03
+29037,Missouri,Cass County,2020-03-24,2020-05-03
+29039,Missouri,Cedar County,2020-04-06,2020-05-03
+29041,Missouri,Chariton County,2020-03-30,2020-05-03
+29043,Missouri,Christian County,2020-03-26,2020-05-03
+29045,Missouri,Clark County,2020-04-06,2020-05-03
+29047,Missouri,Clay County,2020-03-24,2020-05-03
+29049,Missouri,Clinton County,2020-03-26,
+29051,Missouri,Cole County,2020-03-28,2020-05-03
+29053,Missouri,Cooper County,2020-04-06,2020-05-03
+29055,Missouri,Crawford County,2020-04-01,2020-05-03
+29057,Missouri,Dade County,2020-04-02,
+29059,Missouri,Dallas County,2020-04-06,2020-05-03
+29061,Missouri,Daviess County,2020-04-06,2020-05-03
+29063,Missouri,DeKalb County,2020-04-06,2020-05-03
+29065,Missouri,Dent County,2020-04-06,2020-05-03
+29067,Missouri,Douglas County,2020-04-06,2020-05-03
+29069,Missouri,Dunklin County,2020-04-06,2020-05-03
+29071,Missouri,Franklin County,2020-04-06,2020-05-03
+29073,Missouri,Gasconade County,2020-03-31,2020-05-03
+29075,Missouri,Gentry County,2020-04-06,2020-05-03
+29077,Missouri,Greene County,2020-03-26,2020-05-03
+29079,Missouri,Grundy County,2020-04-06,2020-05-03
+29081,Missouri,Harrison County,2020-03-30,
+29083,Missouri,Henry County,2020-04-06,2020-05-03
+29085,Missouri,Hickory County,2020-04-06,2020-05-03
+29087,Missouri,Holt County,2020-04-06,2020-05-03
+29089,Missouri,Howard County,2020-04-06,2020-05-03
+29091,Missouri,Howell County,2020-03-28,2020-05-03
+29093,Missouri,Iron County,2020-04-06,2020-05-03
+29095,Missouri,Jackson County,2020-03-24,2020-05-03
+29097,Missouri,Jasper County,2020-04-06,2020-05-03
+29099,Missouri,Jefferson County,2020-03-24,2020-05-03
+29101,Missouri,Johnson County,2020-04-01,2020-05-03
+29103,Missouri,Knox County,2020-04-06,2020-05-03
+29105,Missouri,Laclede County,2020-04-06,2020-05-03
+29107,Missouri,Lafayette County,2020-03-31,2020-05-03
+29109,Missouri,Lawrence County,2020-04-06,2020-05-03
+29111,Missouri,Lewis County,2020-04-06,2020-05-03
+29113,Missouri,Lincoln County,2020-03-29,2020-05-03
+29115,Missouri,Linn County,2020-04-03,2020-05-03
+29117,Missouri,Livingston County,2020-04-06,2020-05-03
+29119,Missouri,McDonald County,2020-04-06,2020-05-03
+29121,Missouri,Macon County,2020-04-06,2020-05-03
+29123,Missouri,Madison County,2020-04-06,2020-05-03
+29125,Missouri,Maries County,2020-04-06,2020-05-03
+29127,Missouri,Marion County,2020-04-06,2020-05-03
+29129,Missouri,Mercer County,2020-04-06,2020-05-03
+29131,Missouri,Miller County,2020-04-06,2020-05-03
+29133,Missouri,Mississippi County,2020-04-06,2020-05-03
+29135,Missouri,Moniteau County,2020-04-06,2020-05-03
+29137,Missouri,Monroe County,2020-04-06,2020-05-03
+29139,Missouri,Montgomery County,2020-04-06,2020-05-03
+29141,Missouri,Morgan County,2020-04-06,2020-05-03
+29143,Missouri,New Madrid County,2020-04-06,2020-05-03
+29145,Missouri,Newton County,2020-04-06,2020-05-03
+29147,Missouri,Nodaway County,2020-04-01,2020-05-03
+29149,Missouri,Oregon County,2020-04-06,2020-05-03
+29151,Missouri,Osage County,2020-04-03,2020-05-03
+29153,Missouri,Ozark County,2020-04-06,2020-05-03
+29155,Missouri,Pemiscot County,2020-04-06,2020-05-03
+29157,Missouri,Perry County,2020-03-26,2020-05-03
+29159,Missouri,Pettis County,2020-04-06,2020-05-03
+29161,Missouri,Phelps County,2020-04-03,2020-05-03
+29163,Missouri,Pike County,2020-04-05,2020-05-03
+29165,Missouri,Platte County,2020-03-24,2020-05-03
+29167,Missouri,Polk County,2020-04-06,2020-05-03
+29169,Missouri,Pulaski County,2020-04-02,2020-05-03
+29171,Missouri,Putnam County,2020-04-06,2020-05-03
+29173,Missouri,Ralls County,2020-04-06,2020-05-03
+29175,Missouri,Randolph County,2020-03-25,2020-05-03
+29177,Missouri,Ray County,2020-03-25,2020-05-03
+29179,Missouri,Reynolds County,2020-04-06,
+29181,Missouri,Ripley County,2020-04-06,2020-05-03
+29183,Missouri,St. Charles County,2020-03-24,
+29185,Missouri,St. Clair County,2020-04-06,2020-05-03
+29186,Missouri,Ste. Genevieve County,2020-04-06,2020-05-03
+29187,Missouri,St. Francois County,2020-04-03,
+29189,Missouri,St. Louis County,2020-03-23,2020-05-03
+29195,Missouri,Saline County,2020-04-06,2020-05-03
+29197,Missouri,Schuyler County,2020-04-06,2020-05-03
+29199,Missouri,Scotland County,2020-04-06,2020-05-03
+29201,Missouri,Scott County,2020-04-04,
+29203,Missouri,Shannon County,2020-04-06,2020-05-03
+29205,Missouri,Shelby County,2020-04-06,2020-05-03
+29207,Missouri,Stoddard County,2020-04-03,2020-05-03
+29209,Missouri,Stone County,2020-04-06,2020-05-03
+29211,Missouri,Sullivan County,2020-04-06,2020-05-03
+29213,Missouri,Taney County,2020-04-06,2020-05-03
+29215,Missouri,Texas County,2020-04-06,2020-05-03
+29217,Missouri,Vernon County,2020-04-03,2020-05-03
+29219,Missouri,Warren County,2020-04-06,2020-05-03
+29221,Missouri,Washington County,2020-04-06,2020-05-03
+29223,Missouri,Wayne County,2020-04-06,2020-05-03
+29225,Missouri,Webster County,2020-03-26,2020-05-03
+29227,Missouri,Worth County,2020-04-06,2020-05-03
+29229,Missouri,Wright County,2020-04-06,2020-05-03
+29510,Missouri,St. Louis city,2020-03-23,2020-05-03
+30001,Montana,Beaverhead County,2020-03-28,2020-04-24
+30003,Montana,Big Horn County,2020-03-28,2020-04-24
+30005,Montana,Blaine County,2020-03-28,2020-04-24
+30007,Montana,Broadwater County,2020-03-28,2020-04-24
+30009,Montana,Carbon County,2020-03-28,2020-04-24
+30011,Montana,Carter County,2020-03-28,2020-04-24
+30013,Montana,Cascade County,2020-03-28,2020-04-24
+30015,Montana,Chouteau County,2020-03-28,2020-04-24
+30017,Montana,Custer County,2020-03-28,2020-04-24
+30019,Montana,Daniels County,2020-03-28,2020-04-24
+30021,Montana,Dawson County,2020-03-28,2020-04-24
+30023,Montana,Deer Lodge County,2020-03-28,2020-04-24
+30025,Montana,Fallon County,2020-03-28,2020-04-24
+30027,Montana,Fergus County,2020-03-28,2020-04-24
+30029,Montana,Flathead County,2020-03-28,2020-04-24
+30031,Montana,Gallatin County,2020-03-28,2020-04-24
+30033,Montana,Garfield County,2020-03-28,2020-04-24
+30035,Montana,Glacier County,2020-03-28,2020-04-24
+30037,Montana,Golden Valley County,2020-03-28,2020-04-24
+30039,Montana,Granite County,2020-03-28,2020-04-24
+30041,Montana,Hill County,2020-03-28,2020-04-24
+30043,Montana,Jefferson County,2020-03-28,2020-04-24
+30045,Montana,Judith Basin County,2020-03-28,2020-04-24
+30047,Montana,Lake County,2020-03-28,2020-04-24
+30049,Montana,Lewis and Clark County,2020-03-28,2020-04-24
+30051,Montana,Liberty County,2020-03-28,2020-04-24
+30053,Montana,Lincoln County,2020-03-28,2020-04-24
+30055,Montana,McCone County,2020-03-28,2020-04-24
+30057,Montana,Madison County,2020-03-28,2020-04-24
+30059,Montana,Meagher County,2020-03-28,2020-04-24
+30061,Montana,Mineral County,2020-03-28,2020-04-24
+30063,Montana,Missoula County,2020-03-28,2020-04-24
+30065,Montana,Musselshell County,2020-03-28,2020-04-24
+30067,Montana,Park County,2020-03-28,2020-04-24
+30069,Montana,Petroleum County,2020-03-28,2020-04-24
+30071,Montana,Phillips County,2020-03-28,2020-04-24
+30073,Montana,Pondera County,2020-03-28,2020-04-24
+30075,Montana,Powder River County,2020-03-28,2020-04-24
+30077,Montana,Powell County,2020-03-28,2020-04-24
+30079,Montana,Prairie County,2020-03-28,2020-04-24
+30081,Montana,Ravalli County,2020-03-28,2020-04-24
+30083,Montana,Richland County,2020-03-28,2020-04-24
+30085,Montana,Roosevelt County,2020-03-28,2020-04-24
+30087,Montana,Rosebud County,2020-03-28,2020-04-24
+30089,Montana,Sanders County,2020-03-28,2020-04-24
+30091,Montana,Sheridan County,2020-03-28,2020-04-24
+30093,Montana,Silver Bow County,2020-03-28,2020-04-24
+30095,Montana,Stillwater County,2020-03-28,2020-04-24
+30097,Montana,Sweet Grass County,2020-03-28,2020-04-24
+30099,Montana,Teton County,2020-03-28,2020-04-24
+30101,Montana,Toole County,2020-03-28,2020-04-24
+30103,Montana,Treasure County,2020-03-28,2020-04-24
+30105,Montana,Valley County,2020-03-28,2020-04-24
+30107,Montana,Wheatland County,2020-03-28,2020-04-24
+30109,Montana,Wibaux County,2020-03-28,2020-04-24
+30111,Montana,Yellowstone County,2020-03-28,2020-04-24
+31001,Nebraska,Adams County,,
+31003,Nebraska,Antelope County,,
+31005,Nebraska,Arthur County,,
+31007,Nebraska,Banner County,,
+31009,Nebraska,Blaine County,,
+31011,Nebraska,Boone County,,
+31013,Nebraska,Box Butte County,,
+31015,Nebraska,Boyd County,,
+31017,Nebraska,Brown County,,
+31019,Nebraska,Buffalo County,,
+31021,Nebraska,Burt County,,
+31023,Nebraska,Butler County,,
+31025,Nebraska,Cass County,,
+31027,Nebraska,Cedar County,,
+31029,Nebraska,Chase County,,
+31031,Nebraska,Cherry County,,
+31033,Nebraska,Cheyenne County,,
+31035,Nebraska,Clay County,,
+31037,Nebraska,Colfax County,,
+31039,Nebraska,Cuming County,,
+31041,Nebraska,Custer County,,
+31043,Nebraska,Dakota County,,
+31045,Nebraska,Dawes County,,
+31047,Nebraska,Dawson County,,
+31049,Nebraska,Deuel County,,
+31051,Nebraska,Dixon County,,
+31053,Nebraska,Dodge County,,
+31055,Nebraska,Douglas County,,
+31057,Nebraska,Dundy County,,
+31059,Nebraska,Fillmore County,,
+31061,Nebraska,Franklin County,,
+31063,Nebraska,Frontier County,,
+31065,Nebraska,Furnas County,,
+31067,Nebraska,Gage County,,
+31069,Nebraska,Garden County,,
+31071,Nebraska,Garfield County,,
+31073,Nebraska,Gosper County,,
+31075,Nebraska,Grant County,,
+31077,Nebraska,Greeley County,,
+31079,Nebraska,Hall County,,
+31081,Nebraska,Hamilton County,,
+31083,Nebraska,Harlan County,,
+31085,Nebraska,Hayes County,,
+31087,Nebraska,Hitchcock County,,
+31089,Nebraska,Holt County,,
+31091,Nebraska,Hooker County,,
+31093,Nebraska,Howard County,,
+31095,Nebraska,Jefferson County,,
+31097,Nebraska,Johnson County,,
+31099,Nebraska,Kearney County,,
+31101,Nebraska,Keith County,,
+31103,Nebraska,Keya Paha County,,
+31105,Nebraska,Kimball County,,
+31107,Nebraska,Knox County,,
+31109,Nebraska,Lancaster County,,
+31111,Nebraska,Lincoln County,,
+31113,Nebraska,Logan County,,
+31115,Nebraska,Loup County,,
+31117,Nebraska,McPherson County,,
+31119,Nebraska,Madison County,,
+31121,Nebraska,Merrick County,,
+31123,Nebraska,Morrill County,,
+31125,Nebraska,Nance County,,
+31127,Nebraska,Nemaha County,,
+31129,Nebraska,Nuckolls County,,
+31131,Nebraska,Otoe County,,
+31133,Nebraska,Pawnee County,,
+31135,Nebraska,Perkins County,,
+31137,Nebraska,Phelps County,,
+31139,Nebraska,Pierce County,,
+31141,Nebraska,Platte County,,
+31143,Nebraska,Polk County,,
+31145,Nebraska,Red Willow County,,
+31147,Nebraska,Richardson County,,
+31149,Nebraska,Rock County,,
+31151,Nebraska,Saline County,,
+31153,Nebraska,Sarpy County,,
+31155,Nebraska,Saunders County,,
+31157,Nebraska,Scotts Bluff County,,
+31159,Nebraska,Seward County,,
+31161,Nebraska,Sheridan County,,
+31163,Nebraska,Sherman County,,
+31165,Nebraska,Sioux County,,
+31167,Nebraska,Stanton County,,
+31169,Nebraska,Thayer County,,
+31171,Nebraska,Thomas County,,
+31173,Nebraska,Thurston County,,
+31175,Nebraska,Valley County,,
+31177,Nebraska,Washington County,,
+31179,Nebraska,Wayne County,,
+31181,Nebraska,Webster County,,
+31183,Nebraska,Wheeler County,,
+31185,Nebraska,York County,,
+32001,Nevada,Churchill County,2020-04-01,2020-04-30
+32003,Nevada,Clark County,2020-04-01,2020-04-30
+32005,Nevada,Douglas County,2020-04-01,2020-04-30
+32007,Nevada,Elko County,2020-04-01,2020-04-30
+32009,Nevada,Esmeralda County,2020-04-01,2020-04-30
+32011,Nevada,Eureka County,2020-04-01,2020-04-30
+32013,Nevada,Humboldt County,2020-04-01,2020-04-30
+32015,Nevada,Lander County,2020-04-01,2020-04-30
+32017,Nevada,Lincoln County,2020-04-01,2020-04-30
+32019,Nevada,Lyon County,2020-04-01,2020-04-30
+32021,Nevada,Mineral County,2020-04-01,2020-04-30
+32023,Nevada,Nye County,2020-04-01,2020-04-30
+32027,Nevada,Pershing County,2020-04-01,2020-04-30
+32029,Nevada,Storey County,2020-04-01,2020-04-30
+32031,Nevada,Washoe County,2020-04-01,2020-04-30
+32033,Nevada,White Pine County,2020-04-01,2020-04-30
+32510,Nevada,Carson City,2020-04-01,2020-04-30
+33001,New Hampshire,Belknap County,2020-03-27,2020-05-04
+33003,New Hampshire,Carroll County,2020-03-27,2020-05-04
+33005,New Hampshire,Cheshire County,2020-03-27,2020-05-04
+33007,New Hampshire,Coos County,2020-03-27,2020-05-04
+33009,New Hampshire,Grafton County,2020-03-27,2020-05-04
+33011,New Hampshire,Hillsborough County,2020-03-27,2020-05-04
+33013,New Hampshire,Merrimack County,2020-03-27,2020-05-04
+33015,New Hampshire,Rockingham County,2020-03-27,2020-05-04
+33017,New Hampshire,Strafford County,2020-03-27,2020-05-04
+33019,New Hampshire,Sullivan County,2020-03-27,2020-05-04
+34001,New Jersey,Atlantic County,2020-03-21,
+34003,New Jersey,Bergen County,2020-03-21,
+34005,New Jersey,Burlington County,2020-03-21,
+34007,New Jersey,Camden County,2020-03-21,
+34009,New Jersey,Cape May County,2020-03-21,
+34011,New Jersey,Cumberland County,2020-03-21,
+34013,New Jersey,Essex County,2020-03-21,
+34015,New Jersey,Gloucester County,2020-03-21,
+34017,New Jersey,Hudson County,2020-03-21,
+34019,New Jersey,Hunterdon County,2020-03-21,
+34021,New Jersey,Mercer County,2020-03-21,
+34023,New Jersey,Middlesex County,2020-03-21,
+34025,New Jersey,Monmouth County,2020-03-21,
+34027,New Jersey,Morris County,2020-03-21,
+34029,New Jersey,Ocean County,2020-03-21,
+34031,New Jersey,Passaic County,2020-03-21,
+34033,New Jersey,Salem County,2020-03-21,
+34035,New Jersey,Somerset County,2020-03-21,
+34037,New Jersey,Sussex County,2020-03-21,
+34039,New Jersey,Union County,2020-03-21,
+34041,New Jersey,Warren County,2020-03-21,
+35001,New Mexico,Bernalillo County,2020-03-23,2020-04-10
+35003,New Mexico,Catron County,2020-03-23,2020-04-10
+35005,New Mexico,Chaves County,2020-03-23,2020-04-10
+35006,New Mexico,Cibola County,2020-03-23,2020-04-10
+35007,New Mexico,Colfax County,2020-03-23,2020-04-10
+35009,New Mexico,Curry County,2020-03-23,2020-04-10
+35011,New Mexico,De Baca County,2020-03-23,2020-04-10
+35013,New Mexico,Dona Ana County,2020-03-23,2020-04-10
+35015,New Mexico,Eddy County,2020-03-23,2020-04-10
+35017,New Mexico,Grant County,2020-03-23,2020-04-10
+35019,New Mexico,Guadalupe County,2020-03-23,2020-04-10
+35021,New Mexico,Harding County,2020-03-23,2020-04-10
+35023,New Mexico,Hidalgo County,2020-03-23,2020-04-10
+35025,New Mexico,Lea County,2020-03-23,2020-04-10
+35027,New Mexico,Lincoln County,2020-03-23,2020-04-10
+35028,New Mexico,Los Alamos County,2020-03-23,2020-04-10
+35029,New Mexico,Luna County,2020-03-23,2020-04-10
+35031,New Mexico,McKinley County,2020-03-23,2020-04-10
+35033,New Mexico,Mora County,2020-03-23,2020-04-10
+35035,New Mexico,Otero County,2020-03-23,2020-04-10
+35037,New Mexico,Quay County,2020-03-23,2020-04-10
+35039,New Mexico,Rio Arriba County,2020-03-23,2020-04-10
+35041,New Mexico,Roosevelt County,2020-03-23,2020-04-10
+35043,New Mexico,Sandoval County,2020-03-23,2020-04-10
+35045,New Mexico,San Juan County,2020-03-23,2020-04-10
+35047,New Mexico,San Miguel County,2020-03-23,2020-04-10
+35049,New Mexico,Santa Fe County,2020-03-23,2020-04-10
+35051,New Mexico,Sierra County,2020-03-23,2020-04-10
+35053,New Mexico,Socorro County,2020-03-23,2020-04-10
+35055,New Mexico,Taos County,2020-03-23,2020-04-10
+35057,New Mexico,Torrance County,2020-03-23,2020-04-10
+35059,New Mexico,Union County,2020-03-23,2020-04-10
+35061,New Mexico,Valencia County,2020-03-23,2020-04-10
+36001,New York,Albany County,2020-03-20,2020-04-15
+36003,New York,Allegany County,2020-03-20,2020-04-15
+36005,New York,Bronx County,2020-03-20,2020-04-15
+36007,New York,Broome County,2020-03-20,2020-04-15
+36009,New York,Cattaraugus County,2020-03-20,2020-04-15
+36011,New York,Cayuga County,2020-03-20,2020-04-15
+36013,New York,Chautauqua County,2020-03-20,2020-04-15
+36015,New York,Chemung County,2020-03-20,2020-04-15
+36017,New York,Chenango County,2020-03-20,2020-04-15
+36019,New York,Clinton County,2020-03-20,2020-04-15
+36021,New York,Columbia County,2020-03-20,2020-04-15
+36023,New York,Cortland County,2020-03-20,2020-04-15
+36025,New York,Delaware County,2020-03-20,2020-04-15
+36027,New York,Dutchess County,2020-03-20,2020-04-15
+36029,New York,Erie County,2020-03-20,2020-04-15
+36031,New York,Essex County,2020-03-20,2020-04-15
+36033,New York,Franklin County,2020-03-20,2020-04-15
+36035,New York,Fulton County,2020-03-20,2020-04-15
+36037,New York,Genesee County,2020-03-20,2020-04-15
+36039,New York,Greene County,2020-03-20,2020-04-15
+36041,New York,Hamilton County,2020-03-20,2020-04-15
+36043,New York,Herkimer County,2020-03-20,2020-04-15
+36045,New York,Jefferson County,2020-03-20,2020-04-15
+36047,New York,Kings County,2020-03-20,2020-04-15
+36049,New York,Lewis County,2020-03-20,2020-04-15
+36051,New York,Livingston County,2020-03-20,2020-04-15
+36053,New York,Madison County,2020-03-20,2020-04-15
+36055,New York,Monroe County,2020-03-20,2020-04-15
+36057,New York,Montgomery County,2020-03-20,2020-04-15
+36059,New York,Nassau County,2020-03-20,2020-04-15
+36061,New York,New York County,2020-03-20,2020-04-15
+36063,New York,Niagara County,2020-03-20,2020-04-15
+36065,New York,Oneida County,2020-03-20,2020-04-15
+36067,New York,Onondaga County,2020-03-20,2020-04-15
+36069,New York,Ontario County,2020-03-20,2020-04-15
+36071,New York,Orange County,2020-03-20,2020-04-15
+36073,New York,Orleans County,2020-03-20,2020-04-15
+36075,New York,Oswego County,2020-03-20,2020-04-15
+36077,New York,Otsego County,2020-03-20,2020-04-15
+36079,New York,Putnam County,2020-03-20,2020-04-15
+36081,New York,Queens County,2020-03-20,2020-04-15
+36083,New York,Rensselaer County,2020-03-20,2020-04-15
+36085,New York,Richmond County,2020-03-20,2020-04-15
+36087,New York,Rockland County,2020-03-20,2020-04-15
+36089,New York,St. Lawrence County,2020-03-20,2020-04-15
+36091,New York,Saratoga County,2020-03-20,2020-04-15
+36093,New York,Schenectady County,2020-03-20,2020-04-15
+36095,New York,Schoharie County,2020-03-20,2020-04-15
+36097,New York,Schuyler County,2020-03-20,2020-04-15
+36099,New York,Seneca County,2020-03-20,2020-04-15
+36101,New York,Steuben County,2020-03-20,2020-04-15
+36103,New York,Suffolk County,2020-03-20,2020-04-15
+36105,New York,Sullivan County,2020-03-20,2020-04-15
+36107,New York,Tioga County,2020-03-20,2020-04-15
+36109,New York,Tompkins County,2020-03-20,2020-04-15
+36111,New York,Ulster County,2020-03-20,2020-04-15
+36113,New York,Warren County,2020-03-20,2020-04-15
+36115,New York,Washington County,2020-03-20,2020-04-15
+36117,New York,Wayne County,2020-03-20,2020-04-15
+36119,New York,Westchester County,2020-03-20,2020-04-15
+36121,New York,Wyoming County,2020-03-20,2020-04-15
+36123,New York,Yates County,2020-03-20,2020-04-15
+37001,North Carolina,Alamance County,2020-03-30,2020-05-08
+37003,North Carolina,Alexander County,2020-03-30,2020-05-08
+37005,North Carolina,Alleghany County,2020-03-30,2020-05-08
+37007,North Carolina,Anson County,2020-03-30,2020-05-08
+37009,North Carolina,Ashe County,2020-03-30,2020-05-08
+37011,North Carolina,Avery County,2020-03-30,2020-05-08
+37013,North Carolina,Beaufort County,2020-03-30,2020-05-08
+37015,North Carolina,Bertie County,2020-03-30,2020-05-08
+37017,North Carolina,Bladen County,2020-03-30,2020-05-08
+37019,North Carolina,Brunswick County,2020-03-30,2020-05-08
+37021,North Carolina,Buncombe County,2020-03-27,2020-05-08
+37023,North Carolina,Burke County,2020-03-30,2020-05-08
+37025,North Carolina,Cabarrus County,2020-03-26,2020-05-08
+37027,North Carolina,Caldwell County,2020-03-30,2020-05-08
+37029,North Carolina,Camden County,2020-03-30,2020-05-08
+37031,North Carolina,Carteret County,2020-03-25,2020-05-08
+37033,North Carolina,Caswell County,2020-03-30,2020-05-08
+37035,North Carolina,Catawba County,2020-03-30,2020-05-08
+37037,North Carolina,Chatham County,2020-03-30,2020-05-08
+37039,North Carolina,Cherokee County,2020-03-30,2020-05-08
+37041,North Carolina,Chowan County,2020-03-30,2020-05-08
+37043,North Carolina,Clay County,2020-03-24,2020-05-08
+37045,North Carolina,Cleveland County,2020-03-30,2020-05-08
+37047,North Carolina,Columbus County,2020-03-30,2020-05-08
+37049,North Carolina,Craven County,2020-03-30,2020-05-08
+37051,North Carolina,Cumberland County,2020-03-30,2020-05-08
+37053,North Carolina,Currituck County,2020-03-30,2020-05-08
+37055,North Carolina,Dare County,2020-03-30,2020-05-08
+37057,North Carolina,Davidson County,2020-03-27,2020-05-08
+37059,North Carolina,Davie County,2020-03-30,2020-05-08
+37061,North Carolina,Duplin County,2020-03-30,2020-05-08
+37063,North Carolina,Durham County,2020-03-25,
+37065,North Carolina,Edgecombe County,2020-03-30,2020-05-08
+37067,North Carolina,Forsyth County,2020-03-27,2020-05-08
+37069,North Carolina,Franklin County,2020-03-30,2020-05-08
+37071,North Carolina,Gaston County,2020-03-27,2020-05-08
+37073,North Carolina,Gates County,2020-03-30,2020-05-08
+37075,North Carolina,Graham County,2020-03-30,2020-05-08
+37077,North Carolina,Granville County,2020-03-30,2020-05-08
+37079,North Carolina,Greene County,2020-03-30,2020-05-08
+37081,North Carolina,Guilford County,2020-03-27,2020-05-08
+37083,North Carolina,Halifax County,2020-03-30,2020-05-08
+37085,North Carolina,Harnett County,2020-03-30,2020-05-08
+37087,North Carolina,Haywood County,2020-03-30,2020-05-08
+37089,North Carolina,Henderson County,2020-03-28,
+37091,North Carolina,Hertford County,2020-03-30,2020-05-08
+37093,North Carolina,Hoke County,2020-03-30,2020-05-08
+37095,North Carolina,Hyde County,2020-03-30,2020-05-08
+37097,North Carolina,Iredell County,2020-03-30,2020-05-08
+37099,North Carolina,Jackson County,2020-03-30,2020-05-08
+37101,North Carolina,Johnston County,2020-03-30,2020-05-08
+37103,North Carolina,Jones County,2020-03-30,2020-05-08
+37105,North Carolina,Lee County,2020-03-30,2020-05-08
+37107,North Carolina,Lenoir County,2020-03-30,2020-05-08
+37109,North Carolina,Lincoln County,2020-03-30,2020-05-08
+37111,North Carolina,McDowell County,2020-03-30,2020-05-08
+37113,North Carolina,Macon County,2020-03-30,2020-05-08
+37115,North Carolina,Madison County,2020-03-30,2020-05-08
+37117,North Carolina,Martin County,2020-03-30,2020-05-08
+37119,North Carolina,Mecklenburg County,2020-03-26,2020-05-08
+37121,North Carolina,Mitchell County,2020-03-30,2020-05-08
+37123,North Carolina,Montgomery County,2020-03-30,2020-05-08
+37125,North Carolina,Moore County,2020-03-30,2020-05-08
+37127,North Carolina,Nash County,2020-03-30,2020-05-08
+37129,North Carolina,New Hanover County,2020-03-30,2020-05-08
+37131,North Carolina,Northampton County,2020-03-30,2020-05-08
+37133,North Carolina,Onslow County,2020-03-30,2020-05-08
+37135,North Carolina,Orange County,2020-03-27,2020-05-08
+37137,North Carolina,Pamlico County,2020-03-30,2020-05-08
+37139,North Carolina,Pasquotank County,2020-03-30,2020-05-08
+37141,North Carolina,Pender County,2020-03-30,2020-05-08
+37143,North Carolina,Perquimans County,2020-03-30,2020-05-08
+37145,North Carolina,Person County,2020-03-30,2020-05-08
+37147,North Carolina,Pitt County,2020-03-25,
+37149,North Carolina,Polk County,2020-03-30,2020-05-08
+37151,North Carolina,Randolph County,2020-03-27,2020-05-08
+37153,North Carolina,Richmond County,2020-03-30,2020-05-08
+37155,North Carolina,Robeson County,2020-03-30,2020-05-08
+37157,North Carolina,Rockingham County,2020-03-30,2020-05-08
+37159,North Carolina,Rowan County,2020-03-30,2020-05-08
+37161,North Carolina,Rutherford County,2020-03-28,2020-05-08
+37163,North Carolina,Sampson County,2020-03-30,2020-05-08
+37165,North Carolina,Scotland County,2020-03-30,2020-05-08
+37167,North Carolina,Stanly County,2020-03-30,2020-05-08
+37169,North Carolina,Stokes County,2020-03-30,2020-05-08
+37171,North Carolina,Surry County,2020-03-30,2020-05-08
+37173,North Carolina,Swain County,2020-03-30,2020-05-08
+37175,North Carolina,Transylvania County,2020-03-30,2020-05-08
+37177,North Carolina,Tyrrell County,2020-03-30,2020-05-08
+37179,North Carolina,Union County,2020-03-30,2020-05-08
+37181,North Carolina,Vance County,2020-03-30,2020-05-08
+37183,North Carolina,Wake County,2020-03-30,2020-05-08
+37185,North Carolina,Warren County,2020-03-30,2020-05-08
+37187,North Carolina,Washington County,2020-03-30,2020-05-08
+37189,North Carolina,Watauga County,2020-03-30,2020-05-08
+37191,North Carolina,Wayne County,2020-03-30,2020-05-08
+37193,North Carolina,Wilkes County,2020-03-30,2020-05-08
+37195,North Carolina,Wilson County,2020-03-30,2020-05-08
+37197,North Carolina,Yadkin County,2020-03-30,2020-05-08
+37199,North Carolina,Yancey County,2020-03-30,2020-05-08
+38001,North Dakota,Adams County,,
+38003,North Dakota,Barnes County,,
+38005,North Dakota,Benson County,,
+38007,North Dakota,Billings County,,
+38009,North Dakota,Bottineau County,,
+38011,North Dakota,Bowman County,,
+38013,North Dakota,Burke County,,
+38015,North Dakota,Burleigh County,,
+38017,North Dakota,Cass County,,
+38019,North Dakota,Cavalier County,,
+38021,North Dakota,Dickey County,,
+38023,North Dakota,Divide County,,
+38025,North Dakota,Dunn County,,
+38027,North Dakota,Eddy County,,
+38029,North Dakota,Emmons County,,
+38031,North Dakota,Foster County,,
+38033,North Dakota,Golden Valley County,,
+38035,North Dakota,Grand Forks County,,
+38037,North Dakota,Grant County,,
+38039,North Dakota,Griggs County,,
+38041,North Dakota,Hettinger County,,
+38043,North Dakota,Kidder County,,
+38045,North Dakota,LaMoure County,,
+38047,North Dakota,Logan County,,
+38049,North Dakota,McHenry County,,
+38051,North Dakota,McIntosh County,,
+38053,North Dakota,McKenzie County,,
+38055,North Dakota,McLean County,,
+38057,North Dakota,Mercer County,,
+38059,North Dakota,Morton County,,
+38061,North Dakota,Mountrail County,,
+38063,North Dakota,Nelson County,,
+38065,North Dakota,Oliver County,,
+38067,North Dakota,Pembina County,,
+38069,North Dakota,Pierce County,,
+38071,North Dakota,Ramsey County,,
+38073,North Dakota,Ransom County,,
+38075,North Dakota,Renville County,,
+38077,North Dakota,Richland County,,
+38079,North Dakota,Rolette County,,
+38081,North Dakota,Sargent County,,
+38083,North Dakota,Sheridan County,,
+38085,North Dakota,Sioux County,,
+38087,North Dakota,Slope County,,
+38089,North Dakota,Stark County,,
+38091,North Dakota,Steele County,,
+38093,North Dakota,Stutsman County,,
+38095,North Dakota,Towner County,,
+38097,North Dakota,Traill County,,
+38099,North Dakota,Walsh County,,
+38101,North Dakota,Ward County,,
+38103,North Dakota,Wells County,,
+38105,North Dakota,Williams County,,
+39001,Ohio,Adams County,2020-03-22,2020-04-30
+39003,Ohio,Allen County,2020-03-22,2020-04-30
+39005,Ohio,Ashland County,2020-03-22,2020-04-30
+39007,Ohio,Ashtabula County,2020-03-22,2020-04-30
+39009,Ohio,Athens County,2020-03-22,2020-04-30
+39011,Ohio,Auglaize County,2020-03-22,2020-04-30
+39013,Ohio,Belmont County,2020-03-22,2020-04-30
+39015,Ohio,Brown County,2020-03-22,2020-04-30
+39017,Ohio,Butler County,2020-03-22,2020-04-30
+39019,Ohio,Carroll County,2020-03-22,2020-04-30
+39021,Ohio,Champaign County,2020-03-22,2020-04-30
+39023,Ohio,Clark County,2020-03-22,2020-04-30
+39025,Ohio,Clermont County,2020-03-22,2020-04-30
+39027,Ohio,Clinton County,2020-03-22,2020-04-30
+39029,Ohio,Columbiana County,2020-03-22,2020-04-30
+39031,Ohio,Coshocton County,2020-03-22,2020-04-30
+39033,Ohio,Crawford County,2020-03-22,2020-04-30
+39035,Ohio,Cuyahoga County,2020-03-22,2020-04-30
+39037,Ohio,Darke County,2020-03-22,2020-04-30
+39039,Ohio,Defiance County,2020-03-22,2020-04-30
+39041,Ohio,Delaware County,2020-03-22,2020-04-30
+39043,Ohio,Erie County,2020-03-22,2020-04-30
+39045,Ohio,Fairfield County,2020-03-22,2020-04-30
+39047,Ohio,Fayette County,2020-03-22,2020-04-30
+39049,Ohio,Franklin County,2020-03-22,2020-04-30
+39051,Ohio,Fulton County,2020-03-22,2020-04-30
+39053,Ohio,Gallia County,2020-03-22,2020-04-30
+39055,Ohio,Geauga County,2020-03-22,2020-04-30
+39057,Ohio,Greene County,2020-03-22,2020-04-30
+39059,Ohio,Guernsey County,2020-03-22,2020-04-30
+39061,Ohio,Hamilton County,2020-03-22,2020-04-30
+39063,Ohio,Hancock County,2020-03-22,2020-04-30
+39065,Ohio,Hardin County,2020-03-22,2020-04-30
+39067,Ohio,Harrison County,2020-03-22,2020-04-30
+39069,Ohio,Henry County,2020-03-22,2020-04-30
+39071,Ohio,Highland County,2020-03-22,2020-04-30
+39073,Ohio,Hocking County,2020-03-22,2020-04-30
+39075,Ohio,Holmes County,2020-03-22,2020-04-30
+39077,Ohio,Huron County,2020-03-22,2020-04-30
+39079,Ohio,Jackson County,2020-03-22,2020-04-30
+39081,Ohio,Jefferson County,2020-03-22,2020-04-30
+39083,Ohio,Knox County,2020-03-22,2020-04-30
+39085,Ohio,Lake County,2020-03-22,2020-04-30
+39087,Ohio,Lawrence County,2020-03-22,2020-04-30
+39089,Ohio,Licking County,2020-03-22,2020-04-30
+39091,Ohio,Logan County,2020-03-22,2020-04-30
+39093,Ohio,Lorain County,2020-03-22,2020-04-30
+39095,Ohio,Lucas County,2020-03-22,2020-04-30
+39097,Ohio,Madison County,2020-03-22,2020-04-30
+39099,Ohio,Mahoning County,2020-03-22,2020-04-30
+39101,Ohio,Marion County,2020-03-22,2020-04-30
+39103,Ohio,Medina County,2020-03-22,2020-04-30
+39105,Ohio,Meigs County,2020-03-22,2020-04-30
+39107,Ohio,Mercer County,2020-03-22,2020-04-30
+39109,Ohio,Miami County,2020-03-22,2020-04-30
+39111,Ohio,Monroe County,2020-03-22,2020-04-30
+39113,Ohio,Montgomery County,2020-03-22,2020-04-30
+39115,Ohio,Morgan County,2020-03-22,2020-04-30
+39117,Ohio,Morrow County,2020-03-22,2020-04-30
+39119,Ohio,Muskingum County,2020-03-22,2020-04-30
+39121,Ohio,Noble County,2020-03-22,2020-04-30
+39123,Ohio,Ottawa County,2020-03-22,2020-04-30
+39125,Ohio,Paulding County,2020-03-22,2020-04-30
+39127,Ohio,Perry County,2020-03-22,2020-04-30
+39129,Ohio,Pickaway County,2020-03-22,2020-04-30
+39131,Ohio,Pike County,2020-03-22,2020-04-30
+39133,Ohio,Portage County,2020-03-22,2020-04-30
+39135,Ohio,Preble County,2020-03-22,2020-04-30
+39137,Ohio,Putnam County,2020-03-22,2020-04-30
+39139,Ohio,Richland County,2020-03-22,2020-04-30
+39141,Ohio,Ross County,2020-03-22,2020-04-30
+39143,Ohio,Sandusky County,2020-03-22,2020-04-30
+39145,Ohio,Scioto County,2020-03-22,2020-04-30
+39147,Ohio,Seneca County,2020-03-22,2020-04-30
+39149,Ohio,Shelby County,2020-03-22,2020-04-30
+39151,Ohio,Stark County,2020-03-22,2020-04-30
+39153,Ohio,Summit County,2020-03-22,2020-04-30
+39155,Ohio,Trumbull County,2020-03-22,2020-04-30
+39157,Ohio,Tuscarawas County,2020-03-22,2020-04-30
+39159,Ohio,Union County,2020-03-22,2020-04-30
+39161,Ohio,Van Wert County,2020-03-22,2020-04-30
+39163,Ohio,Vinton County,2020-03-22,2020-04-30
+39165,Ohio,Warren County,2020-03-22,2020-04-30
+39167,Ohio,Washington County,2020-03-22,2020-04-30
+39169,Ohio,Wayne County,2020-03-22,2020-04-30
+39171,Ohio,Williams County,2020-03-22,2020-04-30
+39173,Ohio,Wood County,2020-03-22,2020-04-30
+39175,Ohio,Wyandot County,2020-03-22,2020-04-30
+40001,Oklahoma,Adair County,,
+40003,Oklahoma,Alfalfa County,,
+40005,Oklahoma,Atoka County,,
+40007,Oklahoma,Beaver County,,
+40009,Oklahoma,Beckham County,,
+40011,Oklahoma,Blaine County,,
+40013,Oklahoma,Bryan County,,
+40015,Oklahoma,Caddo County,,
+40017,Oklahoma,Canadian County,2020-04-08,
+40019,Oklahoma,Carter County,,
+40021,Oklahoma,Cherokee County,,
+40023,Oklahoma,Choctaw County,,
+40025,Oklahoma,Cimarron County,,
+40027,Oklahoma,Cleveland County,2020-03-25,2020-04-29
+40029,Oklahoma,Coal County,,
+40031,Oklahoma,Comanche County,2020-04-01,
+40033,Oklahoma,Cotton County,,
+40035,Oklahoma,Craig County,,
+40037,Oklahoma,Creek County,,
+40039,Oklahoma,Custer County,,
+40041,Oklahoma,Delaware County,,
+40043,Oklahoma,Dewey County,,
+40045,Oklahoma,Ellis County,,
+40047,Oklahoma,Garfield County,,
+40049,Oklahoma,Garvin County,,
+40051,Oklahoma,Grady County,,
+40053,Oklahoma,Grant County,,
+40055,Oklahoma,Greer County,,
+40057,Oklahoma,Harmon County,,
+40059,Oklahoma,Harper County,,
+40061,Oklahoma,Haskell County,,
+40063,Oklahoma,Hughes County,,
+40065,Oklahoma,Jackson County,,
+40067,Oklahoma,Jefferson County,,
+40069,Oklahoma,Johnston County,,
+40071,Oklahoma,Kay County,,
+40073,Oklahoma,Kingfisher County,,
+40075,Oklahoma,Kiowa County,,
+40077,Oklahoma,Latimer County,,
+40079,Oklahoma,Le Flore County,,
+40081,Oklahoma,Lincoln County,,
+40083,Oklahoma,Logan County,2020-04-06,2020-05-05
+40085,Oklahoma,Love County,,
+40087,Oklahoma,McClain County,,
+40089,Oklahoma,McCurtain County,,
+40091,Oklahoma,McIntosh County,,
+40093,Oklahoma,Major County,,
+40095,Oklahoma,Marshall County,,
+40097,Oklahoma,Mayes County,,
+40099,Oklahoma,Murray County,,
+40101,Oklahoma,Muskogee County,,
+40103,Oklahoma,Noble County,,
+40105,Oklahoma,Nowata County,,
+40107,Oklahoma,Okfuskee County,,
+40109,Oklahoma,Oklahoma County,2020-03-30,2020-04-16
+40111,Oklahoma,Okmulgee County,,
+40113,Oklahoma,Osage County,,
+40115,Oklahoma,Ottawa County,,
+40117,Oklahoma,Pawnee County,,
+40119,Oklahoma,Payne County,2020-03-30,2020-04-16
+40121,Oklahoma,Pittsburg County,,
+40123,Oklahoma,Pontotoc County,,
+40125,Oklahoma,Pottawatomie County,,
+40127,Oklahoma,Pushmataha County,,
+40129,Oklahoma,Roger Mills County,,
+40131,Oklahoma,Rogers County,2020-04-06,2020-04-30
+40133,Oklahoma,Seminole County,,
+40135,Oklahoma,Sequoyah County,,
+40137,Oklahoma,Stephens County,,
+40139,Oklahoma,Texas County,,
+40141,Oklahoma,Tillman County,,
+40143,Oklahoma,Tulsa County,2020-03-28,
+40145,Oklahoma,Wagoner County,2020-04-01,
+40147,Oklahoma,Washington County,,
+40149,Oklahoma,Washita County,,
+40151,Oklahoma,Woods County,,
+40153,Oklahoma,Woodward County,,
+41001,Oregon,Baker County,2020-03-23,
+41003,Oregon,Benton County,2020-03-23,
+41005,Oregon,Clackamas County,2020-03-23,
+41007,Oregon,Clatsop County,2020-03-23,
+41009,Oregon,Columbia County,2020-03-23,
+41011,Oregon,Coos County,2020-03-23,
+41013,Oregon,Crook County,2020-03-23,
+41015,Oregon,Curry County,2020-03-23,
+41017,Oregon,Deschutes County,2020-03-23,
+41019,Oregon,Douglas County,2020-03-23,
+41021,Oregon,Gilliam County,2020-03-23,
+41023,Oregon,Grant County,2020-03-23,
+41025,Oregon,Harney County,2020-03-23,
+41027,Oregon,Hood River County,2020-03-23,
+41029,Oregon,Jackson County,2020-03-23,
+41031,Oregon,Jefferson County,2020-03-23,
+41033,Oregon,Josephine County,2020-03-23,
+41035,Oregon,Klamath County,2020-03-23,
+41037,Oregon,Lake County,2020-03-23,
+41039,Oregon,Lane County,2020-03-23,
+41041,Oregon,Lincoln County,2020-03-23,
+41043,Oregon,Linn County,2020-03-23,
+41045,Oregon,Malheur County,2020-03-23,
+41047,Oregon,Marion County,2020-03-23,
+41049,Oregon,Morrow County,2020-03-23,
+41051,Oregon,Multnomah County,2020-03-23,
+41053,Oregon,Polk County,2020-03-23,
+41055,Oregon,Sherman County,2020-03-23,
+41057,Oregon,Tillamook County,2020-03-23,
+41059,Oregon,Umatilla County,2020-03-23,
+41061,Oregon,Union County,2020-03-23,
+41063,Oregon,Wallowa County,2020-03-23,
+41065,Oregon,Wasco County,2020-03-23,
+41067,Oregon,Washington County,2020-03-23,
+41069,Oregon,Wheeler County,2020-03-23,
+41071,Oregon,Yamhill County,2020-03-23,
+42001,Pennsylvania,Adams County,2020-04-01,2020-06-04
+42003,Pennsylvania,Allegheny County,2020-03-23,2020-06-04
+42005,Pennsylvania,Armstrong County,2020-04-01,2020-06-04
+42007,Pennsylvania,Beaver County,2020-03-28,2020-06-04
+42009,Pennsylvania,Bedford County,2020-04-01,2020-06-04
+42011,Pennsylvania,Berks County,2020-03-27,2020-06-04
+42013,Pennsylvania,Blair County,2020-04-01,2020-06-04
+42015,Pennsylvania,Bradford County,2020-04-01,2020-06-04
+42017,Pennsylvania,Bucks County,2020-03-23,2020-06-04
+42019,Pennsylvania,Butler County,2020-03-27,2020-06-04
+42021,Pennsylvania,Cambria County,2020-04-01,2020-06-04
+42023,Pennsylvania,Cameron County,2020-03-31,2020-06-04
+42025,Pennsylvania,Carbon County,2020-03-30,2020-06-04
+42027,Pennsylvania,Centre County,2020-03-28,2020-06-04
+42029,Pennsylvania,Chester County,2020-03-23,2020-06-04
+42031,Pennsylvania,Clarion County,2020-04-01,2020-06-04
+42033,Pennsylvania,Clearfield County,2020-04-01,2020-06-04
+42035,Pennsylvania,Clinton County,2020-04-01,2020-06-04
+42037,Pennsylvania,Columbia County,2020-04-01,2020-06-04
+42039,Pennsylvania,Crawford County,2020-03-31,2020-06-04
+42041,Pennsylvania,Cumberland County,2020-03-30,2020-06-04
+42043,Pennsylvania,Dauphin County,2020-03-30,2020-06-04
+42045,Pennsylvania,Delaware County,2020-03-23,2020-06-04
+42047,Pennsylvania,Elk County,2020-04-01,2020-06-04
+42049,Pennsylvania,Erie County,2020-03-25,2020-06-04
+42051,Pennsylvania,Fayette County,2020-04-01,2020-06-04
+42053,Pennsylvania,Forest County,2020-03-31,2020-06-04
+42055,Pennsylvania,Franklin County,2020-03-31,2020-06-04
+42057,Pennsylvania,Fulton County,2020-04-01,2020-06-04
+42059,Pennsylvania,Greene County,2020-04-01,2020-06-04
+42061,Pennsylvania,Huntingdon County,2020-04-01,2020-06-04
+42063,Pennsylvania,Indiana County,2020-04-01,2020-06-04
+42065,Pennsylvania,Jefferson County,2020-04-01,2020-06-04
+42067,Pennsylvania,Juniata County,2020-04-01,2020-06-04
+42069,Pennsylvania,Lackawanna County,2020-03-27,2020-06-04
+42071,Pennsylvania,Lancaster County,2020-03-27,2020-06-04
+42073,Pennsylvania,Lawrence County,2020-03-31,2020-06-04
+42075,Pennsylvania,Lebanon County,2020-03-31,2020-06-04
+42077,Pennsylvania,Lehigh County,2020-03-25,2020-06-04
+42079,Pennsylvania,Luzerne County,2020-03-27,2020-06-04
+42081,Pennsylvania,Lycoming County,2020-04-01,2020-06-04
+42083,Pennsylvania,McKean County,2020-04-01,2020-06-04
+42085,Pennsylvania,Mercer County,2020-04-01,2020-06-04
+42087,Pennsylvania,Mifflin County,2020-04-01,2020-06-04
+42089,Pennsylvania,Monroe County,2020-03-23,2020-06-04
+42091,Pennsylvania,Montgomery County,2020-03-23,2020-06-04
+42093,Pennsylvania,Montour County,2020-04-01,2020-06-04
+42095,Pennsylvania,Northampton County,2020-03-25,2020-06-04
+42097,Pennsylvania,Northumberland County,2020-04-01,2020-06-04
+42099,Pennsylvania,Perry County,2020-04-01,2020-06-04
+42101,Pennsylvania,Philadelphia County,2020-04-01,2020-06-04
+42103,Pennsylvania,Pike County,2020-03-27,2020-06-04
+42105,Pennsylvania,Potter County,2020-04-01,2020-06-04
+42107,Pennsylvania,Schuylkill County,2020-03-30,2020-06-04
+42109,Pennsylvania,Snyder County,2020-04-01,2020-06-04
+42111,Pennsylvania,Somerset County,2020-03-31,2020-06-04
+42113,Pennsylvania,Sullivan County,2020-04-01,2020-06-04
+42115,Pennsylvania,Susquehanna County,2020-04-01,2020-06-04
+42117,Pennsylvania,Tioga County,2020-04-01,2020-06-04
+42119,Pennsylvania,Union County,2020-04-01,2020-06-04
+42121,Pennsylvania,Venango County,2020-04-01,2020-06-04
+42123,Pennsylvania,Warren County,2020-04-01,2020-06-04
+42125,Pennsylvania,Washington County,2020-03-28,2020-06-04
+42127,Pennsylvania,Wayne County,2020-03-27,2020-06-04
+42129,Pennsylvania,Westmoreland County,2020-03-27,2020-06-04
+42131,Pennsylvania,Wyoming County,2020-04-01,2020-06-04
+42133,Pennsylvania,York County,2020-03-27,2020-06-04
+44001,Rhode Island,Bristol County,2020-03-28,2020-04-13
+44003,Rhode Island,Kent County,2020-03-28,2020-04-13
+44005,Rhode Island,Newport County,2020-03-28,2020-04-13
+44007,Rhode Island,Providence County,2020-03-28,2020-04-13
+44009,Rhode Island,Washington County,2020-03-28,2020-04-13
+45001,South Carolina,Abbeville County,2020-04-07,2020-05-04
+45003,South Carolina,Aiken County,2020-04-07,2020-05-04
+45005,South Carolina,Allendale County,2020-04-07,2020-05-04
+45007,South Carolina,Anderson County,2020-04-07,2020-05-04
+45009,South Carolina,Bamberg County,2020-04-07,2020-05-04
+45011,South Carolina,Barnwell County,2020-04-07,2020-05-04
+45013,South Carolina,Beaufort County,2020-04-06,2020-05-04
+45015,South Carolina,Berkeley County,2020-04-07,2020-05-04
+45017,South Carolina,Calhoun County,2020-04-07,2020-05-04
+45019,South Carolina,Charleston County,2020-03-26,2020-05-04
+45021,South Carolina,Cherokee County,2020-04-07,2020-05-04
+45023,South Carolina,Chester County,2020-04-07,2020-05-04
+45025,South Carolina,Chesterfield County,2020-04-07,2020-05-04
+45027,South Carolina,Clarendon County,2020-04-07,2020-05-04
+45029,South Carolina,Colleton County,2020-04-07,2020-05-04
+45031,South Carolina,Darlington County,2020-04-07,2020-05-04
+45033,South Carolina,Dillon County,2020-04-07,2020-05-04
+45035,South Carolina,Dorchester County,2020-04-07,2020-05-04
+45037,South Carolina,Edgefield County,2020-04-07,2020-05-04
+45039,South Carolina,Fairfield County,2020-04-07,2020-05-04
+45041,South Carolina,Florence County,2020-04-07,2020-05-04
+45043,South Carolina,Georgetown County,2020-04-07,2020-05-04
+45045,South Carolina,Greenville County,2020-04-07,2020-05-04
+45047,South Carolina,Greenwood County,2020-04-07,2020-05-04
+45049,South Carolina,Hampton County,2020-04-07,2020-05-04
+45051,South Carolina,Horry County,2020-04-07,2020-05-04
+45053,South Carolina,Jasper County,2020-04-07,2020-05-04
+45055,South Carolina,Kershaw County,2020-04-07,2020-05-04
+45057,South Carolina,Lancaster County,2020-04-07,2020-05-04
+45059,South Carolina,Laurens County,2020-04-07,2020-05-04
+45061,South Carolina,Lee County,2020-04-07,2020-05-04
+45063,South Carolina,Lexington County,2020-03-29,2020-05-04
+45065,South Carolina,McCormick County,2020-04-07,2020-05-04
+45067,South Carolina,Marion County,2020-04-07,2020-05-04
+45069,South Carolina,Marlboro County,2020-04-07,2020-05-04
+45071,South Carolina,Newberry County,2020-04-07,2020-05-04
+45073,South Carolina,Oconee County,2020-04-07,2020-05-04
+45075,South Carolina,Orangeburg County,2020-04-07,2020-05-04
+45077,South Carolina,Pickens County,2020-04-07,2020-05-04
+45079,South Carolina,Richland County,2020-03-29,2020-05-04
+45081,South Carolina,Saluda County,2020-04-07,2020-05-04
+45083,South Carolina,Spartanburg County,2020-04-07,2020-05-04
+45085,South Carolina,Sumter County,2020-04-07,2020-05-04
+45087,South Carolina,Union County,2020-04-07,2020-05-04
+45089,South Carolina,Williamsburg County,2020-03-27,2020-05-04
+45091,South Carolina,York County,2020-04-07,2020-05-04
+46003,South Dakota,Aurora County,,
+46005,South Dakota,Beadle County,,
+46007,South Dakota,Bennett County,,
+46009,South Dakota,Bon Homme County,,
+46011,South Dakota,Brookings County,,
+46013,South Dakota,Brown County,,
+46015,South Dakota,Brule County,,
+46017,South Dakota,Buffalo County,,
+46019,South Dakota,Butte County,,
+46021,South Dakota,Campbell County,,
+46023,South Dakota,Charles Mix County,,
+46025,South Dakota,Clark County,,
+46027,South Dakota,Clay County,,
+46029,South Dakota,Codington County,,
+46031,South Dakota,Corson County,,
+46033,South Dakota,Custer County,,
+46035,South Dakota,Davison County,,
+46037,South Dakota,Day County,,
+46039,South Dakota,Deuel County,,
+46041,South Dakota,Dewey County,,
+46043,South Dakota,Douglas County,,
+46045,South Dakota,Edmunds County,,
+46047,South Dakota,Fall River County,,
+46049,South Dakota,Faulk County,,
+46051,South Dakota,Grant County,,
+46053,South Dakota,Gregory County,,
+46055,South Dakota,Haakon County,,
+46057,South Dakota,Hamlin County,,
+46059,South Dakota,Hand County,,
+46061,South Dakota,Hanson County,,
+46063,South Dakota,Harding County,,
+46065,South Dakota,Hughes County,,
+46067,South Dakota,Hutchinson County,,
+46069,South Dakota,Hyde County,,
+46071,South Dakota,Jackson County,,
+46073,South Dakota,Jerauld County,,
+46075,South Dakota,Jones County,,
+46077,South Dakota,Kingsbury County,,
+46079,South Dakota,Lake County,,
+46081,South Dakota,Lawrence County,,
+46083,South Dakota,Lincoln County,,
+46085,South Dakota,Lyman County,,
+46087,South Dakota,McCook County,,
+46089,South Dakota,McPherson County,,
+46091,South Dakota,Marshall County,,
+46093,South Dakota,Meade County,,
+46095,South Dakota,Mellette County,,
+46097,South Dakota,Miner County,,
+46099,South Dakota,Minnehaha County,,
+46101,South Dakota,Moody County,,
+46102,South Dakota,Oglala Lakota County,,
+46103,South Dakota,Pennington County,,
+46105,South Dakota,Perkins County,,
+46107,South Dakota,Potter County,,
+46109,South Dakota,Roberts County,,
+46111,South Dakota,Sanborn County,,
+46115,South Dakota,Spink County,,
+46117,South Dakota,Stanley County,,
+46119,South Dakota,Sully County,,
+46121,South Dakota,Todd County,,
+46123,South Dakota,Tripp County,,
+46125,South Dakota,Turner County,,
+46127,South Dakota,Union County,,
+46129,South Dakota,Walworth County,,
+46135,South Dakota,Yankton County,,
+46137,South Dakota,Ziebach County,,
+47001,Tennessee,Anderson County,2020-04-02,2020-04-30
+47003,Tennessee,Bedford County,2020-04-02,2020-04-30
+47005,Tennessee,Benton County,2020-04-02,2020-04-30
+47007,Tennessee,Bledsoe County,2020-04-02,2020-04-30
+47009,Tennessee,Blount County,2020-04-02,2020-04-30
+47011,Tennessee,Bradley County,2020-04-02,2020-04-30
+47013,Tennessee,Campbell County,2020-04-02,2020-04-30
+47015,Tennessee,Cannon County,2020-04-02,2020-04-30
+47017,Tennessee,Carroll County,2020-04-02,2020-04-30
+47019,Tennessee,Carter County,2020-04-02,2020-04-30
+47021,Tennessee,Cheatham County,2020-04-02,2020-04-30
+47023,Tennessee,Chester County,2020-04-02,2020-04-30
+47025,Tennessee,Claiborne County,2020-04-02,2020-04-30
+47027,Tennessee,Clay County,2020-04-02,2020-04-30
+47029,Tennessee,Cocke County,2020-04-02,2020-04-30
+47031,Tennessee,Coffee County,2020-04-02,2020-04-30
+47033,Tennessee,Crockett County,2020-04-02,2020-04-30
+47035,Tennessee,Cumberland County,2020-04-02,2020-04-30
+47037,Tennessee,Davidson County,2020-03-22,
+47039,Tennessee,Decatur County,2020-04-02,2020-04-30
+47041,Tennessee,DeKalb County,2020-04-02,2020-04-30
+47043,Tennessee,Dickson County,2020-04-02,2020-04-30
+47045,Tennessee,Dyer County,2020-04-02,2020-04-30
+47047,Tennessee,Fayette County,2020-04-02,2020-04-30
+47049,Tennessee,Fentress County,2020-04-02,2020-04-30
+47051,Tennessee,Franklin County,2020-04-02,2020-04-30
+47053,Tennessee,Gibson County,2020-04-02,2020-04-30
+47055,Tennessee,Giles County,2020-04-02,2020-04-30
+47057,Tennessee,Grainger County,2020-04-02,2020-04-30
+47059,Tennessee,Greene County,2020-04-02,2020-04-30
+47061,Tennessee,Grundy County,2020-04-02,2020-04-30
+47063,Tennessee,Hamblen County,2020-04-02,2020-04-30
+47065,Tennessee,Hamilton County,2020-04-02,2020-04-30
+47067,Tennessee,Hancock County,2020-04-02,2020-04-30
+47069,Tennessee,Hardeman County,2020-04-02,2020-04-30
+47071,Tennessee,Hardin County,2020-04-02,2020-04-30
+47073,Tennessee,Hawkins County,2020-04-02,2020-04-30
+47075,Tennessee,Haywood County,2020-04-02,2020-04-30
+47077,Tennessee,Henderson County,2020-04-02,2020-04-30
+47079,Tennessee,Henry County,2020-04-02,2020-04-30
+47081,Tennessee,Hickman County,2020-04-02,2020-04-30
+47083,Tennessee,Houston County,2020-04-02,2020-04-30
+47085,Tennessee,Humphreys County,2020-04-02,2020-04-30
+47087,Tennessee,Jackson County,2020-04-02,2020-04-30
+47089,Tennessee,Jefferson County,2020-04-02,2020-04-30
+47091,Tennessee,Johnson County,2020-04-02,2020-04-30
+47093,Tennessee,Knox County,2020-03-24,2020-04-30
+47095,Tennessee,Lake County,2020-04-02,2020-04-30
+47097,Tennessee,Lauderdale County,2020-04-02,2020-04-30
+47099,Tennessee,Lawrence County,2020-04-02,2020-04-30
+47101,Tennessee,Lewis County,2020-04-02,2020-04-30
+47103,Tennessee,Lincoln County,2020-04-02,2020-04-30
+47105,Tennessee,Loudon County,2020-04-02,2020-04-30
+47107,Tennessee,McMinn County,2020-04-02,2020-04-30
+47109,Tennessee,McNairy County,2020-04-02,2020-04-30
+47111,Tennessee,Macon County,2020-04-02,2020-04-30
+47113,Tennessee,Madison County,2020-04-02,2020-04-30
+47115,Tennessee,Marion County,2020-04-02,2020-04-30
+47117,Tennessee,Marshall County,2020-04-02,2020-04-30
+47119,Tennessee,Maury County,2020-04-02,2020-04-30
+47121,Tennessee,Meigs County,2020-04-02,2020-04-30
+47123,Tennessee,Monroe County,2020-04-02,2020-04-30
+47125,Tennessee,Montgomery County,2020-04-01,2020-04-30
+47127,Tennessee,Moore County,2020-04-02,2020-04-30
+47129,Tennessee,Morgan County,2020-04-02,2020-04-30
+47131,Tennessee,Obion County,2020-04-02,2020-04-30
+47133,Tennessee,Overton County,2020-04-02,2020-04-30
+47135,Tennessee,Perry County,2020-04-02,2020-04-30
+47137,Tennessee,Pickett County,2020-04-02,2020-04-30
+47139,Tennessee,Polk County,2020-04-02,2020-04-30
+47141,Tennessee,Putnam County,2020-04-02,2020-04-30
+47143,Tennessee,Rhea County,2020-04-02,2020-04-30
+47145,Tennessee,Roane County,2020-04-02,2020-04-30
+47147,Tennessee,Robertson County,2020-04-02,2020-04-30
+47149,Tennessee,Rutherford County,2020-04-02,2020-04-30
+47151,Tennessee,Scott County,2020-04-02,2020-04-30
+47153,Tennessee,Sequatchie County,2020-04-02,2020-04-30
+47155,Tennessee,Sevier County,2020-04-02,2020-04-30
+47157,Tennessee,Shelby County,2020-03-24,2020-04-30
+47159,Tennessee,Smith County,2020-04-02,2020-04-30
+47161,Tennessee,Stewart County,2020-04-02,2020-04-30
+47163,Tennessee,Sullivan County,2020-04-02,2020-04-30
+47165,Tennessee,Sumner County,2020-04-02,2020-04-30
+47167,Tennessee,Tipton County,2020-04-02,2020-04-30
+47169,Tennessee,Trousdale County,2020-04-02,2020-04-30
+47171,Tennessee,Unicoi County,2020-04-02,2020-04-30
+47173,Tennessee,Union County,2020-04-02,2020-04-30
+47175,Tennessee,Van Buren County,2020-04-02,2020-04-30
+47177,Tennessee,Warren County,2020-04-02,2020-04-30
+47179,Tennessee,Washington County,2020-04-02,2020-04-30
+47181,Tennessee,Wayne County,2020-04-02,2020-04-30
+47183,Tennessee,Weakley County,2020-04-02,2020-04-30
+47185,Tennessee,White County,2020-04-02,2020-04-30
+47187,Tennessee,Williamson County,2020-03-25,2020-04-30
+47189,Tennessee,Wilson County,2020-04-02,2020-04-30
+48001,Texas,Anderson County,2020-04-02,
+48003,Texas,Andrews County,2020-04-02,2020-04-30
+48005,Texas,Angelina County,2020-03-30,
+48007,Texas,Aransas County,2020-03-28,2020-04-30
+48009,Texas,Archer County,2020-04-02,2020-04-30
+48011,Texas,Armstrong County,2020-04-02,
+48013,Texas,Atascosa County,2020-04-02,2020-04-30
+48015,Texas,Austin County,2020-04-02,2020-04-30
+48017,Texas,Bailey County,2020-04-02,2020-04-30
+48019,Texas,Bandera County,2020-04-02,2020-04-30
+48021,Texas,Bastrop County,2020-04-02,2020-04-30
+48023,Texas,Baylor County,2020-04-02,2020-04-30
+48025,Texas,Bee County,2020-03-28,2020-04-30
+48027,Texas,Bell County,2020-03-23,2020-04-30
+48029,Texas,Bexar County,2020-03-24,2020-04-30
+48031,Texas,Blanco County,2020-04-02,
+48033,Texas,Borden County,2020-04-02,2020-04-30
+48035,Texas,Bosque County,2020-04-02,2020-04-30
+48037,Texas,Bowie County,2020-03-27,2020-04-30
+48039,Texas,Brazoria County,2020-03-26,2020-04-30
+48041,Texas,Brazos County,2020-03-24,2020-04-30
+48043,Texas,Brewster County,2020-03-31,2020-04-30
+48045,Texas,Briscoe County,2020-04-02,
+48047,Texas,Brooks County,2020-04-02,2020-04-30
+48049,Texas,Brown County,2020-03-27,2020-04-30
+48051,Texas,Burleson County,2020-04-02,2020-04-30
+48053,Texas,Burnet County,2020-03-25,2020-04-30
+48055,Texas,Caldwell County,2020-03-31,2020-04-30
+48057,Texas,Calhoun County,2020-04-02,2020-04-30
+48059,Texas,Callahan County,2020-04-02,2020-05-04
+48061,Texas,Cameron County,2020-03-25,2020-05-04
+48063,Texas,Camp County,2020-04-02,2020-04-30
+48065,Texas,Carson County,2020-04-02,2020-04-30
+48067,Texas,Cass County,2020-04-02,2020-04-30
+48069,Texas,Castro County,2020-03-24,2020-04-30
+48071,Texas,Chambers County,2020-03-24,2020-04-30
+48073,Texas,Cherokee County,2020-04-02,2020-04-30
+48075,Texas,Childress County,2020-04-02,2020-04-30
+48077,Texas,Clay County,2020-03-30,2020-04-30
+48079,Texas,Cochran County,2020-04-02,2020-04-30
+48081,Texas,Coke County,2020-04-02,2020-04-30
+48083,Texas,Coleman County,2020-04-02,2020-04-30
+48085,Texas,Collin County,2020-03-23,2020-04-30
+48087,Texas,Collingsworth County,2020-04-02,2020-04-30
+48089,Texas,Colorado County,2020-04-02,2020-04-30
+48091,Texas,Comal County,2020-03-25,
+48093,Texas,Comanche County,2020-04-02,2020-04-30
+48095,Texas,Concho County,2020-04-02,2020-04-30
+48097,Texas,Cooke County,2020-04-02,2020-04-30
+48099,Texas,Coryell County,2020-04-02,
+48101,Texas,Cottle County,2020-04-02,2020-04-30
+48103,Texas,Crane County,2020-04-02,2020-04-30
+48105,Texas,Crockett County,2020-04-02,2020-04-30
+48107,Texas,Crosby County,2020-04-02,2020-04-30
+48109,Texas,Culberson County,2020-03-25,
+48111,Texas,Dallam County,2020-04-02,2020-04-30
+48113,Texas,Dallas County,2020-03-23,2020-05-15
+48115,Texas,Dawson County,2020-04-02,2020-04-30
+48117,Texas,Deaf Smith County,2020-03-31,2020-05-07
+48119,Texas,Delta County,2020-04-02,2020-04-30
+48121,Texas,Denton County,2020-03-24,2020-04-30
+48123,Texas,DeWitt County,2020-04-02,2020-04-30
+48125,Texas,Dickens County,2020-04-02,2020-04-30
+48127,Texas,Dimmit County,2020-04-02,2020-04-30
+48129,Texas,Donley County,2020-04-02,2020-04-30
+48131,Texas,Duval County,2020-03-27,2020-06-01
+48133,Texas,Eastland County,2020-04-02,2020-04-30
+48135,Texas,Ector County,2020-03-30,
+48137,Texas,Edwards County,2020-04-02,2020-04-30
+48139,Texas,Ellis County,2020-03-25,2020-04-30
+48141,Texas,El Paso County,2020-03-24,
+48143,Texas,Erath County,2020-03-25,2020-04-30
+48145,Texas,Falls County,2020-04-02,2020-04-30
+48147,Texas,Fannin County,2020-04-02,2020-04-30
+48149,Texas,Fayette County,2020-04-02,2020-04-30
+48151,Texas,Fisher County,2020-04-02,2020-04-30
+48153,Texas,Floyd County,2020-04-02,2020-04-30
+48155,Texas,Foard County,2020-04-02,2020-04-30
+48157,Texas,Fort Bend County,2020-03-25,
+48159,Texas,Franklin County,2020-04-02,2020-04-30
+48161,Texas,Freestone County,2020-03-25,2020-04-30
+48163,Texas,Frio County,2020-03-30,2020-04-30
+48165,Texas,Gaines County,2020-04-02,2020-04-30
+48167,Texas,Galveston County,2020-03-24,2020-04-30
+48169,Texas,Garza County,2020-04-02,2020-04-30
+48171,Texas,Gillespie County,2020-04-02,2020-04-30
+48173,Texas,Glasscock County,2020-04-02,2020-04-30
+48175,Texas,Goliad County,2020-04-02,2020-04-30
+48177,Texas,Gonzales County,2020-04-02,2020-04-30
+48179,Texas,Gray County,2020-04-02,2020-04-30
+48181,Texas,Grayson County,2020-04-02,2020-04-30
+48183,Texas,Gregg County,2020-03-26,2020-04-30
+48185,Texas,Grimes County,2020-04-02,2020-04-30
+48187,Texas,Guadalupe County,2020-03-25,
+48189,Texas,Hale County,2020-03-31,2020-04-30
+48191,Texas,Hall County,2020-04-02,2020-04-30
+48193,Texas,Hamilton County,2020-04-02,2020-04-30
+48195,Texas,Hansford County,2020-04-02,2020-04-30
+48197,Texas,Hardeman County,2020-04-02,2020-04-30
+48199,Texas,Hardin County,2020-03-27,2020-05-01
+48201,Texas,Harris County,2020-03-24,2020-04-30
+48203,Texas,Harrison County,2020-03-31,
+48205,Texas,Hartley County,2020-04-02,2020-04-30
+48207,Texas,Haskell County,2020-04-02,2020-04-30
+48209,Texas,Hays County,2020-03-24,
+48211,Texas,Hemphill County,2020-04-02,2020-04-30
+48213,Texas,Henderson County,2020-04-02,2020-04-30
+48215,Texas,Hidalgo County,2020-03-24,
+48217,Texas,Hill County,2020-04-02,2020-04-30
+48219,Texas,Hockley County,2020-03-31,2020-04-30
+48221,Texas,Hood County,2020-03-25,
+48223,Texas,Hopkins County,2020-04-02,2020-04-30
+48225,Texas,Houston County,2020-04-02,2020-04-30
+48227,Texas,Howard County,2020-04-02,2020-04-30
+48229,Texas,Hudspeth County,2020-04-02,2020-04-30
+48231,Texas,Hunt County,2020-03-24,2020-04-30
+48233,Texas,Hutchinson County,2020-04-02,2020-04-30
+48235,Texas,Irion County,2020-04-02,2020-04-30
+48237,Texas,Jack County,2020-04-02,2020-04-30
+48239,Texas,Jackson County,2020-04-02,2020-04-30
+48241,Texas,Jasper County,2020-03-28,2020-05-10
+48243,Texas,Jeff Davis County,2020-03-31,2020-04-30
+48245,Texas,Jefferson County,2020-03-27,2020-04-30
+48247,Texas,Jim Hogg County,2020-04-02,2020-04-30
+48249,Texas,Jim Wells County,2020-03-26,2020-04-30
+48251,Texas,Johnson County,2020-03-27,
+48253,Texas,Jones County,2020-03-31,
+48255,Texas,Karnes County,2020-04-02,2020-04-30
+48257,Texas,Kaufman County,2020-03-24,2020-04-30
+48259,Texas,Kendall County,2020-04-02,2020-04-30
+48261,Texas,Kenedy County,2020-03-31,2020-04-30
+48263,Texas,Kent County,2020-04-02,2020-04-30
+48265,Texas,Kerr County,2020-04-02,2020-04-30
+48267,Texas,Kimble County,2020-04-02,2020-04-30
+48269,Texas,King County,2020-04-02,2020-04-30
+48271,Texas,Kinney County,2020-04-02,2020-04-30
+48273,Texas,Kleberg County,2020-03-27,2020-04-30
+48275,Texas,Knox County,2020-04-02,2020-04-30
+48277,Texas,Lamar County,2020-04-02,2020-04-30
+48279,Texas,Lamb County,2020-04-02,2020-04-30
+48281,Texas,Lampasas County,2020-03-23,2020-04-30
+48283,Texas,La Salle County,2020-04-02,2020-04-30
+48285,Texas,Lavaca County,2020-04-02,2020-04-30
+48287,Texas,Lee County,2020-04-02,2020-04-30
+48289,Texas,Leon County,2020-03-30,2020-04-30
+48291,Texas,Liberty County,2020-03-24,2020-04-30
+48293,Texas,Limestone County,2020-04-02,2020-04-30
+48295,Texas,Lipscomb County,2020-04-02,2020-04-30
+48297,Texas,Live Oak County,2020-04-02,2020-04-30
+48299,Texas,Llano County,2020-03-30,2020-04-30
+48301,Texas,Loving County,2020-04-02,2020-04-30
+48303,Texas,Lubbock County,2020-03-29,2020-04-30
+48305,Texas,Lynn County,2020-04-02,2020-04-30
+48307,Texas,McCulloch County,2020-04-02,2020-04-30
+48309,Texas,McLennan County,2020-03-23,2020-04-30
+48311,Texas,McMullen County,2020-04-02,2020-04-30
+48313,Texas,Madison County,2020-03-30,2020-04-30
+48315,Texas,Marion County,2020-03-31,2020-04-30
+48317,Texas,Martin County,2020-04-02,2020-04-30
+48319,Texas,Mason County,2020-04-02,2020-04-30
+48321,Texas,Matagorda County,2020-04-02,
+48323,Texas,Maverick County,2020-03-31,
+48325,Texas,Medina County,2020-04-02,2020-04-30
+48327,Texas,Menard County,2020-04-02,2020-04-30
+48329,Texas,Midland County,2020-03-30,
+48331,Texas,Milam County,2020-03-25,2020-05-04
+48333,Texas,Mills County,2020-04-02,2020-04-30
+48335,Texas,Mitchell County,2020-04-02,2020-04-30
+48337,Texas,Montague County,2020-03-26,2020-04-30
+48339,Texas,Montgomery County,2020-03-27,2020-04-30
+48341,Texas,Moore County,2020-04-02,2020-04-30
+48343,Texas,Morris County,2020-04-02,2020-04-30
+48345,Texas,Motley County,2020-04-02,2020-04-30
+48347,Texas,Nacogdoches County,2020-03-30,
+48349,Texas,Navarro County,2020-03-25,2020-04-30
+48351,Texas,Newton County,2020-03-30,2020-04-30
+48353,Texas,Nolan County,2020-04-02,2020-04-30
+48355,Texas,Nueces County,2020-03-26,2020-04-30
+48357,Texas,Ochiltree County,2020-04-02,2020-04-30
+48359,Texas,Oldham County,2020-04-02,2020-04-30
+48361,Texas,Orange County,2020-03-27,
+48363,Texas,Palo Pinto County,2020-04-02,2020-04-30
+48365,Texas,Panola County,2020-04-01,2020-04-30
+48367,Texas,Parker County,2020-03-24,2020-04-30
+48369,Texas,Parmer County,2020-04-02,2020-04-30
+48371,Texas,Pecos County,2020-04-02,
+48373,Texas,Polk County,2020-03-27,2020-04-30
+48375,Texas,Potter County,2020-03-30,
+48377,Texas,Presidio County,2020-03-27,2020-04-30
+48379,Texas,Rains County,2020-04-02,2020-04-30
+48381,Texas,Randall County,2020-03-30,2020-04-30
+48383,Texas,Reagan County,2020-04-02,2020-04-30
+48385,Texas,Real County,2020-04-02,2020-04-30
+48387,Texas,Red River County,2020-04-02,2020-04-30
+48389,Texas,Reeves County,2020-04-02,2020-04-30
+48391,Texas,Refugio County,2020-04-01,2020-04-30
+48393,Texas,Roberts County,2020-04-02,2020-04-30
+48395,Texas,Robertson County,2020-03-25,2020-04-30
+48397,Texas,Rockwall County,2020-03-24,2020-04-30
+48399,Texas,Runnels County,2020-04-02,2020-04-30
+48401,Texas,Rusk County,2020-04-02,2020-04-30
+48403,Texas,Sabine County,2020-03-31,2020-04-30
+48405,Texas,San Augustine County,2020-03-30,2020-04-30
+48407,Texas,San Jacinto County,2020-03-25,2020-04-30
+48409,Texas,San Patricio County,2020-03-27,2020-05-04
+48411,Texas,San Saba County,2020-04-02,2020-04-30
+48413,Texas,Schleicher County,2020-04-02,2020-04-30
+48415,Texas,Scurry County,2020-03-27,2020-04-30
+48417,Texas,Shackelford County,2020-04-02,2020-04-30
+48419,Texas,Shelby County,2020-03-30,2020-04-30
+48421,Texas,Sherman County,2020-04-02,2020-04-30
+48423,Texas,Smith County,2020-03-27,2020-04-30
+48425,Texas,Somervell County,2020-04-02,2020-04-30
+48427,Texas,Starr County,2020-03-25,2020-05-04
+48429,Texas,Stephens County,2020-03-23,
+48431,Texas,Sterling County,2020-04-02,2020-04-30
+48433,Texas,Stonewall County,2020-03-28,2020-04-30
+48435,Texas,Sutton County,2020-04-02,2020-04-30
+48437,Texas,Swisher County,2020-04-02,2020-04-30
+48439,Texas,Tarrant County,2020-03-24,2020-04-30
+48441,Texas,Taylor County,2020-03-31,2020-04-30
+48443,Texas,Terrell County,2020-04-02,2020-04-30
+48445,Texas,Terry County,2020-04-02,
+48447,Texas,Throckmorton County,2020-04-02,2020-04-30
+48449,Texas,Titus County,2020-04-02,2020-04-30
+48451,Texas,Tom Green County,2020-04-02,2020-04-30
+48453,Texas,Travis County,2020-03-24,
+48455,Texas,Trinity County,2020-03-31,2020-04-30
+48457,Texas,Tyler County,2020-03-28,2020-04-30
+48459,Texas,Upshur County,2020-04-02,2020-04-30
+48461,Texas,Upton County,2020-04-02,2020-04-30
+48463,Texas,Uvalde County,2020-04-02,2020-04-30
+48465,Texas,Val Verde County,2020-03-23,2020-05-05
+48467,Texas,Van Zandt County,2020-03-27,
+48469,Texas,Victoria County,2020-04-02,2020-04-30
+48471,Texas,Walker County,2020-04-02,
+48473,Texas,Waller County,2020-04-02,2020-04-30
+48475,Texas,Ward County,2020-04-02,2020-04-30
+48477,Texas,Washington County,2020-04-02,2020-04-30
+48479,Texas,Webb County,2020-03-28,2020-04-30
+48481,Texas,Wharton County,2020-04-02,2020-04-30
+48483,Texas,Wheeler County,2020-04-02,2020-04-30
+48485,Texas,Wichita County,2020-03-27,2020-05-05
+48487,Texas,Wilbarger County,2020-04-02,2020-04-30
+48489,Texas,Willacy County,2020-03-26,2020-05-04
+48491,Texas,Williamson County,2020-03-24,2020-04-30
+48493,Texas,Wilson County,2020-04-02,2020-04-30
+48495,Texas,Winkler County,2020-04-02,2020-04-30
+48497,Texas,Wise County,2020-03-24,2020-04-30
+48499,Texas,Wood County,2020-04-01,
+48501,Texas,Yoakum County,2020-04-02,2020-04-30
+48503,Texas,Young County,2020-03-31,2020-05-01
+48505,Texas,Zapata County,2020-04-01,2020-05-11
+48507,Texas,Zavala County,2020-04-02,2020-04-30
+49001,Utah,Beaver County,,
+49003,Utah,Box Elder County,,
+49005,Utah,Cache County,,
+49007,Utah,Carbon County,,
+49009,Utah,Daggett County,,
+49011,Utah,Davis County,2020-04-01,2020-05-01
+49013,Utah,Duchesne County,,
+49015,Utah,Emery County,,
+49017,Utah,Garfield County,,
+49019,Utah,Grand County,,
+49021,Utah,Iron County,,
+49023,Utah,Juab County,,
+49025,Utah,Kane County,,
+49027,Utah,Millard County,,
+49029,Utah,Morgan County,,
+49031,Utah,Piute County,,
+49033,Utah,Rich County,,
+49035,Utah,Salt Lake County,2020-03-30,2020-04-13
+49037,Utah,San Juan County,,
+49039,Utah,Sanpete County,,
+49041,Utah,Sevier County,,
+49043,Utah,Summit County,2020-03-27,2020-05-01
+49045,Utah,Tooele County,,
+49047,Utah,Uintah County,,
+49049,Utah,Utah County,,
+49051,Utah,Wasatch County,2020-04-01,2020-04-14
+49053,Utah,Washington County,,
+49055,Utah,Wayne County,,
+49057,Utah,Weber County,,
+50001,Vermont,Addison County,2020-03-24,2020-05-15
+50003,Vermont,Bennington County,2020-03-24,2020-05-15
+50005,Vermont,Caledonia County,2020-03-24,2020-05-15
+50007,Vermont,Chittenden County,2020-03-24,2020-05-15
+50009,Vermont,Essex County,2020-03-24,2020-05-15
+50011,Vermont,Franklin County,2020-03-24,2020-05-15
+50013,Vermont,Grand Isle County,2020-03-24,2020-05-15
+50015,Vermont,Lamoille County,2020-03-24,2020-05-15
+50017,Vermont,Orange County,2020-03-24,2020-05-15
+50019,Vermont,Orleans County,2020-03-24,2020-05-15
+50021,Vermont,Rutland County,2020-03-24,2020-05-15
+50023,Vermont,Washington County,2020-03-24,2020-05-15
+50025,Vermont,Windham County,2020-03-24,2020-05-15
+50027,Vermont,Windsor County,2020-03-24,2020-05-15
+51001,Virginia,Accomack County,2020-03-30,2020-06-10
+51003,Virginia,Albemarle County,2020-03-30,2020-06-10
+51005,Virginia,Alleghany County,2020-03-30,2020-06-10
+51007,Virginia,Amelia County,2020-03-30,2020-06-10
+51009,Virginia,Amherst County,2020-03-30,2020-06-10
+51011,Virginia,Appomattox County,2020-03-30,2020-06-10
+51013,Virginia,Arlington County,2020-03-30,2020-06-10
+51015,Virginia,Augusta County,2020-03-30,2020-06-10
+51017,Virginia,Bath County,2020-03-30,2020-06-10
+51019,Virginia,Bedford County,2020-03-30,2020-06-10
+51021,Virginia,Bland County,2020-03-30,2020-06-10
+51023,Virginia,Botetourt County,2020-03-30,2020-06-10
+51025,Virginia,Brunswick County,2020-03-30,2020-06-10
+51027,Virginia,Buchanan County,2020-03-30,2020-06-10
+51029,Virginia,Buckingham County,2020-03-30,2020-06-10
+51031,Virginia,Campbell County,2020-03-30,2020-06-10
+51033,Virginia,Caroline County,2020-03-30,2020-06-10
+51035,Virginia,Carroll County,2020-03-30,2020-06-10
+51036,Virginia,Charles City County,2020-03-30,2020-06-10
+51037,Virginia,Charlotte County,2020-03-30,2020-06-10
+51041,Virginia,Chesterfield County,2020-03-30,2020-06-10
+51043,Virginia,Clarke County,2020-03-30,2020-06-10
+51045,Virginia,Craig County,2020-03-30,2020-06-10
+51047,Virginia,Culpeper County,2020-03-30,2020-06-10
+51049,Virginia,Cumberland County,2020-03-30,2020-06-10
+51051,Virginia,Dickenson County,2020-03-30,2020-06-10
+51053,Virginia,Dinwiddie County,2020-03-30,2020-06-10
+51057,Virginia,Essex County,2020-03-30,2020-06-10
+51059,Virginia,Fairfax County,2020-03-30,2020-06-10
+51061,Virginia,Fauquier County,2020-03-30,2020-06-10
+51063,Virginia,Floyd County,2020-03-30,2020-06-10
+51065,Virginia,Fluvanna County,2020-03-30,2020-06-10
+51067,Virginia,Franklin County,2020-03-30,2020-06-10
+51069,Virginia,Frederick County,2020-03-30,2020-06-10
+51071,Virginia,Giles County,2020-03-30,2020-06-10
+51073,Virginia,Gloucester County,2020-03-30,2020-06-10
+51075,Virginia,Goochland County,2020-03-30,2020-06-10
+51077,Virginia,Grayson County,2020-03-30,2020-06-10
+51079,Virginia,Greene County,2020-03-30,2020-06-10
+51081,Virginia,Greensville County,2020-03-30,2020-06-10
+51083,Virginia,Halifax County,2020-03-30,2020-06-10
+51085,Virginia,Hanover County,2020-03-30,2020-06-10
+51087,Virginia,Henrico County,2020-03-30,2020-06-10
+51089,Virginia,Henry County,2020-03-30,2020-06-10
+51091,Virginia,Highland County,2020-03-30,2020-06-10
+51093,Virginia,Isle of Wight County,2020-03-30,2020-06-10
+51095,Virginia,James City County,2020-03-30,2020-06-10
+51097,Virginia,King and Queen County,2020-03-30,2020-06-10
+51099,Virginia,King George County,2020-03-30,2020-06-10
+51101,Virginia,King William County,2020-03-30,2020-06-10
+51103,Virginia,Lancaster County,2020-03-30,2020-06-10
+51105,Virginia,Lee County,2020-03-30,2020-06-10
+51107,Virginia,Loudoun County,2020-03-30,2020-06-10
+51109,Virginia,Louisa County,2020-03-30,2020-06-10
+51111,Virginia,Lunenburg County,2020-03-30,2020-06-10
+51113,Virginia,Madison County,2020-03-30,2020-06-10
+51115,Virginia,Mathews County,2020-03-30,2020-06-10
+51117,Virginia,Mecklenburg County,2020-03-30,2020-06-10
+51119,Virginia,Middlesex County,2020-03-30,2020-06-10
+51121,Virginia,Montgomery County,2020-03-30,2020-06-10
+51125,Virginia,Nelson County,2020-03-30,2020-06-10
+51127,Virginia,New Kent County,2020-03-30,2020-06-10
+51131,Virginia,Northampton County,2020-03-30,2020-06-10
+51133,Virginia,Northumberland County,2020-03-30,2020-06-10
+51135,Virginia,Nottoway County,2020-03-30,2020-06-10
+51137,Virginia,Orange County,2020-03-30,2020-06-10
+51139,Virginia,Page County,2020-03-30,2020-06-10
+51141,Virginia,Patrick County,2020-03-30,2020-06-10
+51143,Virginia,Pittsylvania County,2020-03-30,2020-06-10
+51145,Virginia,Powhatan County,2020-03-30,2020-06-10
+51147,Virginia,Prince Edward County,2020-03-30,2020-06-10
+51149,Virginia,Prince George County,2020-03-30,2020-06-10
+51153,Virginia,Prince William County,2020-03-30,2020-06-10
+51155,Virginia,Pulaski County,2020-03-30,2020-06-10
+51157,Virginia,Rappahannock County,2020-03-30,2020-06-10
+51159,Virginia,Richmond County,2020-03-30,2020-06-10
+51161,Virginia,Roanoke County,2020-03-30,2020-06-10
+51163,Virginia,Rockbridge County,2020-03-30,2020-06-10
+51165,Virginia,Rockingham County,2020-03-30,2020-06-10
+51167,Virginia,Russell County,2020-03-30,2020-06-10
+51169,Virginia,Scott County,2020-03-30,2020-06-10
+51171,Virginia,Shenandoah County,2020-03-30,2020-06-10
+51173,Virginia,Smyth County,2020-03-30,2020-06-10
+51175,Virginia,Southampton County,2020-03-30,2020-06-10
+51177,Virginia,Spotsylvania County,2020-03-30,2020-06-10
+51179,Virginia,Stafford County,2020-03-30,2020-06-10
+51181,Virginia,Surry County,2020-03-30,2020-06-10
+51183,Virginia,Sussex County,2020-03-30,2020-06-10
+51185,Virginia,Tazewell County,2020-03-30,2020-06-10
+51187,Virginia,Warren County,2020-03-30,2020-06-10
+51191,Virginia,Washington County,2020-03-30,2020-06-10
+51193,Virginia,Westmoreland County,2020-03-30,2020-06-10
+51195,Virginia,Wise County,2020-03-30,2020-06-10
+51197,Virginia,Wythe County,2020-03-30,2020-06-10
+51199,Virginia,York County,2020-03-30,2020-06-10
+51510,Virginia,Alexandria city,2020-03-30,2020-06-10
+51515,Virginia,Bedford city,2020-03-30,2020-06-10
+51520,Virginia,Bristol city,2020-03-30,2020-06-10
+51530,Virginia,Buena Vista city,2020-03-30,2020-06-10
+51540,Virginia,Charlottesville city,2020-03-30,2020-06-10
+51550,Virginia,Chesapeake city,2020-03-30,2020-06-10
+51570,Virginia,Colonial Heights city,2020-03-30,2020-06-10
+51580,Virginia,Covington city,2020-03-30,2020-06-10
+51590,Virginia,Danville city,2020-03-30,2020-06-10
+51595,Virginia,Emporia city,2020-03-30,2020-06-10
+51600,Virginia,Fairfax city,2020-03-30,2020-06-10
+51610,Virginia,Falls Church city,2020-03-30,2020-06-10
+51620,Virginia,Franklin city,2020-03-30,2020-06-10
+51630,Virginia,Fredericksburg city,2020-03-30,2020-06-10
+51640,Virginia,Galax city,2020-03-30,2020-06-10
+51650,Virginia,Hampton city,2020-03-30,2020-06-10
+51660,Virginia,Harrisonburg city,2020-03-30,2020-06-10
+51670,Virginia,Hopewell city,2020-03-30,2020-06-10
+51678,Virginia,Lexington city,2020-03-30,2020-06-10
+51680,Virginia,Lynchburg city,2020-03-30,2020-06-10
+51683,Virginia,Manassas city,2020-03-30,2020-06-10
+51685,Virginia,Manassas Park city,2020-03-30,2020-06-10
+51690,Virginia,Martinsville city,2020-03-30,2020-06-10
+51700,Virginia,Newport News city,2020-03-30,2020-06-10
+51710,Virginia,Norfolk city,2020-03-30,2020-06-10
+51720,Virginia,Norton city,2020-03-30,2020-06-10
+51730,Virginia,Petersburg city,2020-03-30,2020-06-10
+51735,Virginia,Poquoson city,2020-03-30,2020-06-10
+51740,Virginia,Portsmouth city,2020-03-30,2020-06-10
+51750,Virginia,Radford city,2020-03-30,2020-06-10
+51760,Virginia,Richmond city,2020-03-30,2020-06-10
+51770,Virginia,Roanoke city,2020-03-30,2020-06-10
+51775,Virginia,Salem city,2020-03-30,2020-06-10
+51790,Virginia,Staunton city,2020-03-30,2020-06-10
+51800,Virginia,Suffolk city,2020-03-30,2020-06-10
+51810,Virginia,Virginia Beach city,2020-03-30,2020-06-10
+51820,Virginia,Waynesboro city,2020-03-30,2020-06-10
+51830,Virginia,Williamsburg city,2020-03-30,2020-06-10
+51840,Virginia,Winchester city,2020-03-30,2020-06-10
+53001,Washington,Adams County,2020-03-23,2020-06-08
+53003,Washington,Asotin County,2020-03-23,2020-06-08
+53005,Washington,Benton County,2020-03-23,2020-06-08
+53007,Washington,Chelan County,2020-03-23,2020-06-08
+53009,Washington,Clallam County,2020-03-23,2020-06-08
+53011,Washington,Clark County,2020-03-23,2020-06-08
+53013,Washington,Columbia County,2020-03-23,2020-06-08
+53015,Washington,Cowlitz County,2020-03-23,2020-06-08
+53017,Washington,Douglas County,2020-03-23,2020-06-08
+53019,Washington,Ferry County,2020-03-23,2020-06-08
+53021,Washington,Franklin County,2020-03-23,2020-06-08
+53023,Washington,Garfield County,2020-03-23,2020-06-08
+53025,Washington,Grant County,2020-03-23,2020-06-08
+53027,Washington,Grays Harbor County,2020-03-23,2020-06-08
+53029,Washington,Island County,2020-03-23,2020-06-08
+53031,Washington,Jefferson County,2020-03-23,2020-06-08
+53033,Washington,King County,2020-03-23,2020-06-08
+53035,Washington,Kitsap County,2020-03-23,2020-06-08
+53037,Washington,Kittitas County,2020-03-23,2020-06-08
+53039,Washington,Klickitat County,2020-03-23,2020-06-08
+53041,Washington,Lewis County,2020-03-23,2020-06-08
+53043,Washington,Lincoln County,2020-03-23,2020-06-08
+53045,Washington,Mason County,2020-03-23,2020-06-08
+53047,Washington,Okanogan County,2020-03-23,2020-06-08
+53049,Washington,Pacific County,2020-03-23,2020-06-08
+53051,Washington,Pend Oreille County,2020-03-23,2020-06-08
+53053,Washington,Pierce County,2020-03-23,2020-06-08
+53055,Washington,San Juan County,2020-03-23,2020-06-08
+53057,Washington,Skagit County,2020-03-23,2020-06-08
+53059,Washington,Skamania County,2020-03-23,2020-06-08
+53061,Washington,Snohomish County,2020-03-22,
+53063,Washington,Spokane County,2020-03-23,2020-06-08
+53065,Washington,Stevens County,2020-03-23,2020-06-08
+53067,Washington,Thurston County,2020-03-23,2020-06-08
+53069,Washington,Wahkiakum County,2020-03-23,2020-06-08
+53071,Washington,Walla Walla County,2020-03-23,2020-06-08
+53073,Washington,Whatcom County,2020-03-23,2020-06-08
+53075,Washington,Whitman County,2020-03-23,2020-06-08
+53077,Washington,Yakima County,2020-03-22,
+54001,West Virginia,Barbour County,2020-03-23,2020-05-04
+54003,West Virginia,Berkeley County,2020-03-23,
+54005,West Virginia,Boone County,2020-03-23,2020-05-04
+54007,West Virginia,Braxton County,2020-03-23,2020-05-04
+54009,West Virginia,Brooke County,2020-03-23,2020-05-04
+54011,West Virginia,Cabell County,2020-03-23,2020-05-04
+54013,West Virginia,Calhoun County,2020-03-23,2020-05-04
+54015,West Virginia,Clay County,2020-03-23,2020-05-04
+54017,West Virginia,Doddridge County,2020-03-23,2020-05-04
+54019,West Virginia,Fayette County,2020-03-23,2020-05-04
+54021,West Virginia,Gilmer County,2020-03-23,2020-05-04
+54023,West Virginia,Grant County,2020-03-23,2020-05-04
+54025,West Virginia,Greenbrier County,2020-03-23,2020-05-04
+54027,West Virginia,Hampshire County,2020-03-23,2020-05-04
+54029,West Virginia,Hancock County,2020-03-23,2020-05-04
+54031,West Virginia,Hardy County,2020-03-23,2020-05-04
+54033,West Virginia,Harrison County,2020-03-23,2020-05-04
+54035,West Virginia,Jackson County,2020-03-23,2020-05-04
+54037,West Virginia,Jefferson County,2020-03-23,
+54039,West Virginia,Kanawha County,2020-03-23,2020-05-04
+54041,West Virginia,Lewis County,2020-03-23,2020-05-04
+54043,West Virginia,Lincoln County,2020-03-23,2020-05-04
+54045,West Virginia,Logan County,2020-03-23,2020-05-04
+54047,West Virginia,McDowell County,2020-03-23,2020-05-04
+54049,West Virginia,Marion County,2020-03-23,2020-05-04
+54051,West Virginia,Marshall County,2020-03-23,2020-05-04
+54053,West Virginia,Mason County,2020-03-23,2020-05-04
+54055,West Virginia,Mercer County,2020-03-23,2020-05-04
+54057,West Virginia,Mineral County,2020-03-23,2020-05-04
+54059,West Virginia,Mingo County,2020-03-23,2020-05-04
+54061,West Virginia,Monongalia County,2020-03-23,2020-05-04
+54063,West Virginia,Monroe County,2020-03-23,2020-05-04
+54065,West Virginia,Morgan County,2020-03-23,2020-05-04
+54067,West Virginia,Nicholas County,2020-03-23,2020-05-04
+54069,West Virginia,Ohio County,2020-03-23,2020-05-04
+54071,West Virginia,Pendleton County,2020-03-23,2020-05-04
+54073,West Virginia,Pleasants County,2020-03-23,2020-05-04
+54075,West Virginia,Pocahontas County,2020-03-23,2020-05-04
+54077,West Virginia,Preston County,2020-03-23,2020-05-04
+54079,West Virginia,Putnam County,2020-03-23,2020-05-04
+54081,West Virginia,Raleigh County,2020-03-23,2020-05-04
+54083,West Virginia,Randolph County,2020-03-23,2020-05-04
+54085,West Virginia,Ritchie County,2020-03-23,2020-05-04
+54087,West Virginia,Roane County,2020-03-23,2020-05-04
+54089,West Virginia,Summers County,2020-03-23,2020-05-04
+54091,West Virginia,Taylor County,2020-03-23,2020-05-04
+54093,West Virginia,Tucker County,2020-03-23,2020-05-04
+54095,West Virginia,Tyler County,2020-03-23,2020-05-04
+54097,West Virginia,Upshur County,2020-03-23,2020-05-04
+54099,West Virginia,Wayne County,2020-03-23,2020-05-04
+54101,West Virginia,Webster County,2020-03-23,2020-05-04
+54103,West Virginia,Wetzel County,2020-03-23,2020-05-04
+54105,West Virginia,Wirt County,2020-03-23,2020-05-04
+54107,West Virginia,Wood County,2020-03-23,2020-05-04
+54109,West Virginia,Wyoming County,2020-03-23,2020-05-04
+55001,Wisconsin,Adams County,2020-03-25,2020-05-13
+55003,Wisconsin,Ashland County,2020-03-25,2020-05-13
+55005,Wisconsin,Barron County,2020-03-25,2020-05-13
+55007,Wisconsin,Bayfield County,2020-03-25,2020-05-13
+55009,Wisconsin,Brown County,2020-03-25,2020-05-13
+55011,Wisconsin,Buffalo County,2020-03-25,2020-05-13
+55013,Wisconsin,Burnett County,2020-03-25,2020-05-13
+55015,Wisconsin,Calumet County,2020-03-25,2020-05-13
+55017,Wisconsin,Chippewa County,2020-03-25,2020-05-13
+55019,Wisconsin,Clark County,2020-03-25,2020-05-13
+55021,Wisconsin,Columbia County,2020-03-25,2020-05-13
+55023,Wisconsin,Crawford County,2020-03-25,2020-05-13
+55025,Wisconsin,Dane County,2020-03-25,
+55027,Wisconsin,Dodge County,2020-03-25,2020-05-13
+55029,Wisconsin,Door County,2020-03-25,2020-05-13
+55031,Wisconsin,Douglas County,2020-03-25,2020-05-13
+55033,Wisconsin,Dunn County,2020-03-25,2020-05-13
+55035,Wisconsin,Eau Claire County,2020-03-25,2020-05-13
+55037,Wisconsin,Florence County,2020-03-25,2020-05-13
+55039,Wisconsin,Fond du Lac County,2020-03-25,2020-05-13
+55041,Wisconsin,Forest County,2020-03-25,2020-05-13
+55043,Wisconsin,Grant County,2020-03-25,2020-05-13
+55045,Wisconsin,Green County,2020-03-25,2020-05-13
+55047,Wisconsin,Green Lake County,2020-03-25,2020-05-13
+55049,Wisconsin,Iowa County,2020-03-25,2020-05-13
+55051,Wisconsin,Iron County,2020-03-25,2020-05-13
+55053,Wisconsin,Jackson County,2020-03-25,2020-05-13
+55055,Wisconsin,Jefferson County,2020-03-25,2020-05-13
+55057,Wisconsin,Juneau County,2020-03-25,2020-05-13
+55059,Wisconsin,Kenosha County,2020-03-25,2020-05-13
+55061,Wisconsin,Kewaunee County,2020-03-25,2020-05-13
+55063,Wisconsin,La Crosse County,2020-03-25,2020-05-13
+55065,Wisconsin,Lafayette County,2020-03-25,2020-05-13
+55067,Wisconsin,Langlade County,2020-03-25,2020-05-13
+55069,Wisconsin,Lincoln County,2020-03-25,2020-05-13
+55071,Wisconsin,Manitowoc County,2020-03-25,2020-05-13
+55073,Wisconsin,Marathon County,2020-03-25,2020-05-13
+55075,Wisconsin,Marinette County,2020-03-25,2020-05-13
+55077,Wisconsin,Marquette County,2020-03-25,2020-05-13
+55078,Wisconsin,Menominee County,2020-03-25,2020-05-13
+55079,Wisconsin,Milwaukee County,2020-03-23,
+55081,Wisconsin,Monroe County,2020-03-25,2020-05-13
+55083,Wisconsin,Oconto County,2020-03-25,2020-05-13
+55085,Wisconsin,Oneida County,2020-03-25,2020-05-13
+55087,Wisconsin,Outagamie County,2020-03-25,2020-05-13
+55089,Wisconsin,Ozaukee County,2020-03-25,2020-05-13
+55091,Wisconsin,Pepin County,2020-03-25,2020-05-13
+55093,Wisconsin,Pierce County,2020-03-25,2020-05-13
+55095,Wisconsin,Polk County,2020-03-25,2020-05-13
+55097,Wisconsin,Portage County,2020-03-25,2020-05-13
+55099,Wisconsin,Price County,2020-03-25,2020-05-13
+55101,Wisconsin,Racine County,2020-03-25,2020-05-13
+55103,Wisconsin,Richland County,2020-03-25,2020-05-13
+55105,Wisconsin,Rock County,2020-03-25,2020-05-13
+55107,Wisconsin,Rusk County,2020-03-25,2020-05-13
+55109,Wisconsin,St. Croix County,2020-03-25,2020-05-13
+55111,Wisconsin,Sauk County,2020-03-25,2020-05-13
+55113,Wisconsin,Sawyer County,2020-03-25,2020-05-13
+55115,Wisconsin,Shawano County,2020-03-25,2020-05-13
+55117,Wisconsin,Sheboygan County,2020-03-25,2020-05-13
+55119,Wisconsin,Taylor County,2020-03-25,2020-05-13
+55121,Wisconsin,Trempealeau County,2020-03-25,2020-05-13
+55123,Wisconsin,Vernon County,2020-03-25,2020-05-13
+55125,Wisconsin,Vilas County,2020-03-25,2020-05-13
+55127,Wisconsin,Walworth County,2020-03-25,2020-05-13
+55129,Wisconsin,Washburn County,2020-03-25,2020-05-13
+55131,Wisconsin,Washington County,2020-03-25,2020-05-13
+55133,Wisconsin,Waukesha County,2020-03-25,2020-05-13
+55135,Wisconsin,Waupaca County,2020-03-25,2020-05-13
+55137,Wisconsin,Waushara County,2020-03-25,2020-05-13
+55139,Wisconsin,Winnebago County,2020-03-25,2020-05-13
+55141,Wisconsin,Wood County,2020-03-25,2020-05-13
+56001,Wyoming,Albany County,,
+56003,Wyoming,Big Horn County,,
+56005,Wyoming,Campbell County,,
+56007,Wyoming,Carbon County,,
+56009,Wyoming,Converse County,,
+56011,Wyoming,Crook County,,
+56013,Wyoming,Fremont County,,
+56015,Wyoming,Goshen County,,
+56017,Wyoming,Hot Springs County,,
+56019,Wyoming,Johnson County,,
+56021,Wyoming,Laramie County,,
+56023,Wyoming,Lincoln County,,
+56025,Wyoming,Natrona County,,
+56027,Wyoming,Niobrara County,,
+56029,Wyoming,Park County,,
+56031,Wyoming,Platte County,,
+56033,Wyoming,Sheridan County,,
+56035,Wyoming,Sublette County,,
+56037,Wyoming,Sweetwater County,,
+56039,Wyoming,Teton County,2020-03-28,2020-03-31
+56041,Wyoming,Uinta County,,
+56043,Wyoming,Washakie County,,
+56045,Wyoming,Weston County,,
+60010,"",Eastern District,,
+60020,"",Manu'a District,,
+60030,"",Rose Island,,
+60040,"",Swains Island,,
+60050,"",Western District,,
+66010,"",Guam,,
+69085,"",Northern Islands Municipality,,
+69100,"",Rota Municipality,,
+69110,"",Saipan Municipality,,
+69120,"",Tinian Municipality,,
+72001,"",Adjuntas Municipio,,
+72003,"",Aguada Municipio,,
+72005,"",Aguadilla Municipio,,
+72007,"",Aguas Buenas Municipio,,
+72009,"",Aibonito Municipio,,
+72011,"",Anasco Municipio,,
+72013,"",Arecibo Municipio,,
+72015,"",Arroyo Municipio,,
+72017,"",Barceloneta Municipio,,
+72019,"",Barranquitas Municipio,,
+72021,"",Bayamon Municipio,,
+72023,"",Cabo Rojo Municipio,,
+72025,"",Caguas Municipio,,
+72027,"",Camuy Municipio,,
+72029,"",Canovanas Municipio,,
+72031,"",Carolina Municipio,,
+72033,"",Catano Municipio,,
+72035,"",Cayey Municipio,,
+72037,"",Ceiba Municipio,,
+72039,"",Ciales Municipio,,
+72041,"",Cidra Municipio,,
+72043,"",Coamo Municipio,,
+72045,"",Comerio Municipio,,
+72047,"",Corozal Municipio,,
+72049,"",Culebra Municipio,,
+72051,"",Dorado Municipio,,
+72053,"",Fajardo Municipio,,
+72054,"",Florida Municipio,,
+72055,"",Guanica Municipio,,
+72057,"",Guayama Municipio,,
+72059,"",Guayanilla Municipio,,
+72061,"",Guaynabo Municipio,,
+72063,"",Gurabo Municipio,,
+72065,"",Hatillo Municipio,,
+72067,"",Hormigueros Municipio,,
+72069,"",Humacao Municipio,,
+72071,"",Isabela Municipio,,
+72073,"",Jayuya Municipio,,
+72075,"",Juana Diaz Municipio,,
+72077,"",Juncos Municipio,,
+72079,"",Lajas Municipio,,
+72081,"",Lares Municipio,,
+72083,"",Las Marias Municipio,,
+72085,"",Las Piedras Municipio,,
+72087,"",Loiza Municipio,,
+72089,"",Luquillo Municipio,,
+72091,"",Manati Municipio,,
+72093,"",Maricao Municipio,,
+72095,"",Maunabo Municipio,,
+72097,"",Mayaguez Municipio,,
+72099,"",Moca Municipio,,
+72101,"",Morovis Municipio,,
+72103,"",Naguabo Municipio,,
+72105,"",Naranjito Municipio,,
+72107,"",Orocovis Municipio,,
+72109,"",Patillas Municipio,,
+72111,"",Penuelas Municipio,,
+72113,"",Ponce Municipio,,
+72115,"",Quebradillas Municipio,,
+72117,"",Rincon Municipio,,
+72119,"",Rio Grande Municipio,,
+72121,"",Sabana Grande Municipio,,
+72123,"",Salinas Municipio,,
+72125,"",San German Municipio,,
+72127,"",San Juan Municipio,,
+72129,"",San Lorenzo Municipio,,
+72131,"",San Sebastian Municipio,,
+72133,"",Santa Isabel Municipio,,
+72135,"",Toa Alta Municipio,,
+72137,"",Toa Baja Municipio,,
+72139,"",Trujillo Alto Municipio,,
+72141,"",Utuado Municipio,,
+72143,"",Vega Alta Municipio,,
+72145,"",Vega Baja Municipio,,
+72147,"",Vieques Municipio,,
+72149,"",Villalba Municipio,,
+72151,"",Yabucoa Municipio,,
+72153,"",Yauco Municipio,,
+74300,"",Midway Islands,,
+78010,"",St. Croix Island,,
+78020,"",St. John Island,,
+78030,"",St. Thomas Island,,
