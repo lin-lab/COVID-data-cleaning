@@ -354,8 +354,8 @@ stopifnot(nrow(kc4) == num_dates)
 
 cur_date <- format(Sys.Date(), "%Y-%m-%d")
 write_csv(jhu_county_final,
-          sprintf("cleaned_data/JHU_COVID-19_County_%s.csv", cur_date))
+          sprintf("cleaned_data/JHU_COVID-19_County.csv", cur_date))
 write_csv(jhu_state_final,
-          sprintf("cleaned_data/JHU_COVID-19_State_%s.csv", cur_date))
+          sprintf("cleaned_data/JHU_COVID-19_State.csv", cur_date))
 write_csv(jhu_global_final,
-          sprintf("cleaned_data/JHU_COVID-19_Global_%s.csv", cur_date))
+          sprintf("cleaned_data/JHU_COVID-19_Global.csv", cur_date))
