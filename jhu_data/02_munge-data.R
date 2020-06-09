@@ -72,16 +72,13 @@ stopifnot(all.equal(tmp$confirmed, tmp$confirmed2))
 stopifnot(all.equal(tmp$deaths, tmp$deaths2))
 
 # check that number of counties in each state didn't change over time
-plt_counties_over_time <- jhu_df %>%
+counties_over_time <- jhu_df %>%
   group_by(Province_State, date) %>%
   summarize(n = n()) %>%
-  ggplot(aes(x = date, y = n, color = Province_State)) +
-  geom_line() +
-  ggtitle("Number of Counties / State Over Time") +
-  xlab("Date") + ylab("Number of Counties") +
-  guides(color = FALSE)
-ggsave("figures/counties.png", plt_counties_over_time)
-
+  ungroup() %>%
+  group_by(Province_State) %>%
+  summarize(sd_n = sd(n))
+stopifnot(all.equal(counties_over_time$sd_n, rep(0, nrow(counties_over_time))))
 
 jhu_df %>%
   filter(date == mdy("03-31-2020")) %>%
@@ -98,7 +95,7 @@ jhu_df %>%
 ## Aggregate county-level data into state-level data
 #######################################################################
 
-jhu_state <- jhu_df %>%
+jhu_state_orig <- jhu_df %>%
   group_by(Province_State, date) %>%
   summarize_at(vars(Population, deaths, confirmed), sum) %>%
   ungroup() %>%
@@ -109,6 +106,19 @@ jhu_state <- jhu_df %>%
          confirmed_per_day = confirmed - lag(confirmed, n = 1,
                                              default = 0, order_by = date)) %>%
   ungroup()
+
+# MA has a reporting issue on 2020-06-01, so we replace the number.
+jhu_state_orig %>%
+  filter(Province_State == "Massachusetts", date >= ymd("2020-05-30")) %>%
+  select(date, confirmed, confirmed_per_day)
+
+jhu_state <- jhu_state_orig %>%
+  mutate(confirmed_per_day = case_when(
+          Province_State == "Massachusetts" & date == ymd("2020-06-01") ~ 326,
+          TRUE ~ confirmed_per_day))
+jhu_state %>%
+  filter(Province_State == "Massachusetts", date >= ymd("2020-05-30")) %>%
+  select(date, confirmed, confirmed_per_day)
 
 # checking
 tmp <- jhu_state %>%
