@@ -23,7 +23,6 @@ stopifnot(length(unique(confirmed_df_orig$UID)) == nrow(confirmed_df_orig))
 kc1 <- confirmed_df_orig %>% filter(Admin2 == "Kansas City")
 stopifnot(nrow(kc1) == 1)
 
-
 confirmed_df <- confirmed_df_orig %>%
   gather(key = "date_char", value = "confirmed", -(UID:Combined_Key)) %>%
   mutate(date = mdy(date_char))
@@ -40,7 +39,7 @@ death_df <- death_df_orig %>%
   gather(key = "date_char", value = "deaths", -(UID:Population)) %>%
   mutate(date = mdy(date_char))
 
-jhu_df <- death_df %>% select(UID, date, Population, deaths) %>%
+jhu_df_notfixed <- death_df %>% select(UID, date, Population, deaths) %>%
   inner_join(confirmed_df, ., by = c("UID", "date")) %>%
   select(-confirmed, everything()) %>%
   arrange(date) %>%
@@ -51,8 +50,67 @@ jhu_df <- death_df %>% select(UID, date, Population, deaths) %>%
          confirmed_per_day = confirmed - lag(confirmed, n = 1,
                                              default = 0, order_by = date)) %>%
   ungroup() %>%
-  select(-date_char)
-head(jhu_df)
+  select(-date_char) %>%
+  # fix typo in key for Dukes & Nantucket
+  mutate(Combined_Key = case_when(
+          Admin2 == "Dukes and Nantucket" & Province_State == "Massachusetts" ~ "Dukes and Nantucket, Massachusetts, US",
+          TRUE ~ Combined_Key))
+head(jhu_df_notfixed)
+
+#######################################################################
+## Fix issues with MA reporting: on 6/1, MA started reporting probable cases
+## (cases which had a positive antibody test and had COVID-19 symptoms or
+## COVID-19 exposure) as positive. This caused a big spike in cases on 6/1.
+#######################################################################
+
+MA_county_cases <- read_csv("supp_data/MA_county_2020-06-01.csv") %>%
+  filter(!is.na(Count)) %>%
+  # group together Dukes and Nantucket
+  mutate(date_new = mdy(Date),
+         County_JHU = case_when(
+          County == "Dukes" | County == "Nantucket" ~ "Dukes and Nantucket",
+          County == "Unknown" ~ "Unassigned",
+          TRUE ~ County)) %>%
+  group_by(County_JHU, date_new) %>%
+  summarize(ma_confirmed = sum(Count)) %>%
+  # Then get confirmed per day
+  ungroup() %>%
+  group_by(County_JHU) %>%
+  mutate(ma_confirmed_per_day = ma_confirmed -
+         lag(ma_confirmed, n = 1, default = 0, order_by = date_new)) %>%
+  ungroup()
+
+MA_county_cases %>%
+  filter(date_new == ymd("2020-06-01")) %>%
+  summarize(sum(ma_confirmed_per_day))
+
+MA_new_rows <- MA_county_cases %>%
+  filter(date_new == ymd("2020-06-01")) %>%
+  mutate(Combined_Key = paste0(County_JHU, ", Massachusetts, US"))
+
+jhu_df_notfixed %>%
+  filter(Province_State == "Massachusetts",
+         date == ymd("2020-06-01")) %>%
+  select(Combined_Key, confirmed_per_day)
+
+
+jhu_ma_joined <- jhu_df_notfixed %>%
+  left_join(MA_new_rows, by = c("date" = "date_new", "Combined_Key"))
+jhu_ma_joined %>%
+  filter(!is.na(ma_confirmed)) %>%
+  select(Combined_Key, date, confirmed, confirmed_per_day, ma_confirmed_per_day)
+
+# change confirmed_per_day to MA values on 6/1
+jhu_df <- jhu_ma_joined %>%
+  mutate(confirmed_per_day = case_when(
+          is.na(ma_confirmed_per_day) ~ confirmed_per_day,
+          !is.na(ma_confirmed_per_day) ~ ma_confirmed_per_day))
+
+# sanity check
+jhu_df %>%
+  filter(Province_State == "Massachusetts", date == ymd("2020-06-01")) %>%
+  select(Combined_Key, date, confirmed_per_day, ma_confirmed_per_day)
+
 
 kc3 <- jhu_df %>% filter(Admin2 == "Kansas City")
 stopifnot(nrow(kc3) == num_dates)
@@ -91,43 +149,29 @@ jhu_df %>%
   summarize_at(vars(deaths, confirmed), sum) %>%
   filter(deaths > 0 | confirmed > 0)
 
+
 #######################################################################
 ## Aggregate county-level data into state-level data
 #######################################################################
 
-jhu_state_orig <- jhu_df %>%
+jhu_state <- jhu_df %>%
   group_by(Province_State, date) %>%
-  summarize_at(vars(Population, deaths, confirmed), sum) %>%
+  summarize_at(vars(Population, deaths_per_day, confirmed_per_day), sum) %>%
   ungroup() %>%
-  arrange(date) %>%
   group_by(Province_State) %>%
-  mutate(deaths_per_day = deaths - lag(deaths, n = 1,
-                                       default = 0, order_by = date),
-         confirmed_per_day = confirmed - lag(confirmed, n = 1,
-                                             default = 0, order_by = date)) %>%
+  arrange(date) %>%
+  mutate(deaths = cumsum(deaths_per_day),
+         confirmed = cumsum(confirmed_per_day)) %>%
   ungroup()
-
-# MA has a reporting issue on 2020-06-01, so we replace the number.
-jhu_state_orig %>%
-  filter(Province_State == "Massachusetts", date >= ymd("2020-05-30")) %>%
-  select(date, confirmed, confirmed_per_day)
-
-jhu_state <- jhu_state_orig %>%
-  mutate(confirmed_per_day = case_when(
-          Province_State == "Massachusetts" & date == ymd("2020-06-01") ~ 326,
-          TRUE ~ confirmed_per_day))
-jhu_state %>%
-  filter(Province_State == "Massachusetts", date >= ymd("2020-05-30")) %>%
-  select(date, confirmed, confirmed_per_day)
 
 # checking
 tmp <- jhu_state %>%
   filter(Province_State == "New York") %>%
   arrange(date) %>%
-  mutate(confirmed2 = cumsum(confirmed_per_day),
-         deaths2 = cumsum(deaths_per_day))
-stopifnot(all.equal(tmp$confirmed, tmp$confirmed2))
-stopifnot(all.equal(tmp$deaths, tmp$deaths2))
+  mutate(confirmed_per_day2 = confirmed - lag(confirmed, n = 1, default = 0),
+         deaths_per_day2 = deaths - lag(deaths, n = 1, default = 0))
+stopifnot(all.equal(tmp$confirmed_per_day, tmp$confirmed_per_day2))
+stopifnot(all.equal(tmp$deaths_per_day, tmp$deaths_per_day2))
 
 #######################################################################
 ## Aggregate state-level data into country-level data
