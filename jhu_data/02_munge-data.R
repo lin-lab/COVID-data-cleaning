@@ -7,6 +7,7 @@ library(tidyr)
 library(lubridate)
 library(ggplot2)
 library(cowplot)
+library(readxl)
 theme_set(theme_cowplot())
 
 #######################################################################
@@ -58,11 +59,17 @@ jhu_df_notfixed <- death_df %>% select(UID, date, Population, deaths) %>%
 head(jhu_df_notfixed)
 
 #######################################################################
-## Fix issues with MA reporting: on 6/1, MA started reporting probable cases
-## (cases which had a positive antibody test and had COVID-19 symptoms or
-## COVID-19 exposure) as positive. This caused a big spike in cases on 6/1.
+## Fix issues with Massachusetts and Michigan reporting. On 6/1 for MA and 6/5
+## for MI, these states started reporting probable cases (cases which had a
+## positive antibody test and had COVID-19 symptoms or COVID-19 exposure) as
+## positive. This caused a big spike in cases on those days.
+
+## For MA, we only replace the data on number of new cases for 6/1. For
+## Michigan, we use the official state numbers for all the dates from 3/1 to
+## 6/9.
 #######################################################################
 
+# Read data from MA counties
 MA_county_cases <- read_csv("supp_data/MA_county_2020-06-01.csv") %>%
   filter(!is.na(Count)) %>%
   # group together Dukes and Nantucket
@@ -72,50 +79,117 @@ MA_county_cases <- read_csv("supp_data/MA_county_2020-06-01.csv") %>%
           County == "Unknown" ~ "Unassigned",
           TRUE ~ County)) %>%
   group_by(County_JHU, date_new) %>%
-  summarize(ma_confirmed = sum(Count)) %>%
+  summarize(state_confirmed = sum(Count)) %>%
   # Then get confirmed per day
   ungroup() %>%
   group_by(County_JHU) %>%
-  mutate(ma_confirmed_per_day = ma_confirmed -
-         lag(ma_confirmed, n = 1, default = 0, order_by = date_new)) %>%
+  mutate(state_confirmed_per_day = state_confirmed -
+         lag(state_confirmed, n = 1, default = 0, order_by = date_new)) %>%
   ungroup()
 
-MA_county_cases %>%
+# santiy check, should match with excel calculations
+stopifnot(all.equal({
+  MA_county_cases %>%
   filter(date_new == ymd("2020-06-01")) %>%
-  summarize(sum(ma_confirmed_per_day))
+  summarize(total = sum(state_confirmed_per_day)) %>%
+  .$total
+}, 337))
 
+
+# for MA, only replace 6/1 data.
 MA_new_rows <- MA_county_cases %>%
   filter(date_new == ymd("2020-06-01")) %>%
   mutate(Combined_Key = paste0(County_JHU, ", Massachusetts, US"))
 
-jhu_df_notfixed %>%
-  filter(Province_State == "Massachusetts",
-         date == ymd("2020-06-01")) %>%
-  select(Combined_Key, confirmed_per_day)
+# confirm that JHU has big jumps on 6/1 for MA
+ma_plt <- jhu_df_notfixed %>%
+  filter(Province_State == "Massachusetts", date >= ymd("2020-05-20")) %>%
+  ggplot(aes(x = date, y = confirmed_per_day)) +
+  geom_line() + facet_wrap(~Admin2, scales = "free_y") +
+  geom_vline(xintercept = ymd("2020-06-01"), color = "red", lty = 2) +
+  xlab("Date") + ylab("New cases per day") +
+  ggtitle("New Cases in MA")
+ggsave("figures/ma_cases.png", ma_plt, width = 12, height = 8)
 
 
-jhu_ma_joined <- jhu_df_notfixed %>%
-  left_join(MA_new_rows, by = c("date" = "date_new", "Combined_Key"))
-jhu_ma_joined %>%
-  filter(!is.na(ma_confirmed)) %>%
-  select(Combined_Key, date, confirmed, confirmed_per_day, ma_confirmed_per_day)
+# read in Michigan counties
+mi_county_cases <- read_excel("supp_data/MI_Cases_by_County_by_Date_2020-06-10.xlsx") %>%
+  # rename counties
+  mutate(date_new = as_date(Date),
+         County_JHU = case_when(
+          COUNTY == "Detroit City" | COUNTY == "Wayne" ~ "Wayne",
+          COUNTY == "Unknown" ~ "Unassigned",
+          COUNTY == "MDOC" ~ "Michigan Department of Corrections (MDOC)",
+          COUNTY == "FCI" ~ "Federal Correctional Institution (FCI)",
+          COUNTY == "St Clair" ~ "St. Clair",
+          COUNTY == "St Joseph" ~ "St. Joseph",
+          TRUE ~ COUNTY)) %>%
+  group_by(County_JHU, date_new) %>%
+  summarize(state_confirmed = sum(Cases.Cumulative),
+            state_confirmed_per_day = sum(Cases)) %>%
+  ungroup() %>%
+  mutate(Combined_Key = paste0(County_JHU, ", Michigan, US"))
 
-# change confirmed_per_day to MA values on 6/1
-jhu_df <- jhu_ma_joined %>%
+# Use all MI data
+new_rows <- rbind(MA_new_rows, mi_county_cases)
+jhu_ma_mi_joined <- jhu_df_notfixed %>%
+  left_join(new_rows, by = c("date" = "date_new", "Combined_Key"))
+
+top_counties <- mi_county_cases %>%
+  filter(date_new == ymd("2020-06-07")) %>%
+  select(County_JHU, state_confirmed, state_confirmed_per_day) %>%
+  arrange(desc(state_confirmed)) %>%
+  head(n = 12) %>%
+  .$County_JHU
+
+# seems like there are big differences in MI data and JHU data, so we'll just
+# replace all the MI data
+mi_plt <- jhu_ma_mi_joined %>%
+  filter(Province_State == "Michigan", Admin2 %in% top_counties,
+         date >= ymd("2020-05-01")) %>%
+  ggplot() +
+  geom_line(aes(x = date, y = confirmed, lty = "JHU")) +
+  geom_line(aes(x = date, y = state_confirmed, lty = "MI State Gov't")) +
+  facet_wrap(~Admin2, scales = "free_y") +
+  scale_y_log10() +
+  geom_vline(xintercept = ymd("2020-06-05"), color = "red", lty = 2) +
+  scale_linetype_discrete(name = "Data Source") +
+  xlab("Date") + ylab("Cumulative Cases") +
+  ggtitle("Cum. Cases for Top MI Counties")
+ggsave("figures/mi_cases.png", mi_plt, width = 12, height = 8)
+
+jhu_df <- jhu_ma_mi_joined %>%
   mutate(confirmed_per_day = case_when(
-          is.na(ma_confirmed_per_day) ~ confirmed_per_day,
-          !is.na(ma_confirmed_per_day) ~ ma_confirmed_per_day))
+         (Province_State == "Massachusetts" | Province_State == "Michigan") &
+           !is.na(state_confirmed_per_day) ~
+           state_confirmed_per_day,
+         TRUE ~ confirmed_per_day),
+        confirmed = case_when(
+          Province_State == "Michigan" & !is.na(state_confirmed) ~
+            state_confirmed,
+          TRUE ~ confirmed))
 
-# sanity check
 jhu_df %>%
   filter(Province_State == "Massachusetts", date == ymd("2020-06-01")) %>%
-  select(Combined_Key, date, confirmed_per_day, ma_confirmed_per_day)
+  select(Combined_Key, date, confirmed_per_day, state_confirmed_per_day)
 
+jhu_df %>%
+  filter(Province_State == "Michigan", date == ymd("2020-06-05")) %>%
+  select(Combined_Key, date, confirmed_per_day, state_confirmed_per_day) %>%
+  arrange(desc(confirmed_per_day)) %>%
+  head()
+
+# remove columns we created
+jhu_df <- select(jhu_df, -state_confirmed, -state_confirmed_per_day,
+                 -County_JHU)
+
+# error checking
+stopifnot(!anyNA(jhu_df$confirmed_per_day))
+stopifnot(!anyNA(jhu_df$confirmed))
 
 kc3 <- jhu_df %>% filter(Admin2 == "Kansas City")
 stopifnot(nrow(kc3) == num_dates)
 
-# error checking
 stopifnot(nrow(jhu_df) == nrow(death_df))
 stopifnot(nrow(jhu_df) == nrow(confirmed_df))
 x <- jhu_df %>% filter(date == mdy("03-31-2020"))
@@ -137,11 +211,6 @@ counties_over_time <- jhu_df %>%
   group_by(Province_State) %>%
   summarize(sd_n = sd(n))
 stopifnot(all.equal(counties_over_time$sd_n, rep(0, nrow(counties_over_time))))
-
-jhu_df %>%
-  filter(date == mdy("03-31-2020")) %>%
-  group_by(Province_State) %>%
-  summarize(n = n())
 
 jhu_df %>%
   filter(startsWith(Admin2, "Out of ")) %>%
@@ -172,6 +241,7 @@ tmp <- jhu_state %>%
          deaths_per_day2 = deaths - lag(deaths, n = 1, default = 0))
 stopifnot(all.equal(tmp$confirmed_per_day, tmp$confirmed_per_day2))
 stopifnot(all.equal(tmp$deaths_per_day, tmp$deaths_per_day2))
+stopifnot(!anyNA(jhu_state))
 
 #######################################################################
 ## Aggregate state-level data into country-level data
@@ -182,6 +252,7 @@ usa_bystate <- jhu_state %>%
   summarize_at(vars(Population, deaths, confirmed), sum) %>%
   ungroup() %>%
   arrange(date)
+stopifnot(!anyNA(usa_bystate))
 
 
 #######################################################################
