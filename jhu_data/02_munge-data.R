@@ -60,13 +60,15 @@ head(jhu_df_notfixed)
 
 #######################################################################
 ## Fix issues with Massachusetts and Michigan reporting. On 6/1 for MA and 6/5
-## for MI, these states started reporting probable cases (cases which had a
-## positive antibody test and had COVID-19 symptoms or COVID-19 exposure) as
-## positive. This caused a big spike in cases on those days.
+## for MI, these states started reporting probable cases (in MA's case, cases
+## which had a positive antibody test and had COVID-19 symptoms or COVID-19
+## exposure---MI has it defined slightly differently I think) as positive. This
+## caused a big spike in cases on those days.
 
 ## For MA, we only replace the data on number of new cases for 6/1. For
 ## Michigan, we use the official state numbers for all the dates from 3/1 to
-## 6/9.
+## 6/10. The official numbers in the MI_Cases_by_County_by_Date are the
+## confirmed positives.
 #######################################################################
 
 # Read data from MA counties
