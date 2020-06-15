@@ -461,12 +461,13 @@ jhu_county_final <- jhu_df %>%
 
 
 jhu_state_final <- jhu_state %>%
-  select(stateName = Province_State, date,
+  select(UID, stateName = Province_State, date,
          positiveIncrease = confirmed_per_day,
          deathIncrease = deaths_per_day,
          positive = confirmed,
          death = deaths,
-         population = Population) %>%
+         population = Population,
+         Lat, Long_) %>%
   arrange(date)
 
 #######################################################################
