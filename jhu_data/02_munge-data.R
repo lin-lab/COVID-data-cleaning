@@ -42,12 +42,13 @@ deaths_path <- file.path(dat_dir, "time_series_covid19_deaths_US.csv")
 death_df_orig <- read_csv(deaths_path)
 stopifnot(length(unique(death_df_orig$UID)) == nrow(death_df_orig))
 death_df <- death_df_orig %>%
-  gather(key = "date_char", value = "deaths", -(UID:Population)) %>%
+  select(-Population) %>%
+  gather(key = "date_char", value = "deaths", -(UID:Combined_Key)) %>%
   mutate(date = mdy(date_char))
 
 # get number of deaths / confirmed per day
 # fix typo in key for Dukes & Nantucket
-death_df_tomerge <- select(death_df, UID, date, Population, deaths)
+death_df_tomerge <- select(death_df, UID, date, deaths)
 jhu_df_notfixed <- merge(confirmed_df, death_df_tomerge, all = FALSE,
                          by = c("UID", "date")) %>%
   arrange(date) %>%
@@ -60,7 +61,10 @@ jhu_df_notfixed <- merge(confirmed_df, death_df_tomerge, all = FALSE,
   select(-date_char)
 
 head(jhu_df_notfixed)
-jhu_df <- jhu_df_notfixed
+
+jhu_df <- uid_lookup %>%
+  select(UID, Population) %>%
+  left_join(jhu_df_notfixed, ., by = "UID")
 
 # error checking
 stopifnot(!anyNA(jhu_df$confirmed_per_day))
@@ -106,7 +110,7 @@ cruise_ships <- c("Diamond Princess", "Grand Princess")
 jhu_state_nouids <- jhu_df %>%
   filter(!(Province_State %in% cruise_ships)) %>%
   group_by(Province_State, date) %>%
-  summarize_at(vars(Population, deaths_per_day, confirmed_per_day), sum) %>%
+  summarize_at(vars(deaths_per_day, confirmed_per_day), sum) %>%
   ungroup() %>%
   group_by(Province_State) %>%
   arrange(date) %>%
@@ -116,8 +120,7 @@ jhu_state_nouids <- jhu_df %>%
 
 state_uids <- uid_lookup %>%
   filter(Country_Region == "US", !is.na(Province_State), is.na(Admin2),
-         !(Province_State %in% cruise_ships)) %>%
-  select(-Population)
+         !(Province_State %in% cruise_ships))
 jhu_state <- left_join(jhu_state_nouids, state_uids, by = "Province_State") %>%
   select(Province_State, date, deaths_per_day, confirmed_per_day,
          deaths, confirmed, UID, Lat, Long_, Combined_Key, Population)
@@ -139,7 +142,7 @@ stopifnot(!anyNA(jhu_state))
 
 usa_bystate <- jhu_state %>%
   group_by(date) %>%
-  summarize_at(vars(Population, deaths, confirmed), sum) %>%
+  summarize_at(vars(deaths, confirmed), sum) %>%
   ungroup() %>%
   arrange(date)
 stopifnot(!anyNA(usa_bystate))
@@ -229,7 +232,10 @@ jhu_global_w_agg <- rbind(jhu_global_incr, jhu_global_agg) %>%
 
 jhu_global_final <- jhu_global_w_agg %>%
   left_join(uid_lookup, by = c("Province_State", "Country_Region")) %>%
-  rename(population = Population)
+  rename(population = Population) %>%
+  mutate(positive_percapita = 10000 * positive / population,
+         death_percapita = 10000 * death / population)
+
 stopifnot(nrow(jhu_global_final) == nrow(jhu_global_w_agg))
 stopifnot(!anyNA(jhu_global_final$UID))
 
@@ -326,6 +332,8 @@ jhu_county_final <- jhu_df %>%
          deathIncrease = deaths_per_day,
          positive = confirmed,
          death = deaths, population = Population) %>%
+  mutate(positive_percapita = 10000 * positive / population,
+         death_percapita = 10000 * death / population) %>%
   arrange(date)
 
 
@@ -337,6 +345,8 @@ jhu_state_final <- jhu_state %>%
          death = deaths,
          population = Population,
          Lat, Long_) %>%
+  mutate(positive_percapita = 10000 * positive / population,
+         death_percapita = 10000 * death / population) %>%
   arrange(date)
 
 #######################################################################
