@@ -228,7 +228,8 @@ jhu_global_w_agg <- rbind(jhu_global_incr, jhu_global_agg) %>%
 
 
 jhu_global_final <- jhu_global_w_agg %>%
-  left_join(uid_lookup, by = c("Province_State", "Country_Region"))
+  left_join(uid_lookup, by = c("Province_State", "Country_Region")) %>%
+  rename(population = Population)
 stopifnot(nrow(jhu_global_final) == nrow(jhu_global_w_agg))
 stopifnot(!anyNA(jhu_global_final$UID))
 
@@ -324,7 +325,7 @@ jhu_county_final <- jhu_df %>%
          FIPS = FIPS_str, UID, positiveIncrease = confirmed_per_day,
          deathIncrease = deaths_per_day,
          positive = confirmed,
-         death = deaths) %>%
+         death = deaths, population = Population) %>%
   arrange(date)
 
 
