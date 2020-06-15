@@ -1,5 +1,11 @@
 # Supplementary Data Provided by State Governments
 
+## Update June 15, 2020
+
+It seems that JHU has corrected these issues and back-filled the number of
+confirmed plus presumed cases, so there are no more big spikes. This data is no
+longer needed now.
+
 ## Massachusetts
 
 On June 1, 2020, Massachusetts started differentiating between confirmed
