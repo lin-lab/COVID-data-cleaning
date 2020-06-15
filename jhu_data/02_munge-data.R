@@ -232,9 +232,7 @@ jhu_global_w_agg <- rbind(jhu_global_incr, jhu_global_agg) %>%
 
 jhu_global_final <- jhu_global_w_agg %>%
   left_join(uid_lookup, by = c("Province_State", "Country_Region")) %>%
-  rename(population = Population) %>%
-  mutate(positive_percapita = 10000 * positive / population,
-         death_percapita = 10000 * death / population)
+  rename(population = Population)
 
 stopifnot(nrow(jhu_global_final) == nrow(jhu_global_w_agg))
 stopifnot(!anyNA(jhu_global_final$UID))
@@ -332,8 +330,6 @@ jhu_county_final <- jhu_df %>%
          deathIncrease = deaths_per_day,
          positive = confirmed,
          death = deaths, population = Population) %>%
-  mutate(positive_percapita = 10000 * positive / population,
-         death_percapita = 10000 * death / population) %>%
   arrange(date)
 
 
@@ -345,8 +341,6 @@ jhu_state_final <- jhu_state %>%
          death = deaths,
          population = Population,
          Lat, Long_) %>%
-  mutate(positive_percapita = 10000 * positive / population,
-         death_percapita = 10000 * death / population) %>%
   arrange(date)
 
 #######################################################################
