@@ -14,6 +14,11 @@ theme_set(theme_cowplot())
 ## Process county-level data
 #######################################################################
 
+# Read UID lookup table for merging
+uid_path <- file.path("JHU_CSSE_COVID-19", "csse_covid_19_data",
+                      "UID_ISO_FIPS_LookUp_Table.csv")
+uid_lookup <- read_csv(uid_path)
+
 # load county-level confirmed cases data.
 dat_dir <- file.path("JHU_CSSE_COVID-19", "csse_covid_19_data",
                      "csse_covid_19_time_series")
@@ -224,12 +229,14 @@ jhu_df %>%
   summarize_at(vars(deaths, confirmed), sum) %>%
   filter(deaths > 0 | confirmed > 0)
 
-
 #######################################################################
 ## Aggregate county-level data into state-level data
 #######################################################################
 
-jhu_state <- jhu_df %>%
+cruise_ships <- c("Diamond Princess", "Grand Princess")
+
+jhu_state_nouids <- jhu_df %>%
+  filter(!(Province_State %in% cruise_ships)) %>%
   group_by(Province_State, date) %>%
   summarize_at(vars(Population, deaths_per_day, confirmed_per_day), sum) %>%
   ungroup() %>%
@@ -238,6 +245,15 @@ jhu_state <- jhu_df %>%
   mutate(deaths = cumsum(deaths_per_day),
          confirmed = cumsum(confirmed_per_day)) %>%
   ungroup()
+
+state_uids <- uid_lookup %>%
+  filter(Country_Region == "US", !is.na(Province_State), is.na(Admin2),
+         !(Province_State %in% cruise_ships)) %>%
+  select(-Population)
+jhu_state <- left_join(jhu_state_nouids, state_uids, by = "Province_State") %>%
+  select(Province_State, date, deaths_per_day, confirmed_per_day,
+         deaths, confirmed, UID, Lat, Long_, Combined_Key, Population)
+stopifnot(!anyNA(jhu_state$UID))
 
 # checking
 tmp <- jhu_state %>%
@@ -342,11 +358,6 @@ jhu_global_w_agg <- rbind(jhu_global_incr, jhu_global_agg) %>%
           Province_State == "Macau" & Country_Region == "China" ~ "Macau SAR",
           TRUE ~ Province_State))
 
-
-# Merge UID lookup table
-uid_path <- file.path("JHU_CSSE_COVID-19", "csse_covid_19_data",
-                      "UID_ISO_FIPS_LookUp_Table.csv")
-uid_lookup <- read_csv(uid_path)
 
 jhu_global_final <- jhu_global_w_agg %>%
   left_join(uid_lookup, by = c("Province_State", "Country_Region"))
