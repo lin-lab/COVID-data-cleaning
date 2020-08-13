@@ -220,14 +220,9 @@ jhu_global_agg <- jhu_global %>%
   mutate(`Province/State` = NA)
 
 
-# Hong Kong and Macau are written differently in the UID lookup table.
 jhu_global_w_agg <- rbind(jhu_global_incr, jhu_global_agg) %>%
   rename(Province_State = `Province/State`,
-         Country_Region = `Country/Region`) %>%
-  mutate(Province_State = case_when(
-          Province_State == "Hong Kong" & Country_Region == "China" ~ "Hong Kong SAR",
-          Province_State == "Macau" & Country_Region == "China" ~ "Macau SAR",
-          TRUE ~ Province_State))
+         Country_Region = `Country/Region`)
 
 
 jhu_global_final <- jhu_global_w_agg %>%
@@ -236,7 +231,6 @@ jhu_global_final <- jhu_global_w_agg %>%
 
 stopifnot(nrow(jhu_global_final) == nrow(jhu_global_w_agg))
 stopifnot(!anyNA(jhu_global_final$UID))
-
 
 # error checking
 aus <- jhu_global_final %>%
