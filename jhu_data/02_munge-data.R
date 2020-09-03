@@ -225,29 +225,96 @@ jhu_global_w_agg <- rbind(jhu_global_incr, jhu_global_agg) %>%
          Country_Region = `Country/Region`)
 
 
-jhu_global_final <- jhu_global_w_agg %>%
+jhu_global_merged <- jhu_global_w_agg %>%
   left_join(uid_lookup, by = c("Province_State", "Country_Region")) %>%
   rename(population = Population)
 
-stopifnot(nrow(jhu_global_final) == nrow(jhu_global_w_agg))
-stopifnot(!anyNA(jhu_global_final$UID))
+stopifnot(nrow(jhu_global_merged) == nrow(jhu_global_w_agg))
+stopifnot(!anyNA(jhu_global_merged$UID))
 
 # error checking
-aus <- jhu_global_final %>%
+aus <- jhu_global_merged %>%
   filter(Country_Region == "Australia", date == ymd("2020-04-22"))
 stopifnot(sum(aus$positive[1:8]) == aus$positive[9])
 
 
 # checking if we calculated the positive/death increase correctly.
-tmp <- jhu_global_final %>%
+tmp <- jhu_global_merged %>%
   filter(Country_Region == "US")
 stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
-tmp <- jhu_global_final %>%
+tmp <- jhu_global_merged %>%
   filter(Province_State == "Alberta", Country_Region == "Canada")
 stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
-tmp <- jhu_global_final %>%
+tmp <- jhu_global_merged %>%
   filter(is.na(Province_State), Country_Region == "Canada")
 stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
+
+################################################################################
+## Tidy sub-national level for other countries, which are stored in the daily
+## cases data.
+################################################################################
+
+start_date <- ymd("2020-05-14")
+path_to_daily_cases <- file.path("JHU_CSSE_COVID-19", "csse_covid_19_data",
+                                 "csse_covid_19_daily_reports")
+daily_case_files <- list.files(path_to_daily_cases)
+is_daily_case_file <- function(f) {
+  return(startsWith(f, "0") || startsWith(f, "1"))
+}
+valid_files <- Filter(is_daily_case_file, daily_case_files)
+
+dat_lst <- list()
+for (daily_case_file in valid_files) {
+  file_date <- mdy(strsplit(daily_case_file, ".", fixed = TRUE)[[1]][1])
+  if (file_date < start_date) {
+    next
+  }
+
+  # need col_types = cols() to suppress printing
+  dat <- read_csv(file.path(path_to_daily_cases, daily_case_file),
+                  col_types = cols())
+  final_dat <- dat %>%
+    filter(!(Country_Region %in% countries_to_agg)) %>%
+    filter(Country_Region != "US") %>%
+    filter(!is.na(Province_State)) %>%
+    select(positive = Confirmed, death = Deaths, date = Last_Update,
+           Combined_Key)
+  dat_lst[[daily_case_file]] <- final_dat
+}
+
+subnat_dat <- do.call(rbind, dat_lst)
+stopifnot(all(vapply(dat_lst, ncol, FUN.VALUE = 1L) == 4L))
+
+subnat_dat_joined <- subnat_dat %>%
+  left_join(uid_lookup, by = "Combined_Key") %>%
+  rename(population = Population)
+stopifnot(nrow(subnat_dat_joined) == nrow(subnat_dat))
+
+subnat_dat_joined %>%
+  filter(is.na(UID))
+
+subnat_uids <- unique(subnat_dat_joined$UID)
+global_uids <- unique(jhu_global_merged$UID)
+
+subnat_uniq_uids <- setdiff(subnat_uids, global_uids)
+jhu_subnat_final <- subnat_dat_joined %>%
+  filter(UID %in% subnat_uniq_uids) %>%
+  group_by(Combined_Key) %>%
+  mutate(deathIncrease = death - lag(death, n = 1,
+                                     default = 0, order_by = date),
+         positiveIncrease = positive - lag(positive, n = 1,
+                                           default = 0, order_by = date)) %>%
+  ungroup()
+
+# error checking
+tmp <- jhu_subnat_final %>%
+  filter(Province_State == "Abruzzo", Country_Region == "Italy")
+stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
+stopifnot(all.equal(cumsum(tmp$deathIncrease), tmp$death))
+
+jhu_global_final <- rbind(jhu_global_merged, jhu_subnat_final) %>%
+  arrange(date, Country_Region, Province_State)
+
 
 #######################################################################
 ## Subset USA and compare to the aggregating county data
