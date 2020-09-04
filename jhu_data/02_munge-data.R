@@ -313,8 +313,7 @@ tmp <- jhu_subnat_final %>%
 stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
 stopifnot(all.equal(cumsum(tmp$deathIncrease), tmp$death))
 
-jhu_global_final <- rbind(jhu_global_merged, jhu_subnat_final) %>%
-  arrange(date, Country_Region, Province_State)
+jhu_global_final <- jhu_global_merged
 
 
 #######################################################################
@@ -430,10 +429,7 @@ stopifnot(nrow(kc4) == num_dates)
 ## Write out data
 #######################################################################
 
-cur_date <- format(Sys.Date(), "%Y-%m-%d")
-write_csv(jhu_county_final,
-          sprintf("cleaned_data/JHU_COVID-19_County.csv", cur_date))
-write_csv(jhu_state_final,
-          sprintf("cleaned_data/JHU_COVID-19_State.csv", cur_date))
-write_csv(jhu_global_final,
-          sprintf("cleaned_data/JHU_COVID-19_Global.csv", cur_date))
+write_csv(jhu_county_final, "cleaned_data/JHU_COVID-19_County.csv")
+write_csv(jhu_state_final, "cleaned_data/JHU_COVID-19_State.csv")
+write_csv(jhu_global_final, "cleaned_data/JHU_COVID-19_Global.csv")
+write_csv(jhu_subnat_final, "cleaned_data/JHU_COVID-19_Subnational.csv")
