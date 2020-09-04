@@ -298,6 +298,7 @@ global_uids <- unique(jhu_global_merged$UID)
 
 subnat_uniq_uids <- setdiff(subnat_uids, global_uids)
 jhu_subnat_final <- subnat_dat_joined %>%
+  filter(!is.na(UID)) %>%
   filter(UID %in% subnat_uniq_uids) %>%
   group_by(Combined_Key) %>%
   mutate(deathIncrease = death - lag(death, n = 1,
