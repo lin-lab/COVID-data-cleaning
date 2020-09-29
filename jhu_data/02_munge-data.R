@@ -263,6 +263,21 @@ is_daily_case_file <- function(f) {
 }
 valid_files <- Filter(is_daily_case_file, daily_case_files)
 
+daily_cols <- cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_character(),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+
 dat_lst <- list()
 for (daily_case_file in valid_files) {
   file_date <- mdy(strsplit(daily_case_file, ".", fixed = TRUE)[[1]][1])
@@ -272,13 +287,35 @@ for (daily_case_file in valid_files) {
 
   # need col_types = cols() to suppress printing
   dat <- read_csv(file.path(path_to_daily_cases, daily_case_file),
-                  col_types = cols())
-  final_dat <- dat %>%
+                  col_types = daily_cols) %>%
     filter(!(Country_Region %in% countries_to_agg)) %>%
     filter(Country_Region != "US") %>%
     filter(!is.na(Province_State)) %>%
-    select(positive = Confirmed, death = Deaths, date = Last_Update,
+    select(positive = Confirmed, death = Deaths, date_old = Last_Update,
            Combined_Key)
+
+  if (all(startsWith(dat$date_old, "2020"))) {
+    final_dat <- tryCatch({
+      dat %>%
+        mutate(date = parse_date_time(date_old, orders = "Y-m-d HMS")) %>%
+        select(-date_old)
+    }, warning = function(w) {
+      cat("Error in parsing ymd date. Sample dates:\n")
+      print(head(dat$date_old))
+      stop(w)
+    })
+  } else {
+    final_dat <- tryCatch({
+      dat %>%
+        mutate(date = parse_date_time(date_old, orders = "m/d/y HM")) %>%
+        select(-date_old)
+    }, warning = function(w) {
+      cat("Error in parsing mdy date. Sample dates:\n")
+      print(head(dat$date_old))
+      stop(w)
+    })
+  }
+
   dat_lst[[daily_case_file]] <- final_dat
 }
 
