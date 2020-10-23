@@ -1,3 +1,5 @@
 *.png
 *_cache
 *.html
+*.csv
+*.zip
