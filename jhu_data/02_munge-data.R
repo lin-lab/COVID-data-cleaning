@@ -175,6 +175,10 @@ deaths_global <- read_csv(death_path_global) %>%
 stopifnot(all.equal(deaths_global$`Province/State`,
                     confirmed_global$`Province/State`))
 
+# need to remove these provinces in Canada
+remove_provinces <- c("Diamond Princess", "Grand Princess", "Recovered",
+                      "Repatriated Travellers")
+
 jhu_global <- inner_join(confirmed_global, deaths_global,
                          by = c("Province/State", "Country/Region",
                                 "date")) %>%
@@ -185,6 +189,7 @@ stopifnot(nrow(jhu_global) == nrow(confirmed_global))
 
 # calculate new cases/deaths per day
 jhu_global_incr <- jhu_global %>%
+  filter(!(`Province/State` %in% remove_provinces)) %>%
   group_by(`Province/State`, `Country/Region`) %>%
   mutate(positiveIncrease = positive - lag(positive, n = 1, default = 0),
          deathIncrease = death - lag(death, n = 1, default = 0)) %>%
@@ -201,8 +206,6 @@ jhu_global %>%
   distinct() %>%
   print(n = Inf)
 
-# need to remove these provinces in Canada
-remove_provinces <- c("Diamond Princess", "Grand Princess", "Recovered")
 
 jhu_global_agg <- jhu_global %>%
   filter(`Country/Region` %in% countries_to_agg) %>%
