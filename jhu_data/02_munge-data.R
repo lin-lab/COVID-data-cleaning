@@ -349,7 +349,8 @@ jhu_subnat_final <- subnat_dat_joined %>%
 
 # error checking
 tmp <- jhu_subnat_final %>%
-  filter(Province_State == "Abruzzo", Country_Region == "Italy")
+  filter(Province_State == "Abruzzo", Country_Region == "Italy") %>%
+  arrange(date)
 stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
 stopifnot(all.equal(cumsum(tmp$deathIncrease), tmp$death))
 
