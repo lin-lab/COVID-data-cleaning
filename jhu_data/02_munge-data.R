@@ -300,10 +300,12 @@ for (daily_case_file in valid_files) {
   if (all(startsWith(dat$date_old, "2020")) || all(startsWith(dat$date_old, "2021"))) {
     final_dat <- tryCatch({
       dat %>%
-        mutate(date = parse_date_time(date_old, orders = "Y-m-d HMS")) %>%
+        mutate(date = parse_date_time(date_old, orders = c("Ymd HMS",
+                                                           "Ymd HM"))) %>%
         select(-date_old)
     }, warning = function(w) {
-      cat("Error in parsing ymd date. Sample dates:\n")
+      cat(sprintf("Error in parsing ymd date in file: %s. Sample dates:\n",
+                  daily_case_file))
       print(head(dat$date_old))
       stop(w)
     })
