@@ -2,7 +2,14 @@
 
 set -euxo pipefail
 
-./01_get-data.sh && Rscript --vanilla ./02_munge-data.R
+# set path to Rscript
+RSCRIPT=/opt/R/4.0.4/bin/Rscript
+if [[ ! -f ${RSCRIPT} ]]
+then
+    RSCRIPT=/usr/bin/Rscript
+fi
+
+./01_get-data.sh && $RSCRIPT --vanilla ./02_munge-data.R
 
 cd cleaned_data
 for ext in County State Global Subnational
