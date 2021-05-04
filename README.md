@@ -1,5 +1,7 @@
 # COVID-data-cleaning
 
+Data cleaning code for various COVID-19 data sources.
+
 ## Cloning this repository
 
 This repository has submodules. To get all of them, you can run
