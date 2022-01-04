@@ -34,7 +34,9 @@ confirmed_df <- confirmed_df_orig %>%
   mutate(date = mdy(date_char))
 
 kc2 <- confirmed_df %>% filter(Admin2 == "Kansas City")
-num_dates <- sum(endsWith(colnames(confirmed_df_orig), "20") | endsWith(colnames(confirmed_df_orig), "21"))
+num_dates <- sum(endsWith(colnames(confirmed_df_orig), "20") |
+                 endsWith(colnames(confirmed_df_orig), "21") |
+                 endsWith(colnames(confirmed_df_orig), "22"))
 stopifnot(nrow(kc2) == num_dates)
 
 # load county-level deaths data.
