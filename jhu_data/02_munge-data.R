@@ -297,7 +297,7 @@ for (daily_case_file in valid_files) {
     select(positive = Confirmed, death = Deaths, date_old = Last_Update,
            Combined_Key)
 
-  if (all(startsWith(dat$date_old, "2020")) || all(startsWith(dat$date_old, "2021"))) {
+  if (all(startsWith(dat$date_old, "202"))) {
     final_dat <- tryCatch({
       dat %>%
         mutate(date = parse_date_time(date_old, orders = c("Ymd HMS",
