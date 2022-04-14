@@ -296,37 +296,39 @@ for (daily_case_file in valid_files) {
     filter(!(Country_Region %in% countries_to_agg)) %>%
     filter(Country_Region != "US") %>%
     filter(!is.na(Province_State)) %>%
-    select(positive = Confirmed, death = Deaths, date_old = Last_Update,
-           Combined_Key)
+    select(positive = Confirmed, death = Deaths, Combined_Key)
+  final_dat <- dat %>%
+    mutate(date = file_date)
 
-  if (all(startsWith(dat$date_old, "202"))) {
-    final_dat <- tryCatch({
-      dat %>%
-        mutate(date = parse_date_time(date_old, orders = c("Ymd HMS",
-                                                           "Ymd HM"))) %>%
-        select(-date_old)
-    }, warning = function(w) {
-      cat(sprintf("Error in parsing ymd date in file: %s. Sample dates:\n",
-                  daily_case_file))
-      print(head(dat$date_old))
-      stop(w)
-    })
-  } else {
-    final_dat <- tryCatch({
-      dat %>%
-        mutate(date = parse_date_time(date_old, orders = "m/d/y HM")) %>%
-        select(-date_old)
-    }, warning = function(w) {
-      cat("Error in parsing mdy date. Sample dates:\n")
-      print(head(dat$date_old))
-      stop(w)
-    })
-  }
+  #if (all(startsWith(dat$date_old, "202"))) {
+  #  final_dat <- tryCatch({
+  #    dat %>%
+  #      mutate(date = parse_date_time(date_old, orders = c("Ymd HMS",
+  #                                                         "Ymd HM"))) %>%
+  #      select(-date_old)
+  #  }, warning = function(w) {
+  #    cat(sprintf("Error in parsing ymd date in file: %s. Sample dates:\n",
+  #                daily_case_file))
+  #    print(head(dat$date_old))
+  #    stop(w)
+  #  })
+  #} else {
+  #  final_dat <- tryCatch({
+  #    dat %>%
+  #      mutate(date = parse_date_time(date_old, orders = "m/d/y HM")) %>%
+  #      select(-date_old)
+  #  }, warning = function(w) {
+  #    cat("Error in parsing mdy date. Sample dates:\n")
+  #    print(head(dat$date_old))
+  #    stop(w)
+  #  })
+  #}
 
   dat_lst[[daily_case_file]] <- final_dat
 }
 
-subnat_dat <- do.call(rbind, dat_lst)
+subnat_dat <- do.call(rbind, dat_lst) %>%
+  mutate(date = as.Date(date))
 stopifnot(all(vapply(dat_lst, ncol, FUN.VALUE = 1L) == 4L))
 
 subnat_dat_joined <- subnat_dat %>%
@@ -341,7 +343,7 @@ subnat_uids <- unique(subnat_dat_joined$UID)
 global_uids <- unique(jhu_global_merged$UID)
 
 subnat_uniq_uids <- setdiff(subnat_uids, global_uids)
-jhu_subnat_final <- subnat_dat_joined %>%
+jhu_subnat_increase <- subnat_dat_joined %>%
   filter(!is.na(UID)) %>%
   filter(UID %in% subnat_uniq_uids) %>%
   group_by(Combined_Key) %>%
@@ -352,14 +354,20 @@ jhu_subnat_final <- subnat_dat_joined %>%
   ungroup()
 
 # error checking
-tmp <- jhu_subnat_final %>%
+tmp <- jhu_subnat_increase %>%
   filter(Province_State == "Abruzzo", Country_Region == "Italy") %>%
   arrange(date)
 stopifnot(all.equal(cumsum(tmp$positiveIncrease), tmp$positive))
 stopifnot(all.equal(cumsum(tmp$deathIncrease), tmp$death))
 
 jhu_global_final <- jhu_global_merged
+jhu_subnat_final <- jhu_subnat_increase
 
+repeated_subnat <- jhu_subnat_increase %>%
+  group_by(UID, Combined_Key, date) %>%
+  summarize(n = n()) %>%
+  filter(n > 1)
+stopifnot(nrow(repeated_subnat) == 0L)
 
 #######################################################################
 ## Subset USA and compare to the aggregating county data
